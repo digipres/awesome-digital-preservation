@@ -49,12 +49,25 @@
     </nav>
 
     <div class="container">
-      <div class="row row-offcanvas row-offcanvas-right">
-        <div class="col-xs-12 col-sm-4 col-md-4 sidebar-offcanvas" id="sidebar" role="navigation">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12col-md-12">
+<div class="panel panel-default">
+  <div class="panel-body">
+  {{ content }}
+  </div>
+</div>
+        </div>
+      </div>
+
+{% if page.showpanels %}
+
+      <div class="row">
+        <div class="col-xs-12 col-sm-4 col-md-4">
         
 <div class="panel panel-default">
   <div class="panel-heading">Find Or Describe DigiPres Tools</div>
   <div class="panel-body">
+    <img src="icons/noun_project_1191.png" style="float: right;"/>
     <a href="http://coptr.digipres.org/">COPTR</a>
   </div>
 </div>
@@ -66,6 +79,7 @@
 <div class="panel panel-default">
   <div class="panel-heading">Ask Or Answer A DigiPres Question</div>
   <div class="panel-body">
+    <img src="icons/noun_project_22.png" style="float: right;"/>
     <a href="http://qanda.digipres.org/">DPQA</a>
   </div>
 </div>
@@ -77,6 +91,7 @@
   <div class="panel-heading">Share or create digital object samples</div>
   <div class="panel-body">
   <p>
+    <img src="icons/noun_project_650.png" style="float: right;"/>
   Improving our digital preservation toolsets requires careful testing and evaluation of their performance. Sample data enables tool developers to easily try out their tools, discover bugs, and hone their tools ready for others to use. A test corpus can contain real digital objects from a collection, or be created specifically for exhibiting certain characteristics for testing purposes. Real data, particularly with examples of broken, badly formed or corrupted files can be particularly useful. For example, see <a href="https://github.com/openplanets/format-corpus/tree/master/jp2k-test">this JP2k test corpus</a>.
   </p>
   Share sample digital objects for a test corpus. <span class="nobr"><a href="https://github.com/openplanets/format-corpus" class="external-link">Contribute to the OPF Format Corpus on Gitub</a></span> or <span class="nobr"><a href="https://docs.google.com/folder/d/0B8ZzGhlaygesdzNfUnB3dkpQN28/edit" class="external-link">contribute to the OPF Format Corpus via Google drive</a></span>, with a <span class="nobr"><a href="http://wiki.curatecamp.org/index.php/Collecting_format_ID_test_files" class="external-link">guide here on how to contribute</a></span> or <span class="nobr"><a href="http://openplanetsfoundation.org/contact" class="external-link">contact OPF</a></span> for help on how to get involved.
@@ -85,6 +100,19 @@
 
         </div>
       </div>
+
+
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12">
+<div class="panel panel-default">
+  <div class="panel-body">
+      <em>All images sourced from the</em> <em><span class="nobr"><a href="http://thenounproject.com/" class="external-link">Noun Project<sup><img class="rendericon" src="/images/icons/linkext7.gif" alt="" align="absmiddle" border="0" width="7" height="7"></sup></a></span></em><em>, including: Question image by Henry Ryder, Swiss Army Knife image by Olivier Guin, Add folder image by Sergio Calcara, People image by T. Weber,&nbsp;Cross hairs image by __Lo._ and chain image by Adam Whitcroft.</em>
+  </div>
+</div>      
+        </div>
+      </div>
+
+{% endif %}
 
       <div class="row" id="footer">
         <div class="col-xs-12 col-sm-12 col-md-12">
