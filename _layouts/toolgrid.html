@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>{{ page.title }} {{ page.subtitle }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="{{page.title}}">
+    <meta name="author" content="COPTR">
+
+    <link href="{{ site.baseurl }}/assets/css/bootstrap.min.css" rel="stylesheet">
+    <style type="text/css">
+body {
+  font-family: sans-serif;
+}
+th {
+    font-weight: normal;
+}
+th.rotate {
+  height: 220px;
+  white-space: nowrap;
+}
+th.rotate > div {
+  transform: 
+    translate(20px, 87px)
+    rotate(-45deg);
+  width: 35px;
+}
+th.rotate > div > span {
+  border-bottom: 1px solid #ccc;
+  padding: 5px 10px;
+}
+table {
+ border-collapse: collapse;
+}
+tbody th {
+  white-space: nowrap;    
+}
+tbody td, tbody th {
+  border: 1px solid #ccc;    
+}
+.table-container {
+ overflow: scroll;
+}
+    </style>
+  </head>
+
+  <body>
+
+{% include navbar.html %}
+
+  <div class="container">
+
+<div class="table-container">
+{{ content }}
+</div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/bootstrap.min.js"></script>
+
+  </div>
+</body>
+</html>

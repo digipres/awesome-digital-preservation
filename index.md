@@ -1,8 +1,12 @@
 ---
-title: Digital Preservation Community Resource Hub
-subtitle: Owned by the community for the community
-showpanels: true
+title: Digital Preservation Commons
+subtitle:
 ---
 
-Digital Preservation Community Resource Hub, owned by the community.
+<div class="panel panel-default">
+  <div class="panel-body">
+Digital Preservation Commons.  Owned by the community for the community.
+  </div>
+</div>
 
+{% include frontpage.html %}
