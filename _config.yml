@@ -1,5 +1,5 @@
 markdown: kramdown
-siteurl: 
+baseurl: ""
 
 defaults:
   -
