@@ -1,0 +1,39 @@
+<div class="row">
+
+<div class="col-xs-12 col-sm-4 col-md-4">
+</div>
+
+<div class="col-xs-12 col-sm-4 col-md-4">
+</div>
+
+<div class="col-xs-12 col-sm-4 col-md-4">
+<div class="panel panel-default">
+  <div class="panel-heading">Top Contributors (All-Time)</div>
+  <div class="panel-body">
+
+<table class="table">
+<thead>
+<tr><th>Username</th><th>Edit Count</th></tr>
+</thead>
+<tbody>
+{% for u in include.users %}
+  <tr>
+  <td>
+    <a href="{{ include.wiki_prefix }}/User:{{ u.name }}">
+      {{ u.name }}
+    </a>
+  </td>
+  <td>
+    <a href="{{ include.wiki_prefix }}/Special:Contributions/{{ u.name }}">
+      {{ u.editcount }}
+    </a>
+  </td>
+  </tr>
+{% endfor %}
+</tbody>
+</table>
+
+  </div>
+</div>
+
+</div>
