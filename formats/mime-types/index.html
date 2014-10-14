@@ -13,7 +13,7 @@ title: All known MIME types
 </th>
 <td>
 {% for type in mt[1]['identifiers'] %}
-<a href="{{ site.baseurl }}/formats/sources/{{ type['regId'] }}/formats/#{{ type['formatId'] }}">{{ type['regId'] }}:{{ type['formatId'] }} - {{ site.data.formats[type['regId']]['formats'][type['formatId']['name'] }}<br/>
+<a href="{{ site.baseurl }}/formats/sources/{{ type['regId'] }}/formats/#{{ type['formatId'] }}">{{ type['regId'] }}:{{ type['formatId'] }} - {{ site.data.formats[type['regId']]['formats'][type['formatId']['name'] }}</a><br/>
 {% endfor %}
 </td>
 </tr>
