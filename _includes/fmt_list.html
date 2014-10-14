@@ -1,0 +1,20 @@
+
+{% for fmt in site.data.formats[page.tool_id]['formats'] %}
+<h4 id="{{ fmt[0] | downcase }}">{{ fmt[0] }}</h4>
+<table class="table">
+<tr><th>Name</th><td>{{ fmt[1]['name'] }}</td></tr>
+<tr><th>Extensions</th><td>
+{% for ext in fmt[1]['extensions'] %}
+<a href="{{ site.baseurl }}/formats/extensions/#{{ ext | downcase }}">{{ ext }}</a><br/>
+{% endfor %}
+</td></tr>
+<tr><th>MIME Types</th><td>
+{% for mt in fmt[1]['mimetypes'] %}
+<a href="{{ site.baseurl }}/formats/mime-types/#{{ mt | downcase }}">{{ mt }}</a><br/>
+{% endfor %}
+</td></tr>
+<tr><th>Has Magic?</th><td>{{ fmt[1]['hasMagic'] }}</td></tr>
+<tr><th>Supertype</th><td>{{ fmt[1]['supertype'] }}</td></tr>
+</table>
+{% endfor %}
+

@@ -1,0 +1,23 @@
+---
+title: All known extensions
+---
+
+<table class="table">
+<tbody>
+{% for mt in site.data.formats.extensions %}
+<tr><th>
+{% if mt[1]['name'] == "" %}
+<i id="-empty-">No Extension</i>
+{% else %}
+<div id="{{ mt[1]['name'] | downcase }}">{{ mt[1]['name'] }}</div>
+{% endif %}
+</th>
+<td>
+{% for type in mt[1]['identifiers'] %}
+<a href="{{ site.baseurl }}/formats/sources/{{ type['regId'] }}/formats/#{{ type['formatId'] }}">{{ type['regId'] }}:{{ type['formatId'] }}</a><br/>
+{% endfor %}
+</td>
+</tr>
+{% endfor %}
+</tbody>
+</table>
