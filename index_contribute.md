@@ -6,4 +6,5 @@
 * [Contribute a new research challenge to the DP Research Challenges Wiki.](http://sokrates.ifs.tuwien.ac.at/wiki/index.php/Main_Page)
 * [Add an image of a digital preservation challenge, failed rendering, encoding damage, corrupt data, or visual evidence documenting to the Atlas of Digital Damages.](http://www.flickr.com/groups/2121762@N23/)
 * [Contribute to the Format Corpus](http://openplanetsfoundation.org/contact)
+* [Join the Digital Curation Google Group to discuss curation and preservation issues.](https://groups.google.com/forum/?fromgroups#!forum/digital-curation)
 
