@@ -2,8 +2,12 @@
 title: All known MIME types
 ---
 
+<p>
+There are {{ site.data.formats.mimetypes.stats.total_mimetypes }} known MIME types.
+</p>
+
 <table class="table">
-{% for mt in site.data.formats.mimetypes %}
+{% for mt in site.data.formats.mimetypes.mimetypes %}
 <tr><th>
 {% if mt[1]['name'] == "" %}
 <i id="-empty-">Empty String</i>

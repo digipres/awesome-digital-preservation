@@ -2,9 +2,13 @@
 title: All known extensions
 ---
 
+<p>
+There are {{ site.data.formats.extensions.stats.total_extensions }} known file extensions.
+</p>
+
 <table class="table">
 <tbody>
-{% for mt in site.data.formats.extensions %}
+{% for mt in site.data.formats.extensions.extensions %}
 <tr><th>
 {% if mt[1]['name'] == "" %}
 <i id="-empty-">No Extension</i>
