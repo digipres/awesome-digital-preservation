@@ -8,7 +8,7 @@ hide-title: true
   <div class="col-xs-12 col-sm-2 col-md-2">
 
 <ul class="nav nav-pills nav-stacked">
-  <li {% if page.tool_id == '' %} class="active"{% endif %}><a href="{{ site.baseurl }}/formats/sources/">Overview</a></li>
+  <li {% if page.tool_id == "overview" %} class="active"{% endif %}><a href="{{ site.baseurl }}/formats/sources/">Overview</a></li>
   <li {% if page.tool_id == "tika" %} class="active"{% endif %}><a href="{{ site.baseurl }}/formats/sources/tika/">Apache Tika</a></li>
   <li {% if page.tool_id == "fdd" %} class="active"{% endif %}><a href="{{ site.baseurl }}/formats/sources/fdd/">LC FDD</a></li>
   <li {% if page.tool_id == "pronom" %} class="active"{% endif %}><a href="{{ site.baseurl }}/formats/sources/pronom/">PRONOM</a></li>
@@ -20,9 +20,9 @@ hide-title: true
 
 <h3>{{ page.title }} <small>{{ page.subtitle }}</small></h3>
 
-{% if page.tool_id %}  
+{% if page.tool_id != "overview" %}  
 <ul class="nav nav-tabs" role="tablist">
-  <li {% if page.selected == "index" %} class="active"{% endif %}><a href="{{ site.baseurl }}/formats/sources/{{ page.tool_id }}/">Overview</a></li>
+  <li {% if page.selected == "index" %} class="active"{% endif %}><a href="{{ site.baseurl }}/formats/sources/{{ page.tool_id }}/">Summary</a></li>
   <li {% if page.selected == "formats" %} class="active"{% endif %}><a href="{{ site.baseurl }}/formats/sources/{{ page.tool_id }}/formats/">Formats</a></li>
   <li {% if page.selected == "warnings" %} class="active"{% endif %}><a href="{{ site.baseurl }}/formats/sources/{{ page.tool_id }}/warnings/">Warnings</a></li>
 </ul>
