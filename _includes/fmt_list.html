@@ -8,7 +8,7 @@
 </thead>
 <tbody>
 <tr><th width="10%">Name</th><td>{{ fmt[1]['name'] }}</td></tr>
-<tr><th>Extensions</th><td>
+<tr><th>Filename pattern</th><td>
 {% for ext in fmt[1]['extensions'] %}
 <a href="{{ site.baseurl }}/formats/extensions/#{{ ext | downcase }}">{{ ext }}</a><br/>
 {% endfor %}
