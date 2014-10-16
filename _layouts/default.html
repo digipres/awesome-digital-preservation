@@ -35,8 +35,10 @@
     <div class="container">
       <div class="row">
         <div class="col-xs-12 col-sm-12col-md-12">
+{% if page.hide-title != true %}
         <h2>{{ page.title }} <small>{{ page.subtitle }}</small></h2>
-  {{ content }}
+{% endif %}
+{{ content }}
         </div>
       </div>
 
@@ -56,6 +58,7 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="{{ site.baseurl }}/assets/js/bootstrap.min.js"></script>
+}
 
 </body>
 </html>
