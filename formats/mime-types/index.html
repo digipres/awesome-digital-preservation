@@ -9,15 +9,18 @@ There are {{ site.data.formats.mimetypes.stats.total_mimetypes }} known MIME typ
 <table class="table">
 {% for mt in site.data.formats.mimetypes.mimetypes %}
 <tr><th>
-{% if mt[1]['name'] == "" %}
+{% if mt[1]['id'] == "" %}
 <i id="-empty-">Empty String</i>
 {% else %}
-<div id="{{ mt[1]['name'] | downcase }}">{{ mt[1]['name'] }}</div>
+<div id="{{ mt[1]['id'] | downcase }}">
+{% for num in (1...mt[1]['sort_depth']) %}&mdash;{% endfor %}
+{{ mt[1]['id'] }}
+</div>
 {% endif %}
 </th>
 <td>
 {% for type in mt[1]['identifiers'] %}
-<a href="{{ site.baseurl }}/formats/sources/{{ type['regId'] }}/formats/#{{ type['formatId'] }}">{{ type['regId'] }}:{{ type['formatId'] }} - {{ site.data.formats[type['regId']]['formats'][type['formatId']['name'] }}</a><br/>
+<a href="{{ site.baseurl }}/formats/sources/{{ type['regId'] }}/formats/#{{ type['formatId'] }}">{{ site.data.formats[type['regId']]['formats'][type['formatId']]['name'] }} <span class="badge">{{ type['regId'] }}</span></a><br/>
 {% endfor %}
 </td>
 </tr>
