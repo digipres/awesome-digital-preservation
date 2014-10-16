@@ -15,7 +15,7 @@ The digital preservation community is small and under resourced. This means we h
 {% capture panel_content %}
 {% include_relative index_understanding_formats.md %}
 {% endcapture %}
-{% include panel.html title="Understanding formats" icon="icons/noun_project_1191.png" content=panel_content %}
+{% include panel.html title="Understanding formats" icon="icons/noun_project_650.png" content=panel_content %}
 </div>
 
 <div class="col-xs-12 col-sm-4 col-md-4">
@@ -27,7 +27,7 @@ The digital preservation community is small and under resourced. This means we h
 {% capture panel_content %}
 {% include_relative index_build_your_case.md %}
 {% endcapture %}
-{% include panel.html title="Build Your Case" icon="icons/noun_project_1191.png" content=panel_content %}
+{% include panel.html title="Build Your Case" icon="icons/noun_project_1050.png" content=panel_content %}
 </div>
 
 <div class="col-xs-12 col-sm-4 col-md-4">
@@ -39,7 +39,7 @@ The digital preservation community is small and under resourced. This means we h
 {% capture panel_content %}
 {% include_relative index_contribute.md %}
 {% endcapture %}
-{% include panel.html title="Improve The DigiPres Commons" icon="icons/noun_project_22.png" content=panel_content%}
+{% include panel.html title="Improve The DigiPres Commons" icon="icons/noun_project_2280.png" content=panel_content%}
 </div>
 </div>
 
