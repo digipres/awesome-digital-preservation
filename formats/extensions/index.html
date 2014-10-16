@@ -18,7 +18,7 @@ There are {{ site.data.formats.extensions.stats.total_extensions }} known file e
 </th>
 <td>
 {% for type in mt[1]['identifiers'] %}
-<a href="{{ site.baseurl }}/formats/sources/{{ type['regId'] }}/formats/#{{ type['formatId'] }}">{{ type['regId'] }}:{{ type['formatId'] }} - {{ site.data.formats[type['regId']]['formats'][type['formatId']['name'] }}</a><br/>
+<a href="{{ site.baseurl }}/formats/sources/{{ type['regId'] }}/formats/#{{ type['formatId'] }}">{{ site.data.formats[type['regId']]['formats'][type['formatId']]['name'] }} <span class="badge">{{ type['regId'] }}</span></a><br/>
 {% endfor %}
 </td>
 </tr>
