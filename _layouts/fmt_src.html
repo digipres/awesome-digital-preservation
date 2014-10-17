@@ -40,7 +40,7 @@ var data = {
     labels: ["Total # Formats", "# with extensions(s)", "# with magic", "# with MIME type"],
     datasets: [
         {
-            label: "Tika",
+            label: "Apache Tika",
             fillColor: "rgba(220,220,0,0.2)",
             strokeColor: "rgba(220,220,0,1)",
             pointColor: "rgba(220,220,0,1)",
@@ -111,6 +111,8 @@ var myRadarChart = new Chart(ctx).Radar(data, {
   pointDotRadius : 2,
   pointDotStrokeWidth : 0,
   datasetStrokeWidth : 0,
+  responsive: true,
+  pointLabelFontSize: 14,
   multiTooltipTemplate: "<%= datasetLabel %> - <%= value %>"
 });
 
