@@ -26,6 +26,113 @@ hide-title: true
   <li {% if page.selected == "formats" %} class="active"{% endif %}><a href="{{ site.baseurl }}/formats/sources/{{ page.tool_id }}/formats/">Formats</a></li>
   <li {% if page.selected == "warnings" %} class="active"{% endif %}><a href="{{ site.baseurl }}/formats/sources/{{ page.tool_id }}/warnings/">Warnings</a></li>
 </ul>
+{% else %}
+
+<script src="{{ site.baseurl }}/assets/js/Chart.min.js"></script>
+
+<div style="text-align: center">
+<canvas id="myChart" width="600" height="400"></canvas>
+</div>
+
+<script type="text/javascript">
+
+var data = {
+    labels: ["Total # Formats", "# with extensions(s)", "# with magic", "# with MIME type"],
+    datasets: [
+        {
+            label: "Tika",
+            fillColor: "rgba(220,220,0,0.2)",
+            strokeColor: "rgba(220,220,0,1)",
+            pointColor: "rgba(220,220,0,1)",
+            pointStrokeColor: "#fff",
+            pointHighlightFill: "#fff",
+            pointHighlightStroke: "rgba(220,220,0,1)",
+            data: [
+            {{ site.data.formats['tika']['stats']['total_formats'] }},
+            {{ site.data.formats['tika']['stats']['total_w_glob'] }},
+            {{ site.data.formats['tika']['stats']['total_w_magic'] }},
+            {{ site.data.formats['tika']['stats']['total_w_mime'] }}
+            ]
+        },
+        {
+            label: "LC FDD",
+            fillColor: "rgba(220,0,0,0.2)",
+            strokeColor: "rgba(220,0,0,1)",
+            pointColor: "rgba(220,0,0,1)",
+            pointStrokeColor: "#fff",
+            pointHighlightFill: "#fff",
+            pointHighlightStroke: "rgba(220,0,0,1)",
+            data: [
+            {{ site.data.formats['fdd']['stats']['total_formats'] }},
+            {{ site.data.formats['fdd']['stats']['total_w_glob'] }},
+            {{ site.data.formats['fdd']['stats']['total_w_magic'] }},
+            {{ site.data.formats['fdd']['stats']['total_w_mime'] }}
+            ]
+        },
+        {
+            label: "PRONOM",
+            fillColor: "rgba(151,187,205,0.2)",
+            strokeColor: "rgba(151,187,205,1)",
+            pointColor: "rgba(151,187,205,1)",
+            pointStrokeColor: "#fff",
+            pointHighlightFill: "#fff",
+            pointHighlightStroke: "rgba(151,187,205,1)",
+            data: [
+            {{ site.data.formats['pronom']['stats']['total_formats'] }},
+            {{ site.data.formats['pronom']['stats']['total_w_glob'] }},
+            {{ site.data.formats['pronom']['stats']['total_w_magic'] }},
+            {{ site.data.formats['pronom']['stats']['total_w_mime'] }}
+            ]
+        },
+        {
+            label: "TRiD",
+            fillColor: "rgba(220,220,220,0.2)",
+            strokeColor: "rgba(220,220,220,1)",
+            pointColor: "rgba(220,220,220,1)",
+            pointStrokeColor: "#fff",
+            pointHighlightFill: "#fff",
+            pointHighlightStroke: "rgba(220,220,220,1)",
+            data: [
+            {{ site.data.formats['trid']['stats']['total_formats'] }},
+            {{ site.data.formats['trid']['stats']['total_w_glob'] }},
+            {{ site.data.formats['trid']['stats']['total_w_magic'] }},
+            {{ site.data.formats['trid']['stats']['total_w_mime'] }}
+            ]
+        }
+    ]
+};
+
+{% raw %}
+
+// Get the context of the canvas element we want to select
+var ctx = document.getElementById("myChart").getContext("2d");
+var myRadarChart = new Chart(ctx).Radar(data, { 
+  animation: false,
+  multiTooltipTemplate: "<%= datasetLabel %> - <%= value %>"
+});
+
+$("#myChart").after( myRadarChart.generateLegend() );
+
+{% endraw %}
+  
+</script>
+
+<style>
+ul.radar-legend {
+  list-style-type: none;
+}
+ul.radar-legend li { 
+  display: inline;
+  margin-right: 1em;
+}
+ul.radar-legend li span {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.4em;
+}
+</style>
+
 {% endif %}
 
 {{ content }}
