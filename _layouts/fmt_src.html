@@ -28,6 +28,9 @@ hide-title: true
 </ul>
 {% else %}
 
+<div class="row">
+  <div class="col-xs-12 col-sm-6 col-md-6">
+
 <script src="{{ site.baseurl }}/assets/js/Chart.min.js"></script>
 
 <div style="text-align: center">
@@ -37,7 +40,7 @@ hide-title: true
 <script type="text/javascript">
 
 var data = {
-    labels: ["Total # Formats", "# with extensions(s)", "# with magic", "# with MIME type"],
+    labels: ["Formats", "*.ext", "Magic", "MIME"],
     datasets: [
         {
             label: "Apache Tika",
@@ -122,7 +125,7 @@ $("#myChart").after( myRadarChart.generateLegend() );
   
 </script>
 
-<style>
+<style type="text/css">
 ul.radar-legend {
   list-style-type: none;
 }
@@ -137,6 +140,16 @@ ul.radar-legend li span {
   margin-right: 0.4em;
 }
 </style>
+
+<p>
+This shows...
+</p>
+
+  </div>
+  <div class="col-xs-12 col-sm-6 col-md-6">
+  &nbsp;
+  </div>
+</div>
 
 {% endif %}
 
