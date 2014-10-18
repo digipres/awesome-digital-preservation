@@ -32,6 +32,22 @@
 <tr><th>Has Magic?</th><td>{{ fmt[1]["hasMagic"] }}</td></tr>
 <tr><th>Super-Type</th><td><a href="#{{ fmt[1]['supertype'] | downcase }}">{{ fmt[1]["supertype"] }}</a></td></tr>
 
+<tr><th>Registry Source</th><td>
+{% if page.tool_id == "tika" %}
+<a href="https://github.com/anjackson/sentinel/blob/master/registries/tika/{{ fmt[1]["source"] }}">{{ fmt[1]["source"] }}</a>
+{% elsif page.tool_id == "fdd" %}
+<a href="https://github.com/anjackson/sentinel/tree/master/registries/fdd/fddXML/{{ fmt[1]["source"] }}">{{ fmt[1]["source"] }}</a>
+{% elsif page.tool_id == "pronom" %}
+<a href="https://github.com/anjackson/sentinel/tree/master/registries/pronom/{{ fmt[1]["source"] }}">{{ fmt[1]["source"] }}</a>
+{% elsif page.tool_id == "trid" %}
+<a href="https://github.com/anjackson/sentinel/tree/master/registries/trid/triddefs_xml/{{ fmt[1]["source"] }}">{{ fmt[1]["source"] }}</a>
+{% elsif page.tool_id == "ffw" %}
+<a href="http://fileformats.archiveteam.org/wiki/{{ fmt[1]["source"] }}">{{ fmt[1]["name"] }}</a>
+{% else %}
+<a href="{{ fmt[1]["source"] }}">{{ fmt[1]["source"] }}</a>
+{% endif %}
+</td></tr>
+
 {% for prop in fmt[1] %}
 {% assign known_props = "extensions|mimetypes|id|hasMagic|name|source|supertype" | split: "|" %}
 {% if known_props contains prop[0] %}
