@@ -20,7 +20,13 @@ There are {{ site.data.formats.mimetypes.stats.total_mimetypes }} known MIME typ
 </th>
 <td>
 {% for type in mt[1]['identifiers'] %}
-<a href="{{ site.baseurl }}/formats/sources/{{ type['regId'] }}/formats/#{{ type['formatId'] }}">{{ site.data.formats[type['regId']]['formats'][type['formatId']]['name'] }} <span class="badge">{{ type['regId'] }}</span></a><br/>
+<a href="{{ site.baseurl }}/formats/sources/{{ type['regId'] }}/formats/#{{ type['formatId'] }}">
+{% if site.data.formats[type['regId']]['formats'][type['formatId']]['name'] %}
+{{ site.data.formats[type['regId']]['formats'][type['formatId']]['name'] }}
+{% else %}
+{{ type['formatId'] }}
+{% endif %}
+ <span class="badge">{{ type['regId'] }}</span></a><br/>
 {% endfor %}
 </td>
 </tr>
