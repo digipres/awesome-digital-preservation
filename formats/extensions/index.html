@@ -6,19 +6,25 @@ title: All known extensions
 There are {{ site.data.formats.extensions.stats.total_extensions }} known file extensions.
 </p>
 
-<table class="table">
+<table class="table index-table">
 <tbody>
 {% for mt in site.data.formats.extensions.extensions %}
 <tr><th>
 {% if mt[1]['name'] == "" %}
 <i id="-empty-">No Extension</i>
 {% else %}
-<div id="{{ mt[1]['name'] | downcase }}">{{ mt[1]['name'] }}</div>
+<a id="{{ mt[1]['name'] | downcase }}" href="#{{ mt[1]['name'] | downcase }}">{{ mt[1]['name'] }}</a>
 {% endif %}
 </th>
 <td>
 {% for type in mt[1]['identifiers'] %}
-<a href="{{ site.baseurl }}/formats/sources/{{ type['regId'] }}/formats/#{{ type['formatId'] }}">{{ site.data.formats[type['regId']]['formats'][type['formatId']]['name'] }} <span class="badge">{{ type['regId'] }}</span></a><br/>
+<a href="{{ site.baseurl }}/formats/sources/{{ type['regId'] }}/formats/#{{ type['formatId'] }}">
+{% if site.data.formats[type['regId']]['formats'][type['formatId']]['name'] %}
+{{ site.data.formats[type['regId']]['formats'][type['formatId']]['name'] }}
+{% else %}
+{{ type['formatId'] }}
+{% endif %}
+ <span class="badge">{{ type['regId'] }}</span></a><br/>
 {% endfor %}
 </td>
 </tr>

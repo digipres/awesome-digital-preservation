@@ -1,46 +1,44 @@
 
-{% for fmt in site.data.formats[page.tool_id]['formats'] %}
+{% for fmt in site.data.formats[page.tool_id]["formats"] %}
 <table class="table">
 <thead>
 
 <tr><th colspan="2">
-<h4 id="{{ fmt[0] | downcase }}">{{ fmt[0] }} - {{ fmt[1]['name'] }}</h4>
+{% if fmt[1]["name"] %}
+<h4 id="{{ fmt[0] | downcase }}">{{ fmt[1]["name"] }}</h4>
+{% else %}
+<h4 id="{{ fmt[0] | downcase }}">{{ fmt[0] }}</h4>
+{% endif %}
 </th></tr>
 
 </thead>
 <tbody>
 
-<tr><th width="20%">Name</th><td>{{ fmt[1]['name'] }}</td></tr>
+<tr><th width="20%">Name</th><td>{{ fmt[1]["name"] }}</td></tr>
 <tr><th>ID</th><td>{{ fmt[0] }}</td></tr>
 
 <tr><th>Filename pattern</th><td>
-{% for ext in fmt[1]['extensions'] %}
+{% for ext in fmt[1]["extensions"] %}
 <a href="{{ site.baseurl }}/formats/extensions/#{{ ext | downcase }}">{{ ext }}</a><br/>
 {% endfor %}
 </td></tr>
 
 <tr><th>MIME Types</th><td>
-{% for mt in fmt[1]['mimetypes'] %}
+{% for mt in fmt[1]["mimetypes"] %}
 <a href="{{ site.baseurl }}/formats/mime-types/#{{ mt | downcase }}">{{ mt }}</a><br/>
 {% endfor %}
 </td></tr>
 
-<tr><th>Has Magic?</th><td>{{ fmt[1]['hasMagic'] }}</td></tr>
-<tr><th>Supertype</th><td>{{ fmt[1]['supertype'] }}</td></tr>
+<tr><th>Has Magic?</th><td>{{ fmt[1]["hasMagic"] }}</td></tr>
+<tr><th>Super-Type</th><td><a href="#{{ fmt[1]['supertype'] | downcase }}">{{ fmt[1]["supertype"] }}</a></td></tr>
 
-<tr><th>Registry Source</th><td>
-{% if page.tool_id == 'tika' %}
-<a href="https://github.com/anjackson/sentinel/blob/master/registries/tika/{{ fmt[1]['source'] }}">{{ fmt[1]['source'] }}</a>
-{% elsif page.tool_id == 'fdd' %}
-<a href="https://github.com/anjackson/sentinel/tree/master/registries/fdd/fddXML/{{ fmt[1]['source'] }}">{{ fmt[1]['source'] }}</a>
-{% elsif page.tool_id == 'pronom' %}
-<a href="https://github.com/anjackson/sentinel/tree/master/registries/pronom/{{ fmt[1]['source'] }}">{{ fmt[1]['source'] }}</a>
-{% elsif page.tool_id == 'trid' %}
-<a href="https://github.com/anjackson/sentinel/tree/master/registries/trid/triddefs_xml/{{ fmt[1]['source'] }}">{{ fmt[1]['source'] }}</a>
+{% for prop in fmt[1] %}
+{% assign known_props = "extensions|mimetypes|id|hasMagic|name|source|supertype" | split: "|" %}
+{% if known_props contains prop[0] %}
 {% else %}
-<a href="{{ fmt[1]['source'] }}">{{ fmt[1]['source'] }}</a>
+<tr><th>{{ prop[0] }}</th><td>{{ prop[1] }}</td></tr>
 {% endif %}
-</td></tr>
+{% endfor %}
 
 </tbody>
 </table>

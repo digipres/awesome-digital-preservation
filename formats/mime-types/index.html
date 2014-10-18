@@ -6,16 +6,16 @@ title: All known MIME types
 There are {{ site.data.formats.mimetypes.stats.total_mimetypes }} known MIME types.
 </p>
 
-<table class="table">
+<table class="table index-table">
 {% for mt in site.data.formats.mimetypes.mimetypes %}
 <tr><th>
 {% if mt[1]['id'] == "" %}
 <i id="-empty-">Empty String</i>
 {% else %}
-<div id="{{ mt[1]['id'] | downcase }}">
+<a id="{{ mt[1]['id'] | downcase }}" href="#{{ mt[1]['id'] | downcase }}">
 {% for num in (1...mt[1]['sort_depth']) %}&mdash;{% endfor %}
 {{ mt[1]['id'] }}
-</div>
+</a>
 {% endif %}
 </th>
 <td>
