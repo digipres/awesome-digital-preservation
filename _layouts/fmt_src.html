@@ -27,15 +27,16 @@ hide-title: true
   <li {% if page.selected == "formats" %} class="active"{% endif %}><a href="{{ site.baseurl }}/formats/sources/{{ page.tool_id }}/formats/">Formats</a></li>
   <li {% if page.selected == "warnings" %} class="active"{% endif %}><a href="{{ site.baseurl }}/formats/sources/{{ page.tool_id }}/warnings/">Warnings</a></li>
 </ul>
-{% else %}
+{% endif %}
 
+{% if page.selected == "index" %}
 <div class="row">
   <div class="col-xs-12 col-sm-6 col-md-6">
 
 <script src="{{ site.baseurl }}/assets/js/Chart.min.js"></script>
 
 <div style="text-align: center">
-<canvas id="myChart" width="600" height="400"></canvas>
+<canvas id="radarChart" width="600" height="400"></canvas>
 </div>
 
 <script type="text/javascript">
@@ -43,6 +44,7 @@ hide-title: true
 var data = {
     labels: ["Formats", "*.ext", "Magic", "MIME"],
     datasets: [
+{% if page.tool_id == 'overview' or page.tool_id == 'tika' %}
         {
             label: "Apache Tika",
             fillColor: "rgba(220,220,0,0.2)",
@@ -58,6 +60,8 @@ var data = {
             {{ site.data.formats['tika']['stats']['total_w_mime'] }}
             ]
         },
+{% endif %}
+{% if page.tool_id == 'overview' or page.tool_id == 'ffw' %}
         {
             label: "File Formats Wiki",
             fillColor: "rgba(0,220,0,0.2)",
@@ -73,6 +77,8 @@ var data = {
             {{ site.data.formats['ffw']['stats']['total_w_mime'] }}
             ]
         },
+{% endif %}
+{% if page.tool_id == 'overview' or page.tool_id == 'fdd' %}
         {
             label: "LC FDD",
             fillColor: "rgba(220,0,0,0.2)",
@@ -88,6 +94,8 @@ var data = {
             {{ site.data.formats['fdd']['stats']['total_w_mime'] }}
             ]
         },
+{% endif %}
+{% if page.tool_id == 'overview' or page.tool_id == 'pronom' %}
         {
             label: "PRONOM",
             fillColor: "rgba(151,187,205,0.2)",
@@ -103,6 +111,8 @@ var data = {
             {{ site.data.formats['pronom']['stats']['total_w_mime'] }}
             ]
         },
+{% endif %}
+{% if page.tool_id == 'overview' or page.tool_id == 'trid' %}
         {
             label: "TRiD",
             fillColor: "rgba(220,220,220,0.2)",
@@ -118,13 +128,12 @@ var data = {
             {{ site.data.formats['trid']['stats']['total_w_mime'] }}
             ]
         }
+{% endif %}
     ]
 };
 
-{% raw %}
-
 // Get the context of the canvas element we want to select
-var ctx = document.getElementById("myChart").getContext("2d");
+var ctx = document.getElementById("radarChart").getContext("2d");
 var myRadarChart = new Chart(ctx).Radar(data, { 
   animation: false,
   pointDotRadius : 2,
@@ -135,13 +144,14 @@ var myRadarChart = new Chart(ctx).Radar(data, {
   multiTooltipTemplate: "<%= datasetLabel %> - <%= value %>"
 });
 
-$("#myChart").after( myRadarChart.generateLegend() );
-
-{% endraw %}
+$("#radarChart").after( myRadarChart.generateLegend() );
   
 </script>
 
 <style type="text/css">
+#radarChart {
+  margin: 1em;
+}
 ul.radar-legend {
   list-style-type: none;
 }
@@ -158,7 +168,6 @@ ul.radar-legend li span {
 </style>
 
 <p>
-This shows...
 </p>
 
   </div>
@@ -166,7 +175,6 @@ This shows...
   &nbsp;
   </div>
 </div>
-
 {% endif %}
 
 {{ content }}

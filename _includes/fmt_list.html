@@ -25,7 +25,7 @@
 
 <tr><th>MIME Types</th><td>
 {% for mt in fmt[1]["mimetypes"] %}
-<a href="{{ site.baseurl }}/formats/mime-types/#{{ mt | downcase }}">{{ mt }}</a><br/>
+<a href="{{ site.baseurl }}/formats/mime-types/#{% include anchor.html anchor=mt %}">{{ mt }}</a><br/>
 {% endfor %}
 </td></tr>
 
