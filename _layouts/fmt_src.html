@@ -3,7 +3,6 @@ layout: default
 hide-title: true
 ---
 
-
 <div class="row">
   <div class="col-xs-12 col-sm-2 col-md-2">
 
@@ -141,7 +140,7 @@ var myRadarChart = new Chart(ctx).Radar(data, {
   datasetStrokeWidth : 0,
   responsive: true,
   pointLabelFontSize: 14,
-  multiTooltipTemplate: "<%= datasetLabel %> - <%= value %>"
+  multiTooltipTemplate: "<%= value %> (<%= datasetLabel %>)"
 });
 
 $("#radarChart").after( myRadarChart.generateLegend() );
@@ -158,6 +157,7 @@ ul.radar-legend {
 ul.radar-legend li { 
   display: inline;
   margin-right: 1em;
+  white-space: nowrap;
 }
 ul.radar-legend li span {
   display: inline-block;
