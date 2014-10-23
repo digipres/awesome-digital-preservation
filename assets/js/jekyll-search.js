@@ -12,9 +12,10 @@ window.JekyllSearch = (function(window,document){
 	var searchInput = document.querySelector(".search"),
 		jsonFile = "/search.json",
 		jsonData = null,
-		template = "<a href='{url}' title='{desc}'>{title}</a>",
+		template = "<a href='{url}' title='{title}'>{title}</a>",
 		searchResults = document.querySelector(".results"),
 		searchResultsHeader = "<h4>Search results</h4>",
+		searchResultsFooter = "",
 		limit = 10,
 		fuzzy = false,
 		noResults = "<p>Nothing matched your query</p>";
@@ -73,10 +74,13 @@ window.JekyllSearch = (function(window,document){
 		Get matches that satisfy the query
 	*/
 	function getMatches( query ){
+		if( query == "" ) return null;
 		matches = [];
 		for (var i = 0; i < jsonData.length; i++) {
 			var obj = jsonData[i];
 			for (key in obj) {
+				// Skip searching on the URL
+				if( key == 'url' ) continue;
 				if( fuzzy ){
 					var regexp = new RegExp( query.split('').join('.*?'), 'gi');
 					if( obj[key].match(regexp) ){
@@ -96,17 +100,24 @@ window.JekyllSearch = (function(window,document){
 		Write out the matches
 	*/
 	function writeMatches( matches ){
-		searchResults.innerHTML = searchResultsHeader;
-		if( matches && matches.length ){
-			for (var i = 0; i < matches.length &&  i < limit; i++) {
-				var match = matches[i];
-				var output = template.replace(/\{(.*?)\}/g, function(m, capturedGroup) {
-					return match[ capturedGroup ];
-				});
-				searchResults.innerHTML += output;
+		if( matches ) {
+			if (matches.length ){
+   				searchResults.innerHTML = searchResultsHeader;
+				for (var i = 0; i < matches.length &&  i < limit; i++) {
+					var match = matches[i];
+					var output = template.replace(/\{(.*?)\}/g, function(m, capturedGroup) {
+						return match[ capturedGroup ];
+					});
+					searchResults.innerHTML += output;
+				}
+				footer = searchResultsFooter.replace(/\{limit\}/g,limit)
+				footer = footer.replace(/\{total\}/g,matches.length)
+				searchResults.innerHTML += footer;
+  		  	}else{
+				searchResults.innerHTML = noResults;		
 			}
-		}else{
-			searchResults.innerHTML = searchResultsHeader + noResults;		
+		} else {
+			searchResults.innerHTML = "";
 		}
 	}
 
@@ -118,6 +129,7 @@ window.JekyllSearch = (function(window,document){
 				template = options.template || template;
 				searchResults = options.searchResults || searchResults;
 				searchResultsHeader = options.searchResultsHeader || searchResultsHeader;
+				searchResultsFooter = options.searchResultsFooter || searchResultsFooter;
 				limit = options.limit || limit;
 				fuzzy = options.fuzzy || fuzzy;
 				noResults = options.noResults || noResults;
