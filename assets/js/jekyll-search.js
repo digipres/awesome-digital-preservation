@@ -14,7 +14,7 @@ window.JekyllSearch = (function(window,document){
 		jsonData = null,
 		template = "<a href='{url}' title='{title}'>{title}</a>",
 		searchResults = document.querySelector(".results"),
-		searchResultsHeader = "<h4>Search results</h4>",
+		searchResultsHeader = "",
 		searchResultsFooter = "",
 		limit = 10,
 		fuzzy = false,
@@ -24,9 +24,6 @@ window.JekyllSearch = (function(window,document){
 		register the keydown event and load the json file
 	*/
 	function load(){
-		console.log("HELO")
-		console.log(searchInput)
-		console.log(searchResults)
 		if( searchInput && searchResults ){
 			getJSON();
 			searchInput.addEventListener("keyup", search);
@@ -101,7 +98,7 @@ window.JekyllSearch = (function(window,document){
 	*/
 	function writeMatches( matches ){
 		if( matches ) {
-			if (matches.length ){
+			if ( matches.length ){
    				searchResults.innerHTML = searchResultsHeader;
 				for (var i = 0; i < matches.length &&  i < limit; i++) {
 					var match = matches[i];
