@@ -6,6 +6,7 @@
 	/ /_/ / /___/ /| |   / / /___/ /___    ___/ / /___/ ___ |/ _, _/ /___/ __  /  
 	\____/_____/_/ |_|  /_/_____/_____/   /____/_____/_/  |_/_/ |_|\____/_/ /_/   
 	                                                                              
+Based on <https://github.com/christian-fei/Simple-Jekyll-Search>
 
 */
 window.JekyllSearch = (function(window,document){
