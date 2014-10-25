@@ -4,6 +4,10 @@
 h2 {
   border-bottom: 1px solid #ddd;
 }
+dd {
+    display: block;
+    margin-left: 40px;
+} 
 table.powrr th {
 /*  font-weight: normal;*/
 }
