@@ -1,6 +1,9 @@
 .index-table th a {
   color: black;
 }
+h2 {
+  border-bottom: 1px solid #ddd;
+}
 table.powrr th {
 /*  font-weight: normal;*/
 }
