@@ -1,6 +1,9 @@
 .index-table th a {
   color: black;
 }
+h1 {
+  border-bottom: 1px solid #aaa;
+}
 h2 {
   border-bottom: 1px solid #ddd;
 }
