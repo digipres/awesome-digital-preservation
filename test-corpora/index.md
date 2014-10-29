@@ -22,4 +22,5 @@ Share sample digital objects for a test corpus. <span class="nobr"><a href="http
 * JP2:
     * [NITF version 2.1 JPEG 2000 Sample Imagery](http://www.gwg.nga.mil/ntb/baseline/software/testfile/Jpeg2000/index.htm)
     * [JPEG 2000 Part 4 Conformance Test Files](http://web.archive.org/web/20080510121012/http://www.crc.ricoh.com/~gormish/jpeg2000conformance/) (v.1.5 with earlier versions also available in the archive history)
-
+* WARC/ARC:
+    * [Internet Archive's Example ARC and WARC files](https://archive.org/details/ExampleArcAndWarcFiles) 
