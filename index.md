@@ -10,28 +10,28 @@ The digital preservation community is small and under resourced. This means we h
 {% capture panel_content %}
 {% include_relative index_finding_tools.md %}
 {% endcapture %}
-{% include panel.html title="Find or Describe Tools" icon="icons/SmallCOPTRlogo.png" content=panel_content %}
+{% include panel.html title="Digital Preservation Tools" icon="icons/SmallCOPTRlogo.png" content=panel_content %}
 </div>
 
 <div class="col-xs-12 col-sm-6 col-md-4">
 {% capture panel_content %}
 {% include_relative index_understanding_formats.md %}
 {% endcapture %}
-{% include panel.html title="Understanding File Formats" icon="icons/understanding_format.png" content=panel_content %}
+{% include panel.html title="Understand File Formats" icon="icons/understanding_format.png" content=panel_content %}
 </div>
 
 <div class="col-xs-12 col-sm-6 col-md-4">
 {% capture panel_content %}
 {% include_relative index_understanding_issues.md %}
 {% endcapture %}
-{% include panel.html title="Questions, issues, evidence" icon="icons/noun_project_22.png" content=panel_content %}
+{% include panel.html title="Questions, Issues, Evidence" icon="icons/noun_project_22.png" content=panel_content %}
 </div>
 
 <div class="col-xs-12 col-sm-6 col-md-4">
 {% capture panel_content %}
 {% include_relative index_real_data.md %}
 {% endcapture %}
-{% include panel.html title="Real data, real requirements" icon="icons/noun_project_1050.png" content=panel_content %}
+{% include panel.html title="Real Data and Requirements" icon="icons/noun_project_1050.png" content=panel_content %}
 </div>
 
 <div class="col-xs-12 col-sm-6 col-md-4">
