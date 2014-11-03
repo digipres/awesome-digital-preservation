@@ -29,7 +29,7 @@ The digital preservation community is small and under resourced. This means we h
 
 <div class="col-xs-12 col-sm-6 col-md-4">
 {% capture panel_content %}
-{% include_relative improve_corpora.md %}
+{% include_relative index_improve_corpora.md %}
 {% endcapture %}
 {% include panel.html title="Real data, real requirements" icon="icons/noun_project_1050.png" content=panel_content %}
 </div>
