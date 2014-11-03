@@ -1,3 +1,6 @@
+---
+title: Enhancing File Format Identification
+---
 Identifying file formats is the bread and butter of digital preservation characterisation and assessment. Identification tool coverage and accuracy could be much better, and this primarily comes down to the signatures, or file format "magic", used to identify each format. You can help contribute and make our identification tools more effective here:
 
 *	[Submit a file format signature/patch to Apache Tika](https://issues.apache.org/jira/browse/TIKA), [like this one](http://openplanetsfoundation.org/blogs/2012-02-09-basic-guide-writing-new-format-signatures).
