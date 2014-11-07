@@ -10,7 +10,7 @@ The digital preservation community is small and under resourced. This means we h
 {% capture panel_content %}
 {% include_relative index_finding_tools.md %}
 {% endcapture %}
-{% include panel.html title="Find the Preservation Tools You Need" icon="icons/SmallCOPTRlogo.png" content=panel_content %}
+{% include panel.html title="Find Preservation Tools" icon="icons/SmallCOPTRlogo.png" content=panel_content %}
 </div>
 
 <div class="col-xs-12 col-sm-6 col-md-4">
