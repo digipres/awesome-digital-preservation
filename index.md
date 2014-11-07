@@ -27,6 +27,9 @@ The digital preservation community is small and under resourced. This means we h
 {% include panel.html title="Questions, Issues and Evidence" icon="icons/noun_project_22.png" content=panel_content %}
 </div>
 
+</div>
+<div class="row">
+
 <div class="col-xs-12 col-sm-6 col-md-4">
 {% capture panel_content %}
 {% include_relative index_real_data.md %}
