@@ -14,6 +14,7 @@ Share sample digital objects for a test corpus. <span class="nobr"><a href="http
     * The [disktype test files](http://disktype.cvs.sourceforge.net/viewvc/disktype/file-system-sampler/)
     * The [Metadata Working Group specifications](http://www.metadataworkinggroup.org/specs/) and [embedded image metadata test corpus](http://www.metadataworkinggroup.org/specs/test_files.html)
     * [Apache Tika issue about setting up a nightly test corpus](https://issues.apache.org/jira/browse/TIKA-1302), see also [tika-parsers/src/test/resources/test-documents](http://svn.apache.org/repos/asf/tika/trunk/tika-parsers/src/test/resources/test-documents/)
+    * [The Chemical MIME Home Page](http://www.ch.ic.ac.uk/chemime/)
 * PDF:
     * [Adobe Acrobat Engineering](http://acroeng.adobe.com/wp/) site has lots of useful [test documents](http://acroeng.adobe.com/wp/?page_id=10).
     * [Isartor PDF/A Test Suite](http://www.pdfa.org/2011/08/isartor-test-suite/)
