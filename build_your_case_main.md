@@ -1,3 +1,6 @@
+---
+title: Build Your Case, Get the Funding
+---
 Start with the [Digital Preservation Business Case Toolkit](http://wiki.dpconline.org/index.php?title=Digital_Preservation_Business_Case_Toolkit), and use the [POWRR One Pagers](http://powrr-wiki.lib.niu.edu/index.php/One_Pagers_tailored_to_educate_different_professionals) to educate stakeholders about the issues.
 
 Understanding your costs can help to plan your preservation work more effectively. The [Curation Costs Exchange](http://www.curationexchange.org/) allows you to compare your costing data with that of many other organisations.
