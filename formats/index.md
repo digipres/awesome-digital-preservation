@@ -7,6 +7,6 @@ selected: index
 layout: fmt_src
 ---
 
-TEST
+<h3>Search</h3>
 
 {% include search_by_ext.html %}

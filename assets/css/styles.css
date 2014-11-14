@@ -61,4 +61,6 @@ table.powrr .toolgrid-ct-separator {
   background-color: #444;
   color: #fefefe;
 }
-    
+#ext-results {
+  margin-top: 0.25em;
+}
