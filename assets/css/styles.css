@@ -25,6 +25,7 @@ table.powrr th.rotate {
 }
 table.powrr th.rotate > div {
   -webkit-transform: translate(17px, 83px) rotate(-60deg);
+  -webkit-transform-origin: 0% 0%;
   transform: translate(17px, 83px) rotate(-60deg);
   transform-origin: 0% 0%;  
   width: 40px;
