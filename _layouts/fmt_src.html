@@ -26,11 +26,20 @@ hide-title: true
   <li {% if page.selected == "formats" %} class="active"{% endif %}><a href="{{ site.baseurl }}/formats/sources/{{ page.tool_id }}/formats/">Formats</a></li>
   <li {% if page.selected == "warnings" %} class="active"{% endif %}><a href="{{ site.baseurl }}/formats/sources/{{ page.tool_id }}/warnings/">Warnings</a></li>
 </ul>
+
+<div class="row">
+  <div class="col-xs-12 col-sm-12 col-md-12">
+  {{ content }}
+  </div>
+</div>
+
 {% endif %}
 
 {% if page.selected == "index" %}
 <div class="row">
   <div class="col-xs-12 col-sm-6 col-md-6">
+
+  <h3>Format Stats</h3>
 
 <script src="{{ site.baseurl }}/assets/js/Chart.min.js"></script>
 
@@ -172,7 +181,7 @@ ul.radar-legend li span {
 
   </div>
   <div class="col-xs-12 col-sm-6 col-md-6">
-  
+
 {{ content }}
 
   &nbsp;
