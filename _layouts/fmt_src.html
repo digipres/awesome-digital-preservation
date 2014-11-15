@@ -27,12 +27,6 @@ hide-title: true
   <li {% if page.selected == "warnings" %} class="active"{% endif %}><a href="{{ site.baseurl }}/formats/sources/{{ page.tool_id }}/warnings/">Warnings</a></li>
 </ul>
 
-<div class="row">
-  <div class="col-xs-12 col-sm-12 col-md-12">
-  {{ content }}
-  </div>
-</div>
-
 {% endif %}
 
 {% if page.selected == "index" %}
@@ -185,6 +179,12 @@ ul.radar-legend li span {
 {{ content }}
 
   &nbsp;
+  </div>
+</div>
+{% else %}
+<div class="row">
+  <div class="col-xs-12 col-sm-12 col-md-12">
+  {{ content }}
   </div>
 </div>
 {% endif %}
