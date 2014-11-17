@@ -2,4 +2,4 @@ Advance digital preservation by pooling our experience, sharing our war stories 
 
 * Ask and answer questions on [Digital Preservation Q&A](http://qanda.digipres.org/)
 * Discuss preservation issues on the [Digital Curation](https://groups.google.com/forum/forum/digital-curation) forum
-* Share war stories on [OPF](http://openplanetsfoundation.org/) blogs
+* Share war stories on [OPF](http://openpreservation.org/) blogs
