@@ -8,9 +8,9 @@ Improving Identification Tools
 
 Identifying file formats is the bread and butter of digital preservation characterisation and assessment. Identification tool coverage and accuracy could be much better, and this primarily comes down to the signatures used to identify each format.
 
-* [Submit a file format signature/patch to Apache Tika](http://openplanetsfoundation.org/blogs/2012-02-09-basic-guide-writing-new-format-signatures)).
+* [Submit a file format signature/patch to Apache Tika](http://openpreservation.org/blogs/2012-02-09-basic-guide-writing-new-format-signatures)).
 * [Contribute a file format signature to DROID](http://www.nationalarchives.gov.uk/documents/information-management/pronom-file-signature-research.pdf)).
-* [Contribute a file format signature to FILE](http://www.openplanetsfoundation.org/blogs/2012-08-09-magic-editing-and-creation-primer)).
+* [Contribute a file format signature to FILE](http://www.openpreservation.org/blogs/2012-08-09-magic-editing-and-creation-primer)).
 
 
 Characterisation/Metadata Extraction
