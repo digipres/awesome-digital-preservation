@@ -11,7 +11,7 @@ subtitle: Community-owned digital preservation resources
 </div>
 
 <div class="cc-attribution">
-  "<a href="https://www.flickr.com/photos/30869521@N00/13430969">NSA Museum's StorageTek tabe library</a>" by <a href="https://www.flickr.com/photos/austinmills/">austinmills</a> is licensed under <a href="http://creativecommons.org/licenses/by/2.0/">CC BY 2.0</a>
+  "<a href="https://www.flickr.com/photos/30869521@N00/13430969">NSA Museum's StorageTek tape library</a>" by <a href="https://www.flickr.com/photos/austinmills/">austinmills</a> is licensed under <a href="http://creativecommons.org/licenses/by/2.0/">CC BY 2.0</a>
 </div>
 
 <div class="row">
