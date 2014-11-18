@@ -61,6 +61,40 @@ table.powrr .toolgrid-ct-separator {
   background-color: #444;
   color: #fefefe;
 }
+
 #ext-results {
   margin-top: 0.25em;
+}
+
+.panel-body img {
+  padding: 20px;
+} 
+
+.hero-img {
+  background: url(../img/tapes.jpg) no-repeat center;
+  background-size: cover;
+  color: white;
+  text-shadow: 2px 2px 2px rgba(0,0,0,0.6);
+}
+
+.cc-attribution {
+  text-align: center;
+  font-size: 12px;
+  padding: .5em;
+  margin-top: -2.5em;
+  margin-bottom: 2em;
+  background-color: #f5f5f5;
+  border: 1px solid #dddddd;
+  width: 100%;
+}
+
+.jumbo-text {
+  padding: 30px;
+}
+
+@media (min-width: @screen-sm-min) {
+    .jumbo-text {
+    padding: 10px;
+    font-size: 18px;
+  }  
 }

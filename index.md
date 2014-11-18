@@ -3,7 +3,16 @@ title: DigiPres Commons
 subtitle: Community-owned digital preservation resources
 ---
 
-The digital preservation community is small and under resourced. This means we have to work together if we want to make a real impact. This site aims to provide a gateway to all of the wonderful community-owned and community-oriented resources out there that are dedicated to digital preservation.
+<div class="jumbotron hero-img">
+  <div class="container">
+    <p class="jumbo-text">The digital preservation community is small and under resourced. This means we have to work together if we want to make a real impact. This site aims to provide a gateway to all of the wonderful community-owned and community-oriented resources out there that are dedicated to digital preservation.</p>
+  </div>
+
+</div>
+
+<div class="cc-attribution">
+  "<a href="https://www.flickr.com/photos/30869521@N00/13430969">NSA Museum's StorageTek tabe library</a>" by <a href="https://www.flickr.com/photos/austinmills/">austinmills</a> is licensed under <a href="http://creativecommons.org/licenses/by/2.0/">CC BY 2.0</a>
+</div>
 
 <div class="row">
   <div class="col-xs-12 col-sm-6 col-md-4">
