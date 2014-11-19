@@ -22,4 +22,4 @@ Digipres Commons is community owned and run, so it needs your contributions to m
 
 *The COPTR Consortium is: Aligning National Approaches to Digital Preservation (ANADP), The Open Preservation Foundation (OPF), The National Digital Stewardship Alliance (NDSA), The Digital Curation Centre (DCC), The Digital Curation Exchange (DCE) and the Digital POWRR Project.
 
-Digipres Commons is kindly hosted by the Open Preservation Foundation. Development of the POWRR Tool Grid was made possible by the Digital POWRR Project and the North Illinois University.
+Digipres Commons is kindly hosted by the Open Preservation Foundation. Development of the POWRR Tool Grid was made possible by the Digital POWRR Project and the Northern Illinois University.
