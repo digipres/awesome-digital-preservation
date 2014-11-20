@@ -2,6 +2,7 @@
 title: Formats Overview
 subtitle: Aggregating all the registries
 permalink: /formats/
+redirect_from: "/formats/sources/"
 tool_id: overview
 selected: index
 layout: fmt_src
