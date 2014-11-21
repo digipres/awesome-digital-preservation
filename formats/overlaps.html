@@ -48,7 +48,7 @@ An <a href="{{ site.baseurl }}/formats/overlaps/venn/">appealing but ultimately 
 
 {% for overlap in site.data.formats.extensions-venn.overlaps %}
 {% capture setid %}{% for reg in overlap.regIds %}{{ reg }}{% unless forloop.last %}+{% endunless %}{% endfor %}{% endcapture %}
-<h2 id="{{ setid }}">{{ setid }}</h2>
+<h2 id="{{ setid }}">><a href="#{{ setid }}" style="color: black">{{ setid }}</a></h2>
 <a href="#top-navbar" class="pull-right" title="To the top of the page."><span class="glyphicon glyphicon-arrow-up"></span></a>
-{% for ext in overlap.extensions %}<a href="{{ site.baseurl }}/formats/extensions/#{{ ext }}">{{ ext }}{% unless forloop.last %}, {% endunless %}{% endfor %}
+{% for ext in overlap.extensions %}<a href="{{ site.baseurl }}/formats/extensions/#{{ ext }}">{{ ext }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}
 {% endfor %}
