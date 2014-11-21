@@ -1,0 +1,9 @@
+---
+layout: none
+---
+var sets = [
+{% for set in site.data.formats.extensions-venn.sets %}{ label : '{{ set.regId }}', size : {{ set.size }} }{% unless forloop.last %},{% endunless %}{% endfor %}
+];
+var overlaps = [
+{% for overlap in site.data.formats.extensions-venn.overlaps %}{ sets : {{ overlap['sets'] }}, size : {{ overlap.size }} }{% unless forloop.last %},{% endunless %}{% endfor %}
+];
