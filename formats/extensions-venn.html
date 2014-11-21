@@ -1,19 +1,12 @@
 ---
-layout: none
+title: Format Registry Coverage
+subtitle: A somewhat misleading Venn diagram
+permalink: /formats/overlaps/venn/
 ---
-<!doctype html>
-<html lang="en">
 
-<head>
-    <meta charset="utf-8">
-    <title></title>
-    <style>
-    body {
-        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-        font-size: 14px;
-    }
-    </style>
-</head>
+<p>
+This Venn diagram looks nice, but is ultimately flawed as this form of diagram cannot accurately portray this complex system of overlapping sets.
+</p>
 
 <div class="venn"></div>
 </body>
@@ -29,6 +22,8 @@ layout: none
     border: 0px;
     border-radius: 8px;
     opacity: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
 }
 </style>
 
@@ -109,5 +104,3 @@ diagram.svg.selectAll("path")
             .style("top", (d3.event.pageY - 28) + "px");
     })
 </script>
-
-</html>

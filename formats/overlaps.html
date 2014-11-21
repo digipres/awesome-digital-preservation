@@ -1,0 +1,54 @@
+---
+title: Format Registry Coverage
+subtitle: Overlaps by known extensions
+permalink: /formats/overlaps/
+---
+
+<p>
+The following table groups indicates the relative coverage between the different registries, in terms of known file extensions. The list is sorted by the number of file extensions in each group.
+</p>
+
+<p>
+Sets of extensions that are uniquely known to a single source are highlighted in yellow. The set of extensions known to all sources is highlighted in green.
+</p>
+
+<p>
+An <a href="{{ site.baseurl }}/formats/overlaps/venn/">appealing but ultimately flawed Venn diagram</a> is also available.
+</p>
+
+<div class="table-responsive">
+<table class="table table-striped table-condensed table-hover">
+<thead>
+<tr>
+{% for reg in site.data.formats.sources.registries %}
+<th>{{ reg.name }}</th>
+{% endfor %}
+<th># Extensions</th>
+</tr>
+</thead>
+<tbody>
+{% for overlap in site.data.formats.extensions-venn.overlaps %}
+<tr class="{% if overlap.regIds.size == 1 %}warning{% endif %}{% if overlap.regIds.size == site.data.formats.sources.registries.size %}success{% endif %}">
+{% for reg in site.data.formats.sources.registries %}
+<td>
+{% if overlap.regIds contains reg.regId %}
+<span class="glyphicon glyphicon-ok"></span>
+{% else %}
+&nbsp;
+{% endif %}
+</td>
+{% endfor %}
+{% capture setid %}{% for reg in overlap.regIds %}{{ reg }}{% unless forloop.last %}+{% endunless %}{% endfor %}{% endcapture %}
+<td><a href="#{{ setid }}">{{ overlap.size }}</a></td>
+</tr>
+{% endfor %}
+</tbody>
+</table>
+</div>
+
+{% for overlap in site.data.formats.extensions-venn.overlaps %}
+{% capture setid %}{% for reg in overlap.regIds %}{{ reg }}{% unless forloop.last %}+{% endunless %}{% endfor %}{% endcapture %}
+<a href="#top-navbar" class="pull-right" title="To the top of the page."><span class="glyphicon glyphicon-arrow-up"></span></a>
+<h2 id="{{ setid }}">{{ setid }}</h2>
+{% for ext in overlap.extensions %}<a href="{{ site.baseurl }}/formats/extensions/#{{ ext }}">{{ ext }}{% unless forloop.last %}, {% endunless %}{% endfor %}
+{% endfor %}
