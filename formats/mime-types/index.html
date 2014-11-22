@@ -13,8 +13,9 @@ There are {{ site.data.formats.mimetypes.stats.total_mimetypes }} known MIME typ
 <i id="-empty-">Empty String</i>
 {% else %}
 {% capture mimetype %}{{ mt[1]['id'] }}{% endcapture %}
+{% for num in (1...mt[1]['sort_depth']) %}&mdash;&nbsp;{% endfor %}
 <a id="{% include anchor.html anchor=mimetype %}" href="#{% include anchor.html anchor=mimetype %}">
-{% for num in (1...mt[1]['sort_depth']) %}&mdash;&nbsp;{% endfor %}{{ mimetype }}
+{{ mimetype }}
 </a>
 {% endif %}
 </th>
