@@ -22,11 +22,10 @@ hide-title: true
 
 {% if page.tool_id != "overview" %}  
 <ul class="nav nav-tabs" role="tablist">
-  <li {% if page.selected == "index" %} class="active"{% endif %}><a href="{{ site.baseurl }}/formats/sources/{{ page.tool_id }}/">Summary</a></li>
-  <li {% if page.selected == "formats" %} class="active"{% endif %}><a href="{{ site.baseurl }}/formats/sources/{{ page.tool_id }}/formats/">Formats</a></li>
-  <li {% if page.selected == "warnings" %} class="active"{% endif %}><a href="{{ site.baseurl }}/formats/sources/{{ page.tool_id }}/warnings/">Warnings</a></li>
+  <li{% if page.selected == "index" %} class="active"{% endif %}><a href="{{ site.baseurl }}/formats/sources/{{ page.tool_id }}/">Overview</a></li>
+  <li{% if page.selected == "formats" %} class="active"{% endif %}><a href="{{ site.baseurl }}/formats/sources/{{ page.tool_id }}/formats/">Formats ({{ site.data.formats[page.tool_id]["formats"].size }})</a></li>
+  <li{% if page.selected == "issues" %} class="active"{% endif %}><a href="{{ site.baseurl }}/formats/sources/{{ page.tool_id }}/issues/">Issues ({{ site.data.formats[page.tool_id]['stats']['total_warnings'] }})</a></li>
 </ul>
-
 {% endif %}
 
 {% if page.selected == "index" %}

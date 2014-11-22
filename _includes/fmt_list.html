@@ -39,6 +39,8 @@
 {% elsif page.tool_id == "fdd" %}
 <a href="https://github.com/digipres/digipres.github.io/blob/master/_sources/registries/fdd/fddXML/{{ fmt[1]["source"] }}">{{ fmt[1]["source"] }}</a>
 {% elsif page.tool_id == "pronom" %}
+<a href="http://apps.nationalarchives.gov.uk/PRONOM/{{ fmt[0] }}">{{ fmt[0] }}</a>
+&amp;
 <a href="https://github.com/digipres/digipres.github.io/blob/master/_sources/registries/pronom/{{ fmt[1]["source"] }}">{{ fmt[1]["source"] }}</a>
 {% elsif page.tool_id == "trid" %}
 <a href="https://github.com/digipres/digipres.github.io/blob/master/_sources/registries/trid/triddefs_xml/{{ fmt[1]["source"] }}">{{ fmt[1]["source"] }}</a>

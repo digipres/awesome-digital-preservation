@@ -1,8 +1,8 @@
 ---
 title: Library of Congress Format Descriptions
-permalink: /formats/sources/fdd/warnings/
+permalink: /formats/sources/fdd/issues/
 tool_id: fdd
-selected: warnings
+selected: issues
 layout: fmt_src
 ---
 

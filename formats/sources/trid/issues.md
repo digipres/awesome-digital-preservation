@@ -1,8 +1,8 @@
 ---
 title: TRiD
-permalink: /formats/sources/trid/warnings/
+permalink: /formats/sources/trid/issues/
 tool_id: trid
-selected: warnings
+selected: issues
 layout: fmt_src
 ---
 

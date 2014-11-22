@@ -1,8 +1,8 @@
 ---
 title: Tika
-permalink: /formats/sources/tika/warnings/
+permalink: /formats/sources/tika/issues/
 tool_id: tika
-selected: warnings
+selected: issues
 layout: fmt_src
 ---
 

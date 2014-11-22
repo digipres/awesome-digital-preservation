@@ -1,8 +1,8 @@
 ---
 title: File Formats Wiki
-permalink: /formats/sources/ffw/warnings/
+permalink: /formats/sources/ffw/issues/
 tool_id: ffw
-selected: warnings
+selected: issues
 layout: fmt_src
 ---
 

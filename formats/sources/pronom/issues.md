@@ -1,8 +1,8 @@
 ---
 title: PRONOM
-permalink: /formats/sources/pronom/warnings/
+permalink: /formats/sources/pronom/issues/
 tool_id: pronom
-selected: warnings
+selected: issues
 layout: fmt_src
 ---
 
