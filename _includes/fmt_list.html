@@ -30,7 +30,8 @@
 </td></tr>
 
 <tr><th>Has Magic?</th><td>{{ fmt[1]["hasMagic"] }}</td></tr>
-<tr><th>Super-Type</th><td><a href="#{{ fmt[1]['supertype'] | downcase }}">{{ fmt[1]["supertype"] }}</a></td></tr>
+{% assign supertype = fmt[1]["supertype"] %}
+<tr><th>Super-Type</th><td><a href="{{ site.baseurl }}/formats/mime-types/#{% include anchor.html anchor=supertype %}">{{ supertype }}</a></td></tr>
 
 <tr><th>Registry Source</th><td>
 {% if page.tool_id == "tika" %}
