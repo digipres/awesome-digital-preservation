@@ -43,6 +43,19 @@ An <a href="{{ site.baseurl }}/formats/overlaps/venn/">appealing but ultimately 
 </tr>
 {% endfor %}
 </tbody>
+<tfoot>
+<tr>
+{% for reg in site.data.formats.sources.registries %}
+<td>
+{% for set in site.data.formats.extensions-venn.sets %}
+{% if set.regId == reg.regId %}{{ set.size }}{% endif %}
+{% endfor %}
+</td>
+{% endfor %}
+<td>
+</td>
+</tr>
+</tfoot>
 </table>
 </div>
 
