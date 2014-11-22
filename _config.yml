@@ -8,5 +8,7 @@ defaults:
     values:
       layout: "default"
 
+exclude: ["_sources"]
+
 gems:
   - jekyll-redirect-from
