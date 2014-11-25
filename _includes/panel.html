@@ -1,7 +1,15 @@
 <div class="panel panel-default">
-<div class="panel-heading">{{ include.title }}</div>
+<div class="panel-heading">
+<a class="pull-right" href="https://github.com/digipres/digipres.github.io/edit/master/_includes/{{ include.to_include }}" title="Edit this panel via GitHib..."><span class="glyphicon glyphicon-edit" aria-hidden="true"></span></a>
+{{ include.title }}
+</div>
 <div class="panel-body">
 <img src="{{ include.icon }}" style="float: right;"/>
-{{ include.content | markdownify }}
+
+{% capture panel_content %}
+{% include {{include.to_include}} %}
+{% endcapture %}
+{{ panel_content | markdownify }}
+
 </div>
 </div>

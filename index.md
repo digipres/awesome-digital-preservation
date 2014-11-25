@@ -16,48 +16,30 @@ subtitle: Community-owned digital preservation resources
 
 <div class="row">
   <div class="col-xs-12 col-sm-6 col-md-4">
-{% capture panel_content %}
-{% include_relative index_finding_tools.md %}
-{% endcapture %}
-{% include panel.html title="Find Preservation Tools" icon="icons/SmallCOPTRlogo.png" content=panel_content %}
+{% include panel.html title="Find Preservation Tools" icon="icons/SmallCOPTRlogo.png" to_include="index_finding_tools.md" %}
 </div>
 
 <div class="col-xs-12 col-sm-6 col-md-4">
-{% capture panel_content %}
-{% include_relative index_understanding_formats.md %}
-{% endcapture %}
-{% include panel.html title="Understand File Formats" icon="icons/understanding_format.png" content=panel_content %}
+{% include panel.html title="Understand File Formats" icon="icons/understanding_format.png" to_include="index_understanding_formats.md" %}
 </div>
 
 <div class="col-xs-12 col-sm-6 col-md-4">
-{% capture panel_content %}
-{% include_relative index_understanding_issues.md %}
-{% endcapture %}
-{% include panel.html title="Questions, Issues and Evidence" icon="icons/noun_project_22.png" content=panel_content %}
+{% include panel.html title="Questions, Issues and Evidence" icon="icons/noun_project_22.png" to_include="index_understanding_issues.md" %}
 </div>
 
 </div>
 <div class="row">
 
 <div class="col-xs-12 col-sm-6 col-md-4">
-{% capture panel_content %}
-{% include_relative index_real_data.md %}
-{% endcapture %}
-{% include panel.html title="Real Data and Requirements" icon="icons/noun_project_566.png" content=panel_content %}
+{% include panel.html title="Real Data and Requirements" icon="icons/noun_project_566.png" to_include="index_real_data.md" %}
 </div>
 
 <div class="col-xs-12 col-sm-6 col-md-4">
-{% capture panel_content %}
-{% include_relative index_build_your_case.md %}
-{% endcapture %}
-{% include panel.html title="Build Your Case, Get the Funding" icon="icons/noun_project_1050.png" content=panel_content %}
+{% include panel.html title="Build Your Case, Get the Funding" icon="icons/noun_project_1050.png" to_include="index_build_your_case.md" %}
 </div>
 
 <div class="col-xs-12 col-sm-6 col-md-4">
-{% capture panel_content %}
-{% include_relative index_save_stuff.md %}
-{% endcapture %}
-{% include panel.html title="Save Digital Stuff Now" icon="icons/noun_project_2038.png" content=panel_content %}
+{% include panel.html title="Save Digital Stuff Now" icon="icons/noun_project_2038.png" to_include="index_save_stuff.md" %}
 </div>
 </div>
 
