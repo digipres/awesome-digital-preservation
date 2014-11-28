@@ -1,0 +1,5 @@
+<a href="http://coptr.digipres.org/{{ include.tool.title_url }}" title="View &amp; edit '{{ include.tool.title_full }}' on COPTR..." class="pull-right" style="color: grey;"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span></a>
+{% if include.show_title != false %}
+{% capture sectitle %}Tool: {{ tool.title_full }}{% endcapture %}
+<a href="{{ site.baseurl }}/tools/all-tools/#{% include anchor.html anchor=sectitle %}" title="{{ include.tool.purpose | replace: '"',"'" }}">{{ tool.title }}</a>
+{% endif %}
