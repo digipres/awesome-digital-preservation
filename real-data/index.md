@@ -6,9 +6,11 @@ title:  Real Data and Requirements
 
 To improve our digital preservation tools, we need to be able to test them and evaluate of their performance. Publicly available sample files make this much easier. Tool developers can use them to test their work, discover bugs, and hone their tools ready for others to use. A test corpus can contain real digital objects from a collection, or be created specifically for exhibiting certain characteristics for testing purposes. Real data, particularly with examples of broken, badly formed or corrupted files can be particularly useful.
 
+Note that OPF also has it's own [corpora page](http://openpreservation.org/technology/corpora/).
 
 #### Multi-format Corpora ####
 
+* The [OPF Format Corpus](http://openpreservation.org/technology/corpora/opf-format-corpus/)
 * The [iPres System Showcase Test Suite](http://www.webarchive.org.uk/datasets/ipres.ds.1/)
 * The [Encyclopedia of Graphics File Formats Companion CD-ROM](https://archive.org/details/EncyclopediaOfGraphicsFileFormatsCompanionCd-rom) contains lots of test files for image formats:
     * [EGFF ISO Image](https://archive.org/download/EncyclopediaOfGraphicsFileFormatsCompanionCd-rom/GFF_CD.ISO)
@@ -16,7 +18,10 @@ To improve our digital preservation tools, we need to be able to test them and e
     * [EDRM File Formats Data Set 1.0.1](http://www.edrm.net/download/all_projects/data_set/EDRM_Data-Set_File-Formats_1-0.zip)
     * [EDRM Internationalization Data Set](http://www.edrm.net/download/all_projects/data_set/EDRM_Data-Set_I18N_1-0.zip)
 * [Digital Corpora's](http://digitalcorpora.org/) [corpora](http://digitalcorpora.org/corpora/)
-* [Fine Free File Test Suite](https://fedorahosted.org/file-tests/) set up for Fedora testing.
+    * Including [govdocs1](http://digitalcorpora.org/corpora/govdocs), also described [here](http://openpreservation.org/technology/corpora/govdocs/)
+    * OPF have also created a [by-format subset of govdocs1](http://openpreservation.org/technology/corpora/govdocs-selected/), which you can read more about [here](openpreservation.org/technology/corpora/govdocs-selected/)
+* [The Skeleton Test Suite](https://github.com/exponential-decay/skeleton-test-suite) builds test files from PRONOM binary and container signatures to be used to test DROID and other compatible identification tools. 
+* [Fine Free File Test Suite](https://fedorahosted.org/file-tests/) set up for Fedora testing
 * [JHOVE's test files](http://jhove.cvs.sourceforge.net/viewvc/jhove/jhove/examples/)
 * [JHOVE2's test files](https://bitbucket.org/jhove2/main/src/14e8a6102f63/src/test/resources/examples/)
 * The [disktype test files](http://disktype.cvs.sourceforge.net/viewvc/disktype/file-system-sampler/)
@@ -41,7 +46,7 @@ To improve our digital preservation tools, we need to be able to test them and e
 
 #### Building Corpora ####
 
-If the existing corpora aren't cutting it, perhaps you can <span class="nobr"><a href="https://github.com/openpreserve/format-corpus" class="external-link">contribute to the OPF Format Corpus</a></span>. There's a <span class="nobr"><a href="http://wiki.curatecamp.org/index.php/Collecting_format_ID_test_files" class="external-link">guide here on how to contribute</a></span> or you can <span class="nobr"><a href="http://openpreservation.org/about/contact/" class="external-link">contact OPF</a></span> for help on how to get involved.
+If the existing corpora aren't cutting it, perhaps you can contribute to the [OPF Format Corpus](http://openpreservation.org/technology/corpora/opf-format-corpus/) ([hosted on GitHub](https://github.com/openpreserve/format-corpus)). There's a [guide here on how to contribute](http://wiki.curatecamp.org/index.php/Collecting_format_ID_test_files) or you can [contact OPF](http://openpreservation.org/about/contact/) for help on how to get involved.
 
 
 ### Real Requirements ###
