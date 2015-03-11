@@ -10,7 +10,7 @@ Note that OPF also has it's own [corpora page](http://openpreservation.org/techn
 
 #### Multi-format Corpora ####
 
-* The [OPF Format Corpus](http://openpreservation.org/technology/corpora/opf-format-corpus/)
+* The [OPF Format Corpus](http://openpreservation.org/technology/corpora/opf-format-corpus/) (format report [here](http://opf-labs.org/format-corpus/tools/coverage/reports/))
 * The [iPres System Showcase Test Suite](http://www.webarchive.org.uk/datasets/ipres.ds.1/)
 * The [Encyclopedia of Graphics File Formats Companion CD-ROM](https://archive.org/details/EncyclopediaOfGraphicsFileFormatsCompanionCd-rom) contains lots of test files for image formats:
     * [EGFF ISO Image](https://archive.org/download/EncyclopediaOfGraphicsFileFormatsCompanionCd-rom/GFF_CD.ISO)
@@ -20,7 +20,7 @@ Note that OPF also has it's own [corpora page](http://openpreservation.org/techn
 * [Digital Corpora's](http://digitalcorpora.org/) [corpora](http://digitalcorpora.org/corpora/)
     * Including [govdocs1](http://digitalcorpora.org/corpora/govdocs), also described [here](http://openpreservation.org/technology/corpora/govdocs/)
     * OPF have also created a [by-format subset of govdocs1](http://openpreservation.org/technology/corpora/govdocs-selected/), which you can read more about [here](openpreservation.org/technology/corpora/govdocs-selected/)
-* [The Skeleton Test Suite](https://github.com/exponential-decay/skeleton-test-suite) builds test files from PRONOM binary and container signatures to be used to test DROID and other compatible identification tools. 
+* [The Skeleton Test Suite](https://github.com/exponential-decay/skeleton-test-suite) builds test files from PRONOM binary and container signatures. These can be used to test DROID and other (compatible) identification tools. 
 * [Fine Free File Test Suite](https://fedorahosted.org/file-tests/) set up for Fedora testing
 * [JHOVE's test files](http://jhove.cvs.sourceforge.net/viewvc/jhove/jhove/examples/)
 * [JHOVE2's test files](https://bitbucket.org/jhove2/main/src/14e8a6102f63/src/test/resources/examples/)
