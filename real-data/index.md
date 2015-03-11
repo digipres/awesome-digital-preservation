@@ -34,6 +34,8 @@ Note that OPF also has it's own [corpora page](http://openpreservation.org/techn
 * PDF:
     * [Adobe Acrobat Engineering](http://acroeng.adobe.com/wp/) site has lots of useful [test documents](http://acroeng.adobe.com/wp/?page_id=10).
     * [Isartor PDF/A Test Suite](http://www.pdfa.org/2011/08/isartor-test-suite/)
+* ePub:
+    * [The IDPF ePub test suite](https://github.com/IDPF/epub-testsuite)
 * TIFF:
     * The libtiff [TIFF Test Images](http://www.remotesensing.org/libtiff/images.html)
 * JP2:
