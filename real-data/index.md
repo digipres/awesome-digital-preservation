@@ -36,6 +36,7 @@ Note that OPF also has it's own [corpora page](http://openpreservation.org/techn
     * [Isartor PDF/A Test Suite](http://www.pdfa.org/2011/08/isartor-test-suite/)
 * ePub:
     * [The IDPF ePub test suite](https://github.com/IDPF/epub-testsuite)
+    * [KBNLresearch/epubPolicyTests](https://github.com/KBNLresearch/epubPolicyTests) - Some #epub samples with encryption, DTBook content and foreign resources, with corresponding #epubcheck output.
 * TIFF:
     * The libtiff [TIFF Test Images](http://www.remotesensing.org/libtiff/images.html)
 * JP2:
