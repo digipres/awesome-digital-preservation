@@ -16,30 +16,30 @@ subtitle: Community-owned digital preservation resources
 
 <div class="row">
   <div class="col-xs-12 col-sm-6 col-md-4">
-{% include panel.html title="Find Preservation Tools" icon="icons/SmallCOPTRlogo.png" to_include="index_finding_tools.md" %}
+{% include panel.html title="Find Preservation Tools" icon="icons/SmallCOPTRlogo.png" to_include="index_finding_tools.md" destination="tools_main.html" %}
 </div>
 
 <div class="col-xs-12 col-sm-6 col-md-4">
-{% include panel.html title="Understand File Formats" icon="icons/understanding_format.png" to_include="index_understanding_formats.md" %}
+{% include panel.html title="Understand File Formats" icon="icons/understanding_format.png" to_include="index_understanding_formats.md" destination="formats_main.html" %}
 </div>
 
 <div class="col-xs-12 col-sm-6 col-md-4">
-{% include panel.html title="Questions, Issues and Evidence" icon="icons/noun_project_22.png" to_include="index_understanding_issues.md" %}
+{% include panel.html title="Questions, Issues and Evidence" icon="icons/noun_project_22.png" to_include="index_understanding_issues.md" destination="explore_main.html" %}
 </div>
 
 </div>
 <div class="row">
 
 <div class="col-xs-12 col-sm-6 col-md-4">
-{% include panel.html title="Real Data and Requirements" icon="icons/noun_project_566.png" to_include="index_real_data.md" %}
+{% include panel.html title="Real Data and Requirements" icon="icons/noun_project_566.png" to_include="index_real_data.md" destination="/real-data/" %}
 </div>
 
 <div class="col-xs-12 col-sm-6 col-md-4">
-{% include panel.html title="Build Your Case, Get the Funding" icon="icons/noun_project_1050.png" to_include="index_build_your_case.md" %}
+{% include panel.html title="Get Started" icon="icons/noun_project_1050.png" to_include="index_getting_started.md" destination="get_preserving.html"%}
 </div>
 
 <div class="col-xs-12 col-sm-6 col-md-4">
-{% include panel.html title="Save Digital Stuff Now" icon="icons/noun_project_2038.png" to_include="index_save_stuff.md" %}
+{% include panel.html title="Save Digital Stuff Now" icon="icons/noun_project_2038.png" to_include="index_save_stuff.md" destination="save_stuff_main.html" %}
 </div>
 </div>
 

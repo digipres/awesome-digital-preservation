@@ -1,4 +1,4 @@
-Real data, real challenges and real requirements make your and others digital preservation developments far more useful and effective. [Read more...](/real-data/)
+Real data, real challenges and real requirements make your and others digital preservation developments far more useful and effective. [Read more...]({{ include.destination }})
 
 * Test tools using publicly-available [test corpora](/real-data/).
 * Add your files to the [OPF Format Corpus](https://github.com/openpreserve/format-corpus)

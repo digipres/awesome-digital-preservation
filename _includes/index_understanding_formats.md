@@ -1,4 +1,4 @@
-We need to understand the file formats of the resources we care for, and the software they depend on. [Read more...](formats_main.html)
+We need to understand the file formats of the resources we care for, and the software they depend on. [Read more...]({{ include.destination }})
 
 * [Search for formats](/formats/)
 * Add formats to the [File Formats Wiki](http://justsolve.archiveteam.org)

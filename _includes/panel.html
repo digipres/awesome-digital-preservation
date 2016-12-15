@@ -4,10 +4,10 @@
 {{ include.title }}
 </div>
 <div class="panel-body">
-<img src="{{ include.icon }}" style="float: right;"/>
+<a href="{{ include.destination }}"><img src="{{ include.icon }}" style="float: right;"/></a>
 
 {% capture panel_content %}
-{% include {{include.to_include}} %}
+{% include {{include.to_include}} destination=include.destination %}
 {% endcapture %}
 {{ panel_content | markdownify }}
 
