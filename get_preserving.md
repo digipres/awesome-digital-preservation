@@ -2,11 +2,15 @@
 title: Get Preserving!
 ---
 
+Build Your Roadmap
+------------------
+
+<http://ndsa.org/activities/levels-of-digital-preservation/>
 
 Build Your Case, Get the Funding
 --------------------------------
 
-Start with the [Digital Preservation Business Case Toolkit](http://wiki.dpconline.org/index.php?title=Digital_Preservation_Business_Case_Toolkit), and use the [POWRR One Pagers](http://powrr-wiki.lib.niu.edu/index.php/One_Pagers_tailored_to_educate_different_professionals) to educate stakeholders about the issues.
+Start with the [Digital Preservation Business Case Toolkit](http://wiki.dpconline.org/index.php?title=Digital_Preservation_Business_Case_Toolkit)
 
 Understanding your costs can help to plan your preservation work more effectively. The [Curation Costs Exchange](http://www.curationexchange.org/) allows you to compare your costing data with that of many other organisations.
 
@@ -20,3 +24,8 @@ Engage Stakeholders
 
 ### Working with your IT department
 
+Use the [POWRR One Pagers](http://powrr-wiki.lib.niu.edu/index.php/One_Pagers_tailored_to_educate_different_professionals) to educate stakeholders about the issues.
+
+* <https://twitter.com/anjacks0n/status/809343452995522560>
+* <https://dl.dropboxusercontent.com/u/95767577/Ten%20IT%20skills%20you%20need%20to%20have.pdf>
+* ...archiving... ...backup... ...etc...
