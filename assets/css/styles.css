@@ -66,9 +66,13 @@ table.powrr .toolgrid-ct-separator {
   margin-top: 0.25em;
 }
 
-.panel-body img {
-  padding: 20px;
+#front-page-link-blocks .panel-body img {
+  padding: 5px;
 } 
+
+#front-page-link-blocks .panel {
+  height: 110px;
+}
 
 .hero-img {
   background: url(../img/tapes.jpg) no-repeat center;
@@ -100,5 +104,6 @@ table.powrr .toolgrid-ct-separator {
 }
 
 h1, .h1, h2, .h2, h3, .h3 {
-  margin-top: 0;
+  margin-top: 0.75em;
 }
+
