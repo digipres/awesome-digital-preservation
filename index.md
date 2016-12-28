@@ -55,6 +55,7 @@ Become Part Of The Digital Preservation Community
     * <https://twitter.com/digipresnews/followers>
 * [r/DataHaorder](https://www.reddit.com/r/DataHoarder/) -- "We are digital librarians."
 * [r/Archiveteam](https://www.reddit.com/r/Archiveteam/) -- "Archive Team is a loose collective of rogue archivists, programmers, writers and loudmouths dedicated to saving our digital heritage."
+* TBA extractions from: <https://twitter.com/anjacks0n/status/811553883659104256>
 
 
 Explore Questions, Issues and Evidence
