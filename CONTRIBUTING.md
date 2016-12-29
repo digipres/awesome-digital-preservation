@@ -1,5 +1,6 @@
 ---
 title: How to Contribute to Digipres Commons
+permalink: /how_to_contribute_main.html
 ---
 We need you to help us build Digipres Commons. All of the resources hosted or linked to from Digipres can be edited by you. Simply navigate to the resource you're interested in, sign up for an account and start making your contributions. A great place to start is the [DP Question and Answer Site](http://qanda.digipres.org/).
 

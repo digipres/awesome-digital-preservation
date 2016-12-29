@@ -1,5 +1,6 @@
 ---
 title: New Collaborative Resources for Digital Preservation
+permalink: /about/
 ---
 The Digital POWRR Project, in collaboration with the COPTR Consortium*, is pleased to announce version 2 of the Digital POWRR Tools Grid. The Grid helps practitioners find software tools to solve their digital preservation challenges.
 
