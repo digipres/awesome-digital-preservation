@@ -13,6 +13,7 @@ The Tools Grid can be found on a new domain for community owned digital preserva
 [http://www.digipres.org/](http://www.digipres.org/)
 
 Digipres highlights useful collaborative preservation resources from around the web as well as hosting these other collaborative services:
+
 * The COPTR tools registry
 * The Digital Preservation Question and Answer site
 * The File Formats aggregation service
@@ -21,6 +22,6 @@ Digipres Commons is community owned and run, so it needs your contributions to m
 
 [http://www.digipres.org/how_to_contribute_main.html](http://www.digipres.org/how_to_contribute_main.html)
 
-*The COPTR Consortium is: Aligning National Approaches to Digital Preservation (ANADP), The Open Preservation Foundation (OPF), The National Digital Stewardship Alliance (NDSA), The Digital Curation Centre (DCC), The Digital Curation Exchange (DCE) and the Digital POWRR Project.
+\* _The COPTR Consortium is: Aligning National Approaches to Digital Preservation (ANADP), The Open Preservation Foundation (OPF), The National Digital Stewardship Alliance (NDSA), The Digital Curation Centre (DCC), The Digital Curation Exchange (DCE) and the Digital POWRR Project._
 
 Digipres Commons is kindly hosted by the Open Preservation Foundation. Development of the POWRR Tool Grid was made possible by the Digital POWRR Project and the Northern Illinois University.
