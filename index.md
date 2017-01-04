@@ -88,6 +88,7 @@ Real data, real challenges and real requirements make your and others digital pr
 * Add your files to the [OPF Format Corpus](https://github.com/openpreserve/format-corpus)
 * Contribute to the [DP Requirements and Solutions wiki](http://wiki.opf-labs.org/display/REQ/Digital+Preservation+and+Data+Curation+Requirements+and+Solutions)
 * In order to improve our digital preservation capability, we need to be able to analyse and evaluate our work in an effective manner. For example, we need to be able to compare and contrast tools and approaches, and we need to see how changes over time affect performance. Practising what we preach in this field means sharing our data about digital preservation. [Share your digital preservation data using the Linked Data Simple Storage Specification](http://www.lds3.org/). [Dave Tarrant explains why this is a good idea](http://openpreservation.org/blogs/2012-08-29-years-registry-why-has-preservation-community-not-solved-problem-well-managed-and).
+* See also [Where are the Born-Digital Archives Test Data Sets?](https://blogs.loc.gov/thesignal/2014/03/where-are-the-born-digital-archives-test-data-sets/)
 
 
 Test Corpora
