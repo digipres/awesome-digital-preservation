@@ -21,7 +21,12 @@ Save Digital Stuff Right Now
 
 Spotted digital data at risk, but don't know who can save it?
 
-* Save web pages via [Internet Archive Nominations](http://blog.archive.org/2013/10/25/fixing-broken-links/#save_page)
+* Save web pages via: 
+    * [Internet Archive Nominations](http://blog.archive.org/2013/10/25/fixing-broken-links/#save_page)
+    * [archive.is](http://archive.is/)
+    * [perma.cc](https://perma.cc/)
+    * [webcitation.org](http://webcitation.org/)
+    * [UK Web Archive Site Nomination](https://www.webarchive.org.uk/ukwa/info/nominate)
 * Alert the [Archive Team](http://archiveteam.org/), and [help them save digital stuff](http://archiveteam.org/index.php?title=Who_We_Are)
 
 
@@ -172,4 +177,8 @@ Identifying file formats is the bread and butter of digital preservation charact
 If you want to start to put this into practice you can identify file formats right now (with no installation or setup) using [FIDOO](http://www.techmaurice.com/fidoo/) or alternatively check out stand alone [file format identification tools](http://www.digipres.org/tools/by-function/#ingest:fileformatidentification).
 
 
+### Improving Characterisation/Metadata Extraction ###
 
+Deep file characterisation enables validation, identification of preservation risks and extraction of metadata. In developing a new characterisation capability, begin with thorough research to identify existing code to re-use or build on, develop a focused command line tool, then consider turning it into a JHOVE module.
+
+* Develop a new file characterisation capability and turn it into a [JHOVE module](http://jhove.openpreservation.org/documentation/dev-module/), or an [Apache Tika](https://tika.apache.org/) module.
