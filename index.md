@@ -40,6 +40,7 @@ Preserve Your Own Stuff
 * Understanding your costs can help to plan your preservation work more effectively. The [Curation Costs Exchange](http://www.curationexchange.org/) allows you to compare your costing data with that of many other organisations.
 * Learn about [Preserving digital Objects with Restricted Resources](http://digitalpowrr.niu.edu/)
 * Share your [challenges and solutions](http://wiki.opf-labs.org/display/REQ/Digital+Preservation+and+Data+Curation+Requirements+and+Solutions) with the community, and view the resulting record of digital preservation practice.
+* Learn how to [Authenticate, Manage, and Preserve Video](https://archiving.witness.org/) -- WITNESS trains activists to archive and preserve their video so that human rights abuses cannot be denied or forgotten over time.
 * Engage Stakeholders:
     * Visual examples of digital preservation challenges, such as graphic corruption, can be incredibly useful in communicating the digital preservation message. That's why we built the Atlas of Digital Damages [Gallery](http://www.flickr.com/groups/2121762@N23/) and [website](http://www.atlasofdigitaldamages.info). [Add an image of a digital preservation challenge, failed rendering, encoding damage, corrupt data, or visual evidence documenting to the Atlas of Digital Damages.](http://www.flickr.com/groups/2121762@N23/)
     * Use the [POWRR One Pagers](http://powrr-wiki.lib.niu.edu/index.php/One_Pagers_tailored_to_educate_different_professionals) to educate stakeholders about the issues.
@@ -74,6 +75,8 @@ Advance digital preservation by pooling our experience, sharing our war stories 
     * [Digital Cultural Heritage DC](https://www.meetup.com/Digital-Cultural-Heritage-DC/)
     * [Mid Michigan Digital Practitioners](https://midmichdp.wordpress.com/)
     * [XFR Collective: NYC-based media preservation membership organization preserving at-risk and obsolete audiovisual artwork by providing low-cost migration services](https://twitter.com/XFR_collective)
+* Collaborations (inc. groups that build things together):
+    * [Association of Moving Image Archivists (AMIA) Open Source Committee on GitHub](https://github.com/amiaopensource)
 * Conferences:
     * [PASIG](http://www.preservationandarchivingsig.org/)
     * [iPres](https://ipres-conference.org/)
@@ -153,6 +156,14 @@ Software tools give us the means the interrogate, manipulate, understand and ult
 * Contributing to the development and improvement of tools is easy, even if you're not technical. Check out [this guide to making small documentation edits, or raising issues on Github](http://ablwr.github.io/blog/2014/11/03/non-technical-persons-guide-to-becoming-an-open-source-software-contributor-via-github/).
 * Digital preservation needs high-quality tools, but to get high-quality tools, we need <a href="#test-corpora">rich and varied test corpora to stretch those tools to their limits</a>.
 
+
+Building Workflows
+------------------
+
+Resources to help build up preservation workflows, e.g. templates for how to use command-line tools, and how to chain things together.
+
+* [ffmprovisr 'Making FFmpeg Easier'](http://amiaopensource.github.io/ffmprovisr/) (example of how to use `ffmpeg` to perform specific tasks)
+* [AMIA Open Source: List of open workflows for A/V resources](https://github.com/amiaopensource/open-workflows)
 
 Understanding Formats
 ---------------------
