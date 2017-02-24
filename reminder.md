@@ -8,6 +8,8 @@ This page just holds the template for a 'reminder' email, which we will send e.g
 
 ----
 
+Subject: Digital Preservation Community Resources: Request for feedback and call for contributions
+
 Calling All Digital Preservers!
 
 The digital preservation community is small and under resourced. This means we have to work together if we want to make a real impact. To this end, a small group of us has been attempting to help the members of the digital preservation community better support each other. The results of this include:
@@ -20,12 +22,12 @@ The digital preservation community is small and under resourced. This means we h
 
 If, like us, you believe we all need to work together, we'd love to hear from you....
 
-* What have we missed from the front-page list? 
-* Can you answer any of [the unanswered questions](http://qanda.digipres.org/unanswered)?
-* Can you contribute to the COPTR wiki?
+* What have we missed from the [front-page list](http://www.digipres.org)? 
+* Can you answer any of [the unanswered DigiPres questions](http://qanda.digipres.org/unanswered)?
+* Can you contribute to the [COPTR wiki](http://coptr.digipres.org/)?
 * Are these resources useful? Should we change our approach?
 
-The last one is really important. We've been in digital preservation long enough to see a lot of portals and projects come and go, and we recognise that making it possible to build on past work sometimes requires changing the foundations.
+The last one is really important. We've been in digital preservation long enough to see a lot of portals and projects come and go, and we recognise that making it possible to build on past work sometimes requires changing what we've built so far.
 
 Please get in touch if you have any questions. You could talk to us directly, or use the [digipres community forum](https://groups.google.com/forum/#!forum/digipres) we set up for this purpose. We're happy to hear any and all ideas and criticisms!
 
