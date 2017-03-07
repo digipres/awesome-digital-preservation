@@ -60,7 +60,7 @@ Advance digital preservation by pooling our experience, sharing our war stories 
    * [Ask and answer digital preservation questions](http://qanda.digipres.org)
    * We tried to run a Digital Presevation Stack Exchange, but it didn't work out. The [content is available here](http://anjackson.net/zombse/)
 * Forums
-    * Discussion [forums](https://groups.google.com/forum/forum/digital-curation) and active [blogs](http://openpreservation.org/knowledge/blogs/) provide the opportunity to share informal advice and war stories, get recommendations and discuss the finer points of digital preservation. By sharing both your intentions for digital preservation work and your results, you can [ensure your work benefits from a wealth of community experience](http://openpreservation.org/blogs/2012-05-17-do-others-share-your-digital-preservation-challenges-and-know-about-best-solutions).
+    * Discussion [forums](https://groups.google.com/forum/#!forum/digital-curation) and active [blogs](http://dpconline.org/blog) provide the opportunity to share informal advice and war stories, get recommendations and discuss the finer points of digital preservation. By sharing both your intentions for digital preservation work and your results, you can [ensure your work benefits from a wealth of community experience](http://openpreservation.org/blogs/2012-05-17-do-others-share-your-digital-preservation-challenges-and-know-about-best-solutions).
     * Discuss preservation issues on the [Digital Curation](https://groups.google.com/forum/forum/digital-curation) forum
     * Share war stories on [OPF](http://openpreservation.org/knowledge/blogs/) blogs
     * Twitter - Use these lists to find people to follow:
@@ -80,7 +80,12 @@ Advance digital preservation by pooling our experience, sharing our war stories 
 * Conferences:
     * [PASIG](http://www.preservationandarchivingsig.org/)
     * [iPres](https://ipres-conference.org/)
-
+* Membership organisations:
+    * [DPC](http://dpconline.org/) (International)
+    * [OPF](http://openpreservation.org/) (International)
+    * [NCDD](http://www.ncdd.nl/) (Netherlands)
+    * [NDSA](http://ndsa.org/) (USA)
+    * [NESTOR](http://www.langzeitarchivierung.de/Subsites/nestor/EN/Home/home_node.html) (Germany)
 
 Real Data and Requirements
 ==========================
@@ -127,6 +132,7 @@ Note that OPF also has it's own [corpora page](http://openpreservation.org/techn
 * PDF:
     * [Adobe Acrobat Engineering](http://acroeng.adobe.com/wp/) site has lots of useful [test documents](http://acroeng.adobe.com/wp/?page_id=10).
     * [Isartor PDF/A Test Suite](http://www.pdfa.org/2011/08/isartor-test-suite/)
+    * [veraPDF Corpus](https://github.com/veraPDF/veraPDF-corpus) for PDF/A
 * ePub:
     * [The IDPF ePub test suite](https://github.com/IDPF/epub-testsuite)
     * [KBNLresearch/epubPolicyTests](https://github.com/KBNLresearch/epubPolicyTests) - Some #epub samples with encryption, DTBook content and foreign resources, with corresponding #epubcheck output.
@@ -144,6 +150,9 @@ Note that OPF also has it's own [corpora page](http://openpreservation.org/techn
 
 If the existing corpora aren't cutting it, perhaps you can contribute to the [OPF Format Corpus](http://openpreservation.org/technology/corpora/opf-format-corpus/) ([hosted on GitHub](https://github.com/openpreserve/format-corpus)). There's a [guide here on how to contribute](http://wiki.curatecamp.org/index.php/Collecting_format_ID_test_files) or you can [contact OPF](http://openpreservation.org/about/contact/) for help on how to get involved.
 
+### Sourcing test files from web archives ###
+
+Web archives can provide a useful source of files of particular formats. For example, [search via the UKWA interface](https://www.webarchive.org.uk/shine/search?page=1&invert=&facet.fields=crawl_year&invert=&invert=&facet.fields=public_suffix&invert=&invert=&invert=&invert=&invert=&query=content_type%3A%22application%2Fmbox%22&totalCount=totalCount&order=asc).
 
 Tools
 -----
