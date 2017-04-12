@@ -13,6 +13,7 @@ hide-title: true
   <li {% if page.tool_id == "fdd" %} class="active"{% endif %}><a href="{{ site.baseurl }}/formats/sources/fdd/">LC FDD</a></li>
   <li {% if page.tool_id == "pronom" %} class="active"{% endif %}><a href="{{ site.baseurl }}/formats/sources/pronom/">PRONOM</a></li>
   <li {% if page.tool_id == "trid" %} class="active"{% endif %}><a href="{{ site.baseurl }}/formats/sources/trid/">TRiD</a></li>
+  <li {% if page.tool_id == "githublinguist" %} class="active"{% endif %}><a href="{{ site.baseurl }}/formats/sources/githublinguist/">Github Linguist</a></li>
 </ul>
   </div>
 
@@ -20,7 +21,7 @@ hide-title: true
 
 <h3>{{ page.title }} <small>{{ page.subtitle }}</small></h3>
 
-{% if page.tool_id != "overview" %}  
+{% if page.tool_id != "overview" %}
 <ul class="nav nav-tabs" role="tablist">
   <li{% if page.selected == "index" %} class="active"{% endif %}><a href="{{ site.baseurl }}/formats/sources/{{ page.tool_id }}/">Overview</a></li>
   <li{% if page.selected == "formats" %} class="active"{% endif %}><a href="{{ site.baseurl }}/formats/sources/{{ page.tool_id }}/formats/">Formats ({{ site.data.formats[page.tool_id]["formats"].size }})</a></li>
@@ -128,6 +129,23 @@ var data = {
             {{ site.data.formats['trid']['stats']['total_w_magic'] }},
             {{ site.data.formats['trid']['stats']['total_w_mime'] }}
             ]
+        },
+{% endif %}
+{% if page.tool_id == 'overview' or page.tool_id == 'githublinguist' %}
+        {
+            label: "Github Linguist",
+            fillColor: "rgba(220,0,220,0.2)",
+            strokeColor: "rgba(220,0,220,1)",
+            pointColor: "rgba(220,0,220,1)",
+            pointStrokeColor: "rgba(220,0,220,0.2)",
+            pointHighlightFill: "#fff",
+            pointHighlightStroke: "rgba(220,0,220,1)",
+            data: [
+            {{ site.data.formats['githublinguist']['stats']['total_formats'] }},
+            {{ site.data.formats['githublinguist']['stats']['total_w_glob'] }},
+            {{ site.data.formats['githublinguist']['stats']['total_w_magic'] }},
+            {{ site.data.formats['githublinguist']['stats']['total_w_mime'] }}
+            ]
         }
 {% endif %}
     ]
@@ -135,7 +153,7 @@ var data = {
 
 // Get the context of the canvas element we want to select
 var ctx = document.getElementById("radarChart").getContext("2d");
-var myRadarChart = new Chart(ctx).Radar(data, { 
+var myRadarChart = new Chart(ctx).Radar(data, {
   animation: false,
   pointDotRadius : 2,
   pointDotStrokeWidth : 0,
@@ -146,7 +164,7 @@ var myRadarChart = new Chart(ctx).Radar(data, {
 });
 
 $("#radarChart").after( myRadarChart.generateLegend() );
-  
+
 </script>
 
 <style type="text/css">
@@ -156,7 +174,7 @@ $("#radarChart").after( myRadarChart.generateLegend() );
 ul.radar-legend {
   list-style-type: none;
 }
-ul.radar-legend li { 
+ul.radar-legend li {
   display: inline;
   margin-right: 1em;
   white-space: nowrap;
