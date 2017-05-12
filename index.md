@@ -42,7 +42,7 @@ Preserve Your Own Stuff
 * Share your [challenges and solutions](http://wiki.opf-labs.org/display/REQ/Digital+Preservation+and+Data+Curation+Requirements+and+Solutions) with the community, and view the resulting record of digital preservation practice.
 * Learn how to [Authenticate, Manage, and Preserve Video](https://archiving.witness.org/) -- WITNESS trains activists to archive and preserve their video so that human rights abuses cannot be denied or forgotten over time.
 * Engage Stakeholders:
-    * Visual examples of digital preservation challenges, such as graphic corruption, can be incredibly useful in communicating the digital preservation message. That's why we built the Atlas of Digital Damages [Gallery](http://www.flickr.com/groups/2121762@N23/) and [website](http://www.atlasofdigitaldamages.info). [Add an image of a digital preservation challenge, failed rendering, encoding damage, corrupt data, or visual evidence documenting to the Atlas of Digital Damages.](http://www.flickr.com/groups/2121762@N23/)
+    * Visual examples of digital preservation challenges, such as graphic corruption, can be incredibly useful in communicating the digital preservation message. That's why we built the Atlas of Digital Damages [Gallery](http://www.flickr.com/groups/2121762@N23/) and [website](http://www.atlasofdigitaldamages.info). [Add an image of a digital preservation challenge, failed rendering, encoding damage, corrupt data, or visual evidence documenting to the Atlas of Digital Damages.](http://www.flickr.com/groups/2121762@N23/)
     * Use the [POWRR One Pagers](http://powrr-wiki.lib.niu.edu/index.php/One_Pagers_tailored_to_educate_different_professionals) to educate stakeholders about the issues.
     * Working with your IT department (some responses arising from [this question on twitter](https://twitter.com/anjacks0n/status/809343452995522560):
       * Backup versus preservation: ["I had useful discussions about 'for the long-term' and what issues that might throw up as a starting point."](https://twitter.com/CriticalSteph/status/809365764549595136)
@@ -126,6 +126,7 @@ Note that OPF also has it's own [corpora page](http://openpreservation.org/techn
 * The [Metadata Working Group specifications](http://www.metadataworkinggroup.org/specs/) and [embedded image metadata test corpus](http://www.metadataworkinggroup.org/specs/test_files.html)
 * [Apache Tika issue about setting up a nightly test corpus](https://issues.apache.org/jira/browse/TIKA-1302), see also [tika-parsers/src/test/resources/test-documents](http://svn.apache.org/repos/asf/tika/trunk/tika-parsers/src/test/resources/test-documents/)
 * [The Chemical MIME Home Page](http://www.ch.ic.ac.uk/chemime/)
+* [Online-convert.com example files](http://www.online-convert.com/file-type) (use [this link to browse the folder structure](http://cdn.online-convert.com/example-file/))
 
 ### Format-specific Corpora ###
 
