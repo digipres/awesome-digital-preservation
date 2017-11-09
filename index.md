@@ -136,6 +136,7 @@ Note that OPF also has it's own [corpora page](http://openpreservation.org/techn
     * [Adobe Acrobat Engineering](http://acroeng.adobe.com/wp/) site has lots of useful [test documents](http://acroeng.adobe.com/wp/?page_id=10).
     * [Isartor PDF/A Test Suite](http://www.pdfa.org/2011/08/isartor-test-suite/)
     * [veraPDF Corpus](https://github.com/veraPDF/veraPDF-corpus) for PDF/A
+    * [Synthetic PDF Testset for File Format Validation](http://doi.org/10.22000/53) Test set for well formedness validation in JHOVE - see associated [paper](https://ipres2017.jp/wp-content/uploads/35Michelle-Lindlar.pdf)
 * ePub:
     * [The IDPF ePub test suite](https://github.com/IDPF/epub-testsuite)
     * [KBNLresearch/epubPolicyTests](https://github.com/KBNLresearch/epubPolicyTests) - Some #epub samples with encryption, DTBook content and foreign resources, with corresponding #epubcheck output.
