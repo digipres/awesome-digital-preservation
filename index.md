@@ -129,6 +129,7 @@ Note that OPF also has it's own [corpora page](http://openpreservation.org/techn
 * [Online-convert.com example files](http://www.online-convert.com/file-type) (use [this link to browse the folder structure](http://cdn.online-convert.com/example-file/))
 * [RDSS Archivematica Test Data Corpus](https://github.com/artefactual-labs/rdss-archivematica-test-data-corpus) A collection of research dataset files used for testing Archivematica integration and functionality in the JISC Research Data Shared Service (RDSS).
 * [Archivematica Sample Data](https://github.com/artefactual/archivematica-sampledata) Includes OPF format corpus, as well as other test material
+* [ExifTool test files](https://sourceforge.net/p/exiftool/code/ci/master/tree/t/images/)
 
 ### Format-specific Corpora ###
 
