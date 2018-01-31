@@ -127,6 +127,8 @@ Note that OPF also has it's own [corpora page](http://openpreservation.org/techn
 * [Apache Tika issue about setting up a nightly test corpus](https://issues.apache.org/jira/browse/TIKA-1302), see also [tika-parsers/src/test/resources/test-documents](http://svn.apache.org/repos/asf/tika/trunk/tika-parsers/src/test/resources/test-documents/)
 * [The Chemical MIME Home Page](http://www.ch.ic.ac.uk/chemime/)
 * [Online-convert.com example files](http://www.online-convert.com/file-type) (use [this link to browse the folder structure](http://cdn.online-convert.com/example-file/))
+* [RDSS Archivematica Test Data Corpus](https://github.com/artefactual-labs/rdss-archivematica-test-data-corpus) A collection of research dataset files used for testing Archivematica integration and functionality in the JISC Research Data Shared Service (RDSS).
+* [Archivematica Sample Data](https://github.com/artefactual/archivematica-sampledata) Includes OPF format corpus, as well as other test material
 
 ### Format-specific Corpora ###
 
@@ -134,6 +136,7 @@ Note that OPF also has it's own [corpora page](http://openpreservation.org/techn
     * [Adobe Acrobat Engineering](http://acroeng.adobe.com/wp/) site has lots of useful [test documents](http://acroeng.adobe.com/wp/?page_id=10).
     * [Isartor PDF/A Test Suite](http://www.pdfa.org/2011/08/isartor-test-suite/)
     * [veraPDF Corpus](https://github.com/veraPDF/veraPDF-corpus) for PDF/A
+    * [Synthetic PDF Testset for File Format Validation](http://doi.org/10.22000/53) Test set for well formedness validation in JHOVE - see associated [paper](https://ipres2017.jp/wp-content/uploads/35Michelle-Lindlar.pdf)
 * ePub:
     * [The IDPF ePub test suite](https://github.com/IDPF/epub-testsuite)
     * [KBNLresearch/epubPolicyTests](https://github.com/KBNLresearch/epubPolicyTests) - Some #epub samples with encryption, DTBook content and foreign resources, with corresponding #epubcheck output.
