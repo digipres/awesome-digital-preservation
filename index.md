@@ -64,7 +64,7 @@ Advance digital preservation by pooling our experience, sharing our war stories 
     * Discuss preservation issues on the [Digital Curation](https://groups.google.com/forum/forum/digital-curation) forum
     * Share war stories on [OPF](http://openpreservation.org/knowledge/blogs/) blogs
     * Twitter - Use these lists to find people to follow:
-        * <https://twitter.com/DavidUnderdown9/lists/digipres>
+        * <https://twitter.com/DavidUnderdown9/lists/digipres1>
         * <https://twitter.com/An_Old_Hand/lists/digi-pres-rdm>
         * <https://twitter.com/digipresnews/followers>
         * <https://twitter.com/NKrabben/lists>
