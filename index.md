@@ -130,6 +130,9 @@ Note that OPF also has it's own [corpora page](http://openpreservation.org/techn
 * [RDSS Archivematica Test Data Corpus](https://github.com/artefactual-labs/rdss-archivematica-test-data-corpus) A collection of research dataset files used for testing Archivematica integration and functionality in the JISC Research Data Shared Service (RDSS).
 * [Archivematica Sample Data](https://github.com/artefactual/archivematica-sampledata) Includes OPF format corpus, as well as other test material
 * [ExifTool test files](https://sourceforge.net/p/exiftool/code/ci/master/tree/t/images/)
+* [PREFORMA Ground Truth Classes](https://github.com/preforma/groundtruth) Instructions how to reproduce validation-failing files for Matroska, FFV1, LPCM, TIFF, and PDF formats
+* ["Small"](https://github.com/mathiasbynens/small) Collection of "the smallest possible syntactically valid files in different programming/scripting/markup languages."
+* [MediaArea-RegressionTestingFiles](https://github.com/MediaArea/MediaArea-RegressionTestingFiles) Public regression testing files for MediaArea. Contains AVI, FLV, MPEG Audio, MOV, MPEG-4, MPEG-PS, and Matroska files.
 
 ### Format-specific Corpora ###
 
