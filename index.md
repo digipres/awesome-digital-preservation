@@ -63,6 +63,11 @@ Advance digital preservation by pooling our experience, sharing our war stories 
     * Discussion [forums](https://groups.google.com/forum/#!forum/digital-curation) and active [blogs](http://dpconline.org/blog) provide the opportunity to share informal advice and war stories, get recommendations and discuss the finer points of digital preservation. By sharing both your intentions for digital preservation work and your results, you can [ensure your work benefits from a wealth of community experience](http://openpreservation.org/blogs/2012-05-17-do-others-share-your-digital-preservation-challenges-and-know-about-best-solutions).
     * Discuss preservation issues on the [Digital Curation](https://groups.google.com/forum/forum/digital-curation) forum
     * Share war stories on [OPF](http://openpreservation.org/knowledge/blogs/) blogs
+    * Mastodon - Join these federations with a digital preservation or general GLAM focus:
+         * <https://digipres.club>
+         * <https://glammr.us>
+         * <https://ausglam.space>
+         * <https://code4lib.social>
     * Twitter - Use these lists to find people to follow:
         * <https://twitter.com/DavidUnderdown9/lists/digipres1>
         * <https://twitter.com/An_Old_Hand/lists/digi-pres-rdm>
