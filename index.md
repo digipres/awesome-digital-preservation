@@ -131,7 +131,7 @@ Note that OPF also has it's own [corpora page](http://openpreservation.org/techn
 * The [Metadata Working Group specifications](http://www.metadataworkinggroup.org/specs/) and [embedded image metadata test corpus](http://www.metadataworkinggroup.org/specs/test_files.html)
 * [Apache Tika issue about setting up a nightly test corpus](https://issues.apache.org/jira/browse/TIKA-1302), see also [tika-parsers/src/test/resources/test-documents](http://svn.apache.org/repos/asf/tika/trunk/tika-parsers/src/test/resources/test-documents/)
 * [The Chemical MIME Home Page](http://www.ch.ic.ac.uk/chemime/)
-* [Online-convert.com example files](http://www.online-convert.com/file-type) (use [this link to browse the folder structure](http://cdn.online-convert.com/example-file/))
+* [Online-convert.com example files](http://www.online-convert.com/file-type) (use [this link to browse the folder structure](https://example-files.online-convert.com/))
 * [RDSS Archivematica Test Data Corpus](https://github.com/artefactual-labs/rdss-archivematica-test-data-corpus) A collection of research dataset files used for testing Archivematica integration and functionality in the JISC Research Data Shared Service (RDSS).
 * [Archivematica Sample Data](https://github.com/artefactual/archivematica-sampledata) Includes OPF format corpus, as well as other test material
 * [ExifTool test files](https://sourceforge.net/p/exiftool/code/ci/master/tree/t/images/)
