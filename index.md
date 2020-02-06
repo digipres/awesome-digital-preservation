@@ -123,6 +123,7 @@ Note that OPF also has it's own [corpora page](http://openpreservation.org/techn
 * [Digital Corpora's](http://digitalcorpora.org/) [corpora](http://digitalcorpora.org/corpora/)
     * Including [govdocs1](http://digitalcorpora.org/corpora/govdocs), also described [here](http://openpreservation.org/technology/corpora/govdocs/)
     * OPF have also created a [by-format subset of govdocs1](http://openpreservation.org/technology/corpora/govdocs-selected/), which you can read more about [here](openpreservation.org/technology/corpora/govdocs-selected/)
+* [digicam corpus](https://github.com/thorsted/digicam_corpus) contains a corpus of Digital Camera files collected by Tyler Thorsted
 * [The Skeleton Test Suite](https://github.com/exponential-decay/skeleton-test-suite) builds test files from PRONOM binary and container signatures. These can be used to test DROID and other (compatible) identification tools.
 * [Fine Free File Test Suite](https://fedorahosted.org/file-tests/) set up for Fedora testing
 * [JHOVE's test files](http://jhove.cvs.sourceforge.net/viewvc/jhove/jhove/examples/)
