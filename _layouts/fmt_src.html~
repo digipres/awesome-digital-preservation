@@ -147,7 +147,7 @@ var data = {
             {{ site.data.formats['githublinguist']['stats']['total_w_magic'] }},
             {{ site.data.formats['githublinguist']['stats']['total_w_mime'] }}
             ]
-        }
+        },
 {% endif %}
 {% if page.tool_id == 'overview' or page.tool_id == 'wikidata' %}
         {
