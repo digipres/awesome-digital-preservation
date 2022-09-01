@@ -48,6 +48,8 @@
 <a href="http://fileformats.archiveteam.org/wiki/{{ fmt[1]["source"] }}">{{ fmt[1]["name"] }}</a>
 {% elsif page.tool_id == "githublinguist" %}
 <a href="https://github.com/digipres/digipres.github.io/blob/master/_sources/registries/githublinguist/{{ fmt[1]["source"] }}">{{ fmt[1]["source"] }}</a>
+{% elsif page.tool_id == "wikidata" %}
+<a href="{{ fmt[1]["id"] }}">{{ fmt[1]["id"] }}</a>
 {% else %}
 <a href="{{ fmt[1]["source"] }}">{{ fmt[1]["source"] }}</a>
 {% endif %}
