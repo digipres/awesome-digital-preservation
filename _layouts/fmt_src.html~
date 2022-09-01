@@ -1,0 +1,228 @@
+---
+layout: default
+hide-title: true
+---
+
+<div class="row">
+  <div class="col-xs-12 col-sm-2 col-md-2">
+
+<ul class="nav nav-pills nav-stacked">
+  <li {% if page.tool_id == "overview" %} class="active"{% endif %}><a href="{{ site.baseurl }}/formats/">Overview</a></li>
+  <li {% if page.tool_id == "tika" %} class="active"{% endif %}><a href="{{ site.baseurl }}/formats/sources/tika/">Apache Tika</a></li>
+  <li {% if page.tool_id == "ffw" %} class="active"{% endif %}><a href="{{ site.baseurl }}/formats/sources/ffw/">File Formats Wiki</a></li>
+  <li {% if page.tool_id == "fdd" %} class="active"{% endif %}><a href="{{ site.baseurl }}/formats/sources/fdd/">LC FDD</a></li>
+  <li {% if page.tool_id == "pronom" %} class="active"{% endif %}><a href="{{ site.baseurl }}/formats/sources/pronom/">PRONOM</a></li>
+  <li {% if page.tool_id == "trid" %} class="active"{% endif %}><a href="{{ site.baseurl }}/formats/sources/trid/">TRiD</a></li>
+  <li {% if page.tool_id == "githublinguist" %} class="active"{% endif %}><a href="{{ site.baseurl }}/formats/sources/githublinguist/">Github Linguist</a></li>
+  <li {% if page.tool_id == "wikidata" %} class="active"{% endif %}><a href="{{ site.baseurl }}/formats/sources/wikidata/">WikiData</a></li>
+</ul>
+  </div>
+
+  <div class="col-xs-12 col-sm-10 col-md-10">
+
+<h3>{{ page.title }} <small>{{ page.subtitle }}</small></h3>
+
+{% if page.tool_id != "overview" %}
+<ul class="nav nav-tabs" role="tablist">
+  <li{% if page.selected == "index" %} class="active"{% endif %}><a href="{{ site.baseurl }}/formats/sources/{{ page.tool_id }}/">Overview</a></li>
+  <li{% if page.selected == "formats" %} class="active"{% endif %}><a href="{{ site.baseurl }}/formats/sources/{{ page.tool_id }}/formats/">Formats ({{ site.data.formats[page.tool_id]["formats"].size }})</a></li>
+  <li{% if page.selected == "issues" %} class="active"{% endif %}><a href="{{ site.baseurl }}/formats/sources/{{ page.tool_id }}/issues/">Issues ({{ site.data.formats[page.tool_id]['stats']['total_warnings'] }})</a></li>
+</ul>
+{% endif %}
+
+{% if page.selected == "index" %}
+<div class="row">
+  <div class="col-xs-12 col-sm-6 col-md-6">
+
+  <h3>Format Stats</h3>
+
+<script src="{{ site.baseurl }}/assets/js/Chart.min.js"></script>
+
+<div style="text-align: center">
+<canvas id="radarChart" width="600" height="400"></canvas>
+</div>
+
+<script type="text/javascript">
+
+var data = {
+    labels: ["Formats", "*.ext", "Magic", "MIME"],
+    datasets: [
+{% if page.tool_id == 'overview' or page.tool_id == 'tika' %}
+        {
+            label: "Apache Tika",
+            fillColor: "rgba(220,220,0,0.2)",
+            strokeColor: "rgba(220,220,0,1)",
+            pointColor: "rgba(220,220,0,1)",
+            pointStrokeColor: "rgba(220,220,0,0.2)",
+            pointHighlightFill: "#fff",
+            pointHighlightStroke: "rgba(220,220,0,1)",
+            data: [
+            {{ site.data.formats['tika']['stats']['total_formats'] }},
+            {{ site.data.formats['tika']['stats']['total_w_glob'] }},
+            {{ site.data.formats['tika']['stats']['total_w_magic'] }},
+            {{ site.data.formats['tika']['stats']['total_w_mime'] }}
+            ]
+        },
+{% endif %}
+{% if page.tool_id == 'overview' or page.tool_id == 'ffw' %}
+        {
+            label: "File Formats Wiki",
+            fillColor: "rgba(0,220,0,0.2)",
+            strokeColor: "rgba(0,220,0,1)",
+            pointColor: "rgba(0,220,0,1)",
+            pointStrokeColor: "rgba(0,220,0,0.2)",
+            pointHighlightFill: "#fff",
+            pointHighlightStroke: "rgba(0,220,0,1)",
+            data: [
+            {{ site.data.formats['ffw']['stats']['total_formats'] }},
+            {{ site.data.formats['ffw']['stats']['total_w_glob'] }},
+            {{ site.data.formats['ffw']['stats']['total_w_magic'] }},
+            {{ site.data.formats['ffw']['stats']['total_w_mime'] }}
+            ]
+        },
+{% endif %}
+{% if page.tool_id == 'overview' or page.tool_id == 'fdd' %}
+        {
+            label: "LC FDD",
+            fillColor: "rgba(220,0,0,0.2)",
+            strokeColor: "rgba(220,0,0,1)",
+            pointColor: "rgba(220,0,0,1)",
+            pointStrokeColor: "rgba(220,0,0,0.2)",
+            pointHighlightFill: "#fff",
+            pointHighlightStroke: "rgba(220,0,0,1)",
+            data: [
+            {{ site.data.formats['fdd']['stats']['total_formats'] }},
+            {{ site.data.formats['fdd']['stats']['total_w_glob'] }},
+            {{ site.data.formats['fdd']['stats']['total_w_magic'] }},
+            {{ site.data.formats['fdd']['stats']['total_w_mime'] }}
+            ]
+        },
+{% endif %}
+{% if page.tool_id == 'overview' or page.tool_id == 'pronom' %}
+        {
+            label: "PRONOM",
+            fillColor: "rgba(151,187,205,0.2)",
+            strokeColor: "rgba(151,187,205,1)",
+            pointColor: "rgba(151,187,205,1)",
+            pointStrokeColor: "rgba(151,187,205,0.2)",
+            pointHighlightFill: "#fff",
+            pointHighlightStroke: "rgba(151,187,205,1)",
+            data: [
+            {{ site.data.formats['pronom']['stats']['total_formats'] }},
+            {{ site.data.formats['pronom']['stats']['total_w_glob'] }},
+            {{ site.data.formats['pronom']['stats']['total_w_magic'] }},
+            {{ site.data.formats['pronom']['stats']['total_w_mime'] }}
+            ]
+        },
+{% endif %}
+{% if page.tool_id == 'overview' or page.tool_id == 'trid' %}
+        {
+            label: "TRiD",
+            fillColor: "rgba(220,220,220,0.2)",
+            strokeColor: "rgba(220,220,220,1)",
+            pointColor: "rgba(220,220,220,1)",
+            pointStrokeColor: "rgba(220,220,220,0.2)",
+            pointHighlightFill: "#fff",
+            pointHighlightStroke: "rgba(220,220,220,1)",
+            data: [
+            {{ site.data.formats['trid']['stats']['total_formats'] }},
+            {{ site.data.formats['trid']['stats']['total_w_glob'] }},
+            {{ site.data.formats['trid']['stats']['total_w_magic'] }},
+            {{ site.data.formats['trid']['stats']['total_w_mime'] }}
+            ]
+        },
+{% endif %}
+{% if page.tool_id == 'overview' or page.tool_id == 'githublinguist' %}
+        {
+            label: "Github Linguist",
+            fillColor: "rgba(220,0,220,0.2)",
+            strokeColor: "rgba(220,0,220,1)",
+            pointColor: "rgba(220,0,220,1)",
+            pointStrokeColor: "rgba(220,0,220,0.2)",
+            pointHighlightFill: "#fff",
+            pointHighlightStroke: "rgba(220,0,220,1)",
+            data: [
+            {{ site.data.formats['githublinguist']['stats']['total_formats'] }},
+            {{ site.data.formats['githublinguist']['stats']['total_w_glob'] }},
+            {{ site.data.formats['githublinguist']['stats']['total_w_magic'] }},
+            {{ site.data.formats['githublinguist']['stats']['total_w_mime'] }}
+            ]
+        }
+{% endif %}
+{% if page.tool_id == 'overview' or page.tool_id == 'wikidata' %}
+        {
+            label: "WikiData",
+            fillColor: "rgba(220,0,220,0.2)",
+            strokeColor: "rgba(220,0,220,1)",
+            pointColor: "rgba(220,0,220,1)",
+            pointStrokeColor: "rgba(220,0,220,0.2)",
+            pointHighlightFill: "#fff",
+            pointHighlightStroke: "rgba(220,0,220,1)",
+            data: [
+            {{ site.data.formats['wikidata']['stats']['total_formats'] }},
+            {{ site.data.formats['wikidata']['stats']['total_w_glob'] }},
+            {{ site.data.formats['wikidata']['stats']['total_w_magic'] }},
+            {{ site.data.formats['wikidata']['stats']['total_w_mime'] }}
+            ]
+        }
+{% endif %}
+    ]
+};
+
+// Get the context of the canvas element we want to select
+var ctx = document.getElementById("radarChart").getContext("2d");
+var myRadarChart = new Chart(ctx).Radar(data, {
+  animation: false,
+  pointDotRadius : 2,
+  pointDotStrokeWidth : 0,
+  datasetStrokeWidth : 0,
+  responsive: true,
+  pointLabelFontSize: 14,
+  multiTooltipTemplate: "<%= value %> (<%= datasetLabel %>)"
+});
+
+$("#radarChart").after( myRadarChart.generateLegend() );
+
+</script>
+
+<style type="text/css">
+#radarChart {
+  margin: 1em;
+}
+ul.radar-legend {
+  list-style-type: none;
+}
+ul.radar-legend li {
+  display: inline;
+  margin-right: 1em;
+  white-space: nowrap;
+}
+ul.radar-legend li span {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.4em;
+}
+</style>
+
+<p>
+</p>
+
+  </div>
+  <div class="col-xs-12 col-sm-6 col-md-6">
+
+{{ content }}
+
+  &nbsp;
+  </div>
+</div>
+{% else %}
+<div class="row">
+  <div class="col-xs-12 col-sm-12 col-md-12">
+  {{ content }}
+  </div>
+</div>
+{% endif %}
+
+  </div>
+</div>
