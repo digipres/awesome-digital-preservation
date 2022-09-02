@@ -4,6 +4,6 @@ While processing this data source, {{ site.data.formats[page.tool_id]['stats']['
 </p>
 <ul>
 {% for message in site.data.formats[page.tool_id]['warnings'] %}
-<li>{{ message }}</li>
+<li>{{ message | xml_escape }}</li>
 {% endfor %}
 </ul>
