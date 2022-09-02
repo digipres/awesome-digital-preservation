@@ -58,9 +58,9 @@ var data = {
             pointHighlightStroke: "rgba(220,220,0,1)",
             data: [
             {{ site.data.formats['tika']['stats']['total_formats'] }},
-            {{ site.data.formats['tika']['stats']['total_w_glob'] }},
+            {{ site.data.formats['tika']['stats']['total_unique_extensions'] }},
             {{ site.data.formats['tika']['stats']['total_w_magic'] }},
-            {{ site.data.formats['tika']['stats']['total_w_mime'] }}
+            {{ site.data.formats['tika']['stats']['total_unique_mimetypes'] }}
             ]
         },
 {% endif %}
@@ -75,9 +75,9 @@ var data = {
             pointHighlightStroke: "rgba(0,220,0,1)",
             data: [
             {{ site.data.formats['ffw']['stats']['total_formats'] }},
-            {{ site.data.formats['ffw']['stats']['total_w_glob'] }},
+            {{ site.data.formats['ffw']['stats']['total_unique_extensions'] }},
             {{ site.data.formats['ffw']['stats']['total_w_magic'] }},
-            {{ site.data.formats['ffw']['stats']['total_w_mime'] }}
+            {{ site.data.formats['ffw']['stats']['total_unique_mimetypes'] }}
             ]
         },
 {% endif %}
@@ -92,9 +92,9 @@ var data = {
             pointHighlightStroke: "rgba(220,0,0,1)",
             data: [
             {{ site.data.formats['fdd']['stats']['total_formats'] }},
-            {{ site.data.formats['fdd']['stats']['total_w_glob'] }},
+            {{ site.data.formats['fdd']['stats']['total_unique_extensions'] }},
             {{ site.data.formats['fdd']['stats']['total_w_magic'] }},
-            {{ site.data.formats['fdd']['stats']['total_w_mime'] }}
+            {{ site.data.formats['fdd']['stats']['total_unique_mimetypes'] }}
             ]
         },
 {% endif %}
@@ -109,9 +109,9 @@ var data = {
             pointHighlightStroke: "rgba(151,187,205,1)",
             data: [
             {{ site.data.formats['pronom']['stats']['total_formats'] }},
-            {{ site.data.formats['pronom']['stats']['total_w_glob'] }},
+            {{ site.data.formats['pronom']['stats']['total_unique_extensions'] }},
             {{ site.data.formats['pronom']['stats']['total_w_magic'] }},
-            {{ site.data.formats['pronom']['stats']['total_w_mime'] }}
+            {{ site.data.formats['pronom']['stats']['total_unique_mimetypes'] }}
             ]
         },
 {% endif %}
@@ -126,9 +126,9 @@ var data = {
             pointHighlightStroke: "rgba(220,220,220,1)",
             data: [
             {{ site.data.formats['trid']['stats']['total_formats'] }},
-            {{ site.data.formats['trid']['stats']['total_w_glob'] }},
+            {{ site.data.formats['trid']['stats']['total_unique_extensions'] }},
             {{ site.data.formats['trid']['stats']['total_w_magic'] }},
-            {{ site.data.formats['trid']['stats']['total_w_mime'] }}
+            {{ site.data.formats['trid']['stats']['total_unique_mimetypes'] }}
             ]
         },
 {% endif %}
@@ -143,9 +143,9 @@ var data = {
             pointHighlightStroke: "rgba(220,0,220,1)",
             data: [
             {{ site.data.formats['githublinguist']['stats']['total_formats'] }},
-            {{ site.data.formats['githublinguist']['stats']['total_w_glob'] }},
+            {{ site.data.formats['githublinguist']['stats']['total_unique_extensions'] }},
             {{ site.data.formats['githublinguist']['stats']['total_w_magic'] }},
-            {{ site.data.formats['githublinguist']['stats']['total_w_mime'] }}
+            {{ site.data.formats['githublinguist']['stats']['total_unique_mimetypes'] }}
             ]
         },
 {% endif %}
@@ -160,9 +160,9 @@ var data = {
             pointHighlightStroke: "rgba(63,136,143,1)",
             data: [
             {{ site.data.formats['wikidata']['stats']['total_formats'] }},
-            {{ site.data.formats['wikidata']['stats']['total_w_glob'] }},
+            {{ site.data.formats['wikidata']['stats']['total_unique_extensions'] }},
             {{ site.data.formats['wikidata']['stats']['total_w_magic'] }},
-            {{ site.data.formats['wikidata']['stats']['total_w_mime'] }}
+            {{ site.data.formats['wikidata']['stats']['total_unique_mimetypes'] }}
             ]
         }
 {% endif %}
