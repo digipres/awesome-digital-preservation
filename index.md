@@ -113,7 +113,7 @@ Note that OPF also has it's own [corpora page](http://openpreservation.org/techn
 
 ### Multi-format Corpora ###
 
-* The [OPF Format Corpus](http://openpreservation.org/technology/corpora/opf-format-corpus/) (format report [here](http://opf-labs.org/format-corpus/tools/coverage/reports/))
+* The [OPF Format Corpus](https://github.com/openpreserve/format-corpus)
 * The [iPres System Showcase Test Suite](http://www.webarchive.org.uk/datasets/ipres.ds.1/)
 * The [Encyclopedia of Graphics File Formats Companion CD-ROM](https://archive.org/details/EncyclopediaOfGraphicsFileFormatsCompanionCd-rom) contains lots of test files for image formats:
     * [EGFF ISO Image](https://archive.org/download/EncyclopediaOfGraphicsFileFormatsCompanionCd-rom/GFF_CD.ISO)
