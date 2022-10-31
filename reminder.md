@@ -4,13 +4,14 @@ This page just holds the template for a reminder email, which we will send e.g. 
 
 ----
 
-Subject: Digital Preservation Community Resources: Request for feedback and call for contributions
+__Subject:__ Digital Preservation Community Resources: Request for feedback and call for contributions
 
 Calling All Digital Preservers!
 
 The digital preservation community is small and under resourced. This means we have to work together if we want to make a real impact. To this end, a small group of us have been attempting to help the members of the digital preservation community better support each other. The results of this include:
 
 * The <http://www.digipres.org> site, which  aims to provide a gateway to all of the wonderful community-owned and community-oriented resources out there that are dedicated to digital preservation.
+* The _Digital Preservation Awesome List_ <https://github.com/digipres/awesome-digital-preservation#readme>, aiming to be a comprehensive index of software and resources to help preserve digital content.
 * The Digital Preservation Q&A site (<http://qanda.digipres.org/>), which is a Q&A site set up in the wake of the failure of the efforts to set up suitable Stack Exchange sites for our field.
 * The COPTR Tool Registry (<http://coptr.digipres.org>), which was formed by the merger of many of the previous tool registry efforts, and which seeks to be a primary reference for those working in practical digital preservation.
 * The POWRR Tool Grid (<https://coptr.digipres.org/index.php/Tools_Grid>), which is generated from COPTR registry.
