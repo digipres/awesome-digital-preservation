@@ -2,11 +2,11 @@
 
 > Carefully curated list of awesome digital preservation resources.
 
-This [Awesome List](https://github.com/sindresorhus/awesome/blob/main/awesome.md) is one a suite of community-owned resources for digital preservation. See [digipres.org](https://www.digipres.org) for more information.  The text of an annual reminder email about these resources is also held here, in [reminder.md](reminder.md). This will be sent around various mailings list once per year, ahead of [World Digital Preservation Day](https://www.dpconline.org/events/world-digital-preservation-day).
+This [Awesome List](https://github.com/sindresorhus/awesome/blob/main/awesome.md) is one a suite of community-owned resources for digital preservation. See [digipres.org](https://www.digipres.org) for more information.
 
-Contributions are welcome. Please ad links through pull requests, or create an issue to start a discussion. Please refer to [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidance.
+Contributions are welcome. Please add links through pull requests, or create an issue to start a discussion. Please refer to [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidance.  And if obsolescence claims something awesome, there's always the [Archive](ARCHIVED.md).
 
-And if obsolescence claims something awesome, there's always the [Archive](ARCHIVED.md)
+The text of an annual reminder email about these resources is also held here, in [reminder.md](reminder.md). This will be sent around various mailings list once per year, ahead of [World Digital Preservation Day](https://www.dpconline.org/events/world-digital-preservation-day).
 
 <!-- omit in toc -->
 ## Contents 

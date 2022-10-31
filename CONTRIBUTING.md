@@ -1,16 +1,17 @@
----
-title: How to Contribute to Digipres Commons
-permalink: /how_to_contribute_main.html
----
+# Contribution Guidelines
 
-_This requires review following the shift to an Awesome List_
+Ensure your pull request adheres to the following guidelines:
+- Search previous suggestions before making a new one, as yours may be a duplicate.
+- The pull request should have a meaningful title and include a link to the package / resource and why it's awesome.
+- Make an individual pull request for each suggestion.
+- Use the following format: `[resource](link) - Description by [Author](link to author)`
+- Use [title-casing](http://titlecapitalization.com) (AP style).
+- Additions should be added to the bottom of the relevant category.
+- New categories, or improvements to the existing categorization are welcome.
+- Keep descriptions short and simple, but descriptive.
+- Start the description with a capital.
+- Check your spelling and grammar.
 
----
+Thank you for your suggestions!
 
-We need you to help us build Digipres Commons. All of the resources hosted or linked to from Digipres can be edited by you. Simply navigate to the resource you're interested in, sign up for an account and start making your contributions. A great place to start is the [DP Question and Answer Site](http://qanda.digipres.org/).
-
-Digipres Commons itself can be edited by you, so please contribute links to other community resources if there is something important that we've missed. The Commons is built on [Github, so it's easy to edit](https://github.com/digipres/digipres.github.io)...
-
-If you have any questions, you can discuss them with the Digipres Commons community [here](https://groups.google.com/forum/#!forum/digipres).
-
-We will be organising various community events which will be about continuing to build these digital preservation resources, so watch this space.
+If you have any questions, you can discuss them with the Digipres Commons community [here](https://github.com/orgs/digipres/discussions).
