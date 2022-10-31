@@ -2,7 +2,13 @@
 
 This page just holds the template for a reminder email, which we will send once per year (just ahead of World Digital Preservation Day) to the main digital preservation mailing lists, to remind people of the sites existence and purpose, and to encourage engagement with shared resources like format corpora and the Q&A site.
 
-----
+## Circulation
+
+- pasig-discuss@lists.stanford.edu
+- digital-preservation@jiscmail.ac.uk
+- dpc-discussion@jiscmail.ac.uk
+
+## The Email
 
 __Subject:__ Digital Preservation Community Resources -- Request for feedback and call for contributions
 
