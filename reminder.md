@@ -4,7 +4,7 @@ This page just holds the template for a reminder email, which we will send once 
 
 ----
 
-__Subject:__ Digital Preservation Community Resources: Request for feedback and call for contributions
+__Subject:__ Digital Preservation Community Resources -- Request for feedback and call for contributions
 
 Calling All Digital Preservers!
 
@@ -25,7 +25,7 @@ If you'd like to help, we'd love to hear from you....
 * Can you contribute to the [COPTR Tool Registry](http://coptr.digipres.org/)?
 * Are these resources useful? Should we change our approach?
 
-The last one is really important. We've been in digital preservation long enough to see a lot of portals and projects come and go, and we recognise that making it possible to build on past work sometimes requires changing what we've built so far.
+The last one is really important. We've been in digital preservation long enough to see a lot of portals and projects come and go, and we recognize that making it possible to build on past work sometimes requires changing what we've built so far.
 
 Please get in touch if you have any questions. You could talk us directly, or use the [digipres.org discussion forums](https://github.com/orgs/digipres/discussions). We're happy to hear any and all ideas and criticisms!
 
@@ -38,4 +38,4 @@ Best wishes,
 
 Andy Jackson ([@anjacks0n](https://twitter.com/anjacks0n)) & Paul Wheatley ([@prwheatley](https://twitter.com/prwheatley)), on behalf of all the digipres.org contributors.
 
-With thanks to [Open Preservation Foundation](https://openpreservation.org/) for hosting Q&A, COPTR and their format corpus, and to the [Digital Preservation Coalition](https://www.dpconline.org/) for their support.
+With thanks to the [Open Preservation Foundation](https://openpreservation.org/) for hosting Q&A, COPTR and their format corpus, and to the [Digital Preservation Coalition](https://www.dpconline.org/) for their support.
