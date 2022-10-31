@@ -30,4 +30,4 @@ Please get in touch if you have any questions. You could talk us directly, or us
 
 Best wishes,
 
-Andy Jackson ([@anjacks0n](https://twitter.com/anjacks0n)), on behalf of all the digipres.org contributors.
+Andy Jackson ([@anjacks0n](https://twitter.com/anjacks0n)) & Paul Wheatley ([@prwheatley](https://twitter.com/prwheatley)), on behalf of all the digipres.org contributors.
