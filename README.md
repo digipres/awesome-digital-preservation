@@ -82,7 +82,7 @@ Advance digital preservation by pooling our experience, sharing our war stories 
         - <https://twitter.com/An_Old_Hand/lists/digi-pres-rdm>
         - <https://twitter.com/digipresnews/followers>
         - <https://twitter.com/NKrabben/lists>
-    - [r/DataHaorder](https://www.reddit.com/r/DataHoarder/) - "We are digital librarians."
+    - [r/DataHoarder](https://www.reddit.com/r/DataHoarder/) - "We are digital librarians."
     - [r/Archiveteam](https://www.reddit.com/r/Archiveteam/) - "Archive Team is a loose collective of rogue archivists, programmers, writers and loudmouths dedicated to saving our digital heritage."
     - Join the [Digital POWRR Slack](http://digitalpowrr.niu.edu/slack-off-with-digital-powrr/)
 - Face-to-Face communities/support groups:
@@ -122,7 +122,13 @@ To improve our digital preservation tools, we need to be able to test them and e
 - The [iPres System Showcase Test Suite](http://www.webarchive.org.uk/datasets/ipres.ds.1/)
 - The [Encyclopedia of Graphics File Formats Companion CD-ROM](https://archive.org/details/EncyclopediaOfGraphicsFileFormatsCompanionCd-rom) contains lots of test files for image formats:
     - [EGFF ISO Image](https://archive.org/download/EncyclopediaOfGraphicsFileFormatsCompanionCd-rom/GFF_CD.ISO)
+- [EDRM Data Set Files](http://www.edrm.net/projects/dataset/data-set-files)
+    - [EDRM File Formats Data Set 1.0.1](https://web.archive.org/web/20150414060529/http://www.edrm.net/download/all_projects/data_set/EDRM_Data-Set_File-Formats_1-0.zip)
 - [digitalcorpora.org's corpora](http://digitalcorpora.org/corpora/) - including [govdocs1](http://digitalcorpora.org/corpora/govdocs).
+- Open Preservation Foundation had a corpora page [(archived version)](https://web.archive.org/web/20191231165648/https://openpreservation.org/technology/corpora/).
+    - OPF govdocs [here](https://web.archive.org/web/20191231165744/https://openpreservation.org/technology/corpora/govdocs/)
+    - OPF also created a [by-format subset of govdocs1](https://web.archive.org/web/20191231202941/https://openpreservation.org/technology/corpora/govdocs-selected/).
+
 - [digicam corpus](https://github.com/thorsted/digicam_corpus) - Contains a corpus of Digital Camera files collected by Tyler Thorsted.
 - [The Skeleton Test Suite](https://github.com/exponential-decay/skeleton-test-suite) - Builds test files from PRONOM binary and container signatures. These can be used to test DROID and other (compatible) identification tools.
 - [Fine Free File Test Suite](https://fedorahosted.org/file-tests/) - Set up for Fedora testing.
