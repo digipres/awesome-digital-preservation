@@ -70,7 +70,7 @@ Advance digital preservation by pooling our experience, sharing our war stories 
    - We tried to run a Digital Presevation Stack Exchange, but it didn't work out. The [content is available here](http://anjackson.github.io/zombse/)
 - Forums
     - Discussion [forums](https://groups.google.com/g/digital-curation) and active [blogs](http://dpconline.org/blog) provide the opportunity to share informal advice and war stories, get recommendations and discuss the finer points of digital preservation. By sharing both your intentions for digital preservation work and your results, you can [ensure your work benefits from a wealth of community experience](http://openpreservation.org/blogs/2012-05-17-do-others-share-your-digital-preservation-challenges-and-know-about-best-solutions).
-    - Discuss preservation issues on the [Digital Curation](https://groups.google.com/forum/forum/digital-curation) forum
+    - Discuss preservation issues on the [Digital Curation](https://groups.google.com/g/digital-curation) forum
     - Share war stories on [OPF](http://openpreservation.org/knowledge/blogs/) blogs
     - Mastodon - Join these federations with a digital preservation or general GLAM focus:
          - <https://digipres.club>
@@ -107,7 +107,7 @@ Real data, real challenges and real requirements make your and others digital pr
 
 - Test tools using publicly-available test corpora, and consider adding  or creating your own files to improve the corpora.
 - Contribute to the [DP Requirements and Solutions wiki](http://wiki.opf-labs.org/display/REQ/Digital+Preservation+and+Data+Curation+Requirements+and+Solutions)
-- In order to improve our digital preservation capability, we need to be able to analyse and evaluate our work in an effective manner. For example, we need to be able to compare and contrast tools and approaches, and we need to see how changes over time affect performance. Practising what we preach in this field means sharing our data about digital preservation. [Share your digital preservation data using the Linked Data Simple Storage Specification](http://www.lds3.org/). [Dave Tarrant explains why this is a good idea](http://openpreservation.org/blogs/2012-08-29-years-registry-why-has-preservation-community-not-solved-problem-well-managed-and).
+- In order to improve our digital preservation capability, we need to be able to analyse and evaluate our work in an effective manner. For example, we need to be able to compare and contrast tools and approaches, and we need to see how changes over time affect performance. Practising what we preach in this field means sharing our data about digital preservation. [Share your digital preservation data using the Linked Data Simple Storage Specification](https://web-archive.southampton.ac.uk/lds3.org/). [Dave Tarrant explains why this is a good idea](https://openpreservation.org/blogs/years-registry-why-has-preservation-community-not-solved-problem-well-managed-and/).
 - See also [Where are the Born-Digital Archives Test Data Sets?](https://blogs.loc.gov/thesignal/2014/03/where-are-the-born-digital-archives-test-data-sets/)
 
 
