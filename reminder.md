@@ -14,7 +14,7 @@ __Subject:__ Digital Preservation Community Resources -- Request for feedback an
 
 Calling All Digital Preservers!
 
-The digital preservation community is small and under resourced. This means we have to work together if we want to make the biggest impact. To this end, a small group of us have been attempting to help the members of the digital preservation community better support each other.  With World Digital Preservation Day just around the corner (<https://www.dpconline.org/events/world-digital-preservation-day>), we'd like to encourage you all to (re)discover what we've built so far:
+The digital preservation community is small and under resourced. This means we must work together if we want to make the biggest impact. To this end, a small group of us have been attempting to help the members of the digital preservation community better support each other.  With World Digital Preservation Day just around the corner (<https://www.dpconline.org/events/world-digital-preservation-day>), we'd like to encourage you all to (re)discover what we've built so far:
 
 * The <http://www.digipres.org> homepage, our community gateway and homepage.
 * The _Digital Preservation Awesome List_ (<https://github.com/digipres/awesome-digital-preservation#readme>), aiming to be a comprehensive index of software and resources to help preserve digital content.
@@ -48,4 +48,4 @@ Best wishes,
 
 Andy Jackson ([@anjacks0n](https://twitter.com/anjacks0n)/[@anj@digipres.club](https://digipres.club/@anj)) & Paul Wheatley ([@prwheatley](https://twitter.com/prwheatley)), on behalf of all the digipres.org contributors.
 
-With thanks to the [Open Preservation Foundation](https://openpreservation.org/) for hosting Q&A, COPTR and their format corpus, and to the [Digital Preservation Coalition](https://www.dpconline.org/) for their support.
+With thanks to the [Open Preservation Foundation](https://openpreservation.org/) for hosting many of these resources, and to the [Digital Preservation Coalition](https://www.dpconline.org/) for their support.
