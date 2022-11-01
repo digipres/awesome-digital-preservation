@@ -1,6 +1,13 @@
 name: Awesome Lint
 
-on: [push, pull_request]
+on:
+  push:
+    branches:
+    - main
+  pull_request:
+  schedule:
+  # Run everyday at 5:00AM:
+  - cron: "0 5 * * *"
 
 jobs:
   run-lint:
