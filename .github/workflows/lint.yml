@@ -16,4 +16,7 @@ jobs:
         run: npm install -g awesome-lint
       - name: Run Awesome Lint
         run: awesome-lint
-
+      - name: Check for broken links
+        uses: gaurav-nelson/github-action-markdown-link-check@v1
+        with:
+          use-verbose-mode: 'yes'
