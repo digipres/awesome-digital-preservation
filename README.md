@@ -115,7 +115,6 @@ Real data, real challenges and real requirements make your and others digital pr
 
 To improve our digital preservation tools, we need to be able to test them and evaluate of their performance. Publicly available sample files make this much easier. Tool developers can use them to test their work, discover bugs, and hone their tools ready for others to use. A test corpus can contain real digital objects from a collection, or be created specifically for exhibiting certain characteristics for testing purposes. Real data, particularly with examples of broken, badly formed or corrupted files can be particularly useful.
 
-Note that OPF also has it's own [corpora page](http://openpreservation.org/technology/corpora/).
 
 ### Multi-format Corpora
 
@@ -123,16 +122,12 @@ Note that OPF also has it's own [corpora page](http://openpreservation.org/techn
 - The [iPres System Showcase Test Suite](http://www.webarchive.org.uk/datasets/ipres.ds.1/)
 - The [Encyclopedia of Graphics File Formats Companion CD-ROM](https://archive.org/details/EncyclopediaOfGraphicsFileFormatsCompanionCd-rom) contains lots of test files for image formats:
     - [EGFF ISO Image](https://archive.org/download/EncyclopediaOfGraphicsFileFormatsCompanionCd-rom/GFF_CD.ISO)
-- [EDRM Data Set Files](http://www.edrm.net/projects/dataset/data-set-files)
-    - [EDRM File Formats Data Set 1.0.1](http://www.edrm.net/download/all_projects/data_set/EDRM_Data-Set_File-Formats_1-0.zip)
-    - [EDRM Internationalization Data Set](http://www.edrm.net/download/all_projects/data_set/EDRM_Data-Set_I18N_1-0.zip)
-- [digitalcorpora.org's corpora](http://digitalcorpora.org/corpora/) - including [govdocs1](http://digitalcorpora.org/corpora/govdocs), also described [here](http://openpreservation.org/technology/corpora/govdocs/)
-    - OPF have also created a [by-format subset of govdocs1](http://openpreservation.org/technology/corpora/govdocs-selected/).
+- [digitalcorpora.org's corpora](http://digitalcorpora.org/corpora/) - including [govdocs1](http://digitalcorpora.org/corpora/govdocs).
 - [digicam corpus](https://github.com/thorsted/digicam_corpus) - Contains a corpus of Digital Camera files collected by Tyler Thorsted.
 - [The Skeleton Test Suite](https://github.com/exponential-decay/skeleton-test-suite) - Builds test files from PRONOM binary and container signatures. These can be used to test DROID and other (compatible) identification tools.
 - [Fine Free File Test Suite](https://fedorahosted.org/file-tests/) - Set up for Fedora testing.
 - [JHOVE's test files](http://jhove.cvs.sourceforge.net/viewvc/jhove/jhove/examples/)
-- [JHOVE2's test files](https://bitbucket.org/jhove2/main/src/14e8a6102f63/src/test/resources/examples/)
+- [JHOVE2's test files](https://github.com/opf-labs/jhove2/tree/master/src/test/resources/examples/)
 - The [disktype test files](http://disktype.cvs.sourceforge.net/viewvc/disktype/file-system-sampler/)
 - The [Metadata Working Group specifications](https://web.archive.org/web/20180402195758/http://www.metadataworkinggroup.org/specs/) and [embedded image metadata test corpus](https://web.archive.org/web/20180402200035/http://www.metadataworkinggroup.org/specs/test_files.html)
 - [Apache Tika issue about setting up a nightly test corpus](https://issues.apache.org/jira/browse/TIKA-1302) - See also [tika-parsers/src/test/resources/test-documents](http://svn.apache.org/repos/asf/tika/trunk/tika-parsers/src/test/resources/test-documents/)
@@ -201,8 +196,7 @@ We need to understand the file formats of the resources we care for, and the sof
 - Add formats to the [File Formats Wiki](http://justsolve.archiveteam.org)
 - Understand [file format risks](http://wiki.opf-labs.org/display/TR/OPF+File+Format+Risk+Registry) ([e.g. JP2](http://wiki.opf-labs.org/display/TR/JP2))
     - If you have good examples of digital resources and their risks, please consider adding them to a test corpus.
-- Identify formats now with [FIDOO](http://www.techmaurice.com/fidoo/), [Siegfried](http://www.itforarchivists.com/siegfried) or [Interject](http://www.webarchive.org.uk/interject/inspect/)
-
+   [Siegfried](http://www.itforarchivists.com/siegfried) 
 
 ### Improving Identification
 
