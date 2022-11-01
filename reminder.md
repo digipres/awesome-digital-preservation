@@ -19,10 +19,14 @@ The digital preservation community is small and under resourced. This means we h
 * The <http://www.digipres.org> homepage, our community gateway and homepage.
 * The _Digital Preservation Awesome List_ (<https://github.com/digipres/awesome-digital-preservation#readme>), aiming to be a comprehensive index of software and resources to help preserve digital content.
 * The Digital Preservation Q&A site (<http://qanda.digipres.org/>), which is intended to make our questions and answers easier to find.
+* The File Formats Wiki <http://fileformats.archiveteam.org/>
+* The Format Registry Aggregator (<http://www.digipres.org/formats/>), which aggregates information from a number of different format registries so you can search across them all at once.
+* The Open Preservation Format Corpus (<https://github.com/openpreserve/format-corpus>), where anyone can contribute example files.
 * The COPTR Tool Registry (<http://coptr.digipres.org>), which was formed by the merger of many of the previous tool registry efforts, and which seeks to be a primary reference for those working in practical digital preservation.
 * The POWRR Tool Grid (<https://coptr.digipres.org/index.php/Tools_Grid>), which is generated from COPTR Tool Registry.
-* The Open Preservation Format Corpus (<https://github.com/openpreserve/format-corpus>), where anyone can contribute example files.
-* The Format Registry Aggregator (<http://www.digipres.org/formats/>), which aggregates information from a number of different format registries so you can search across them all at once.
+* The COPTR _Community Owned Workflows_ (<https://coptr.digipres.org/index.php/Workflow:Community_Owned_Workflows>)
+* Digital Preservation and Data Curation Requirements and Solutions <http://wiki.opf-labs.org/display/REQ/Digital+Preservation+and+Data+Curation+Requirements+and+Solutions>
+
 
 If you'd like to help, we'd love to hear from you....
 
