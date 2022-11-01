@@ -44,7 +44,7 @@ Spotted digital data at risk, but don't know who can save it?
 
 ## Preserve Your Own Stuff
 
-- The [Getting Started chapter of the Digital Preservation Handbook](http://handbook.dpconline.org/getting-started) is a great place to start.
+- The [Getting Started chapter of the Digital Preservation Handbook](https://www.dpconline.org/handbook/getting-started) is a great place to start.
 - For material that describes the broader issues, you can refer to [Digital Preservation on Wikipedia](https://en.wikipedia.org/wiki/Digital_preservation), and consider contributing to the [Digital Preservation Wikipedia Project](http://en.wikipedia.org/wiki/Wikipedia:WikiProject_Digital_Preservation).
 - Build your roadmap, guided by [the NDSA Levels of Digital Preservation](http://ndsa.org/activities/levels-of-digital-preservation/)
 - Use the [Digital Preservation Business Case Toolkit](http://wiki.dpconline.org/index.php?title=Digital_Preservation_Business_Case_Toolkit) to help get funding.
@@ -57,7 +57,7 @@ Spotted digital data at risk, but don't know who can save it?
     - Working with your IT department (some responses arising from [this question on twitter](https://twitter.com/anjacks0n/status/809343452995522560):
       - Backup versus preservation: ["I had useful discussions about 'for the long-term' and what issues that might throw up as a starting point."](https://twitter.com/CriticalSteph/status/809365764549595136)
       - ["often it comes down to language - avoid the word archiving. means 1 thing to IT & another DP professionals"](https://twitter.com/pnwagner/status/809356219471302656)
-      - [Ten IT skills you need to have to work with digital preservation](https://dl.dropboxusercontent.com/u/95767577/Ten%20IT%20skills%20you%20need%20to%20have.pdf) - written by [Dave Thompson](https://twitter.com/d_n_t)
+      - [Ten IT skills you need to have to work with digital preservation](https://www.dpconline.org/blog/ten-it-skills-you-need) - written by [Dave Thompson](https://twitter.com/d_n_t)
       - ["Am going to go all Bruce Lee 'adjust to the object'. What drives IT? Delivery, efficiency, user needs etc."](https://twitter.com/C_Fryer/status/809547404366192642)
 
 
@@ -69,7 +69,7 @@ Advance digital preservation by pooling our experience, sharing our war stories 
    - [Ask and answer digital preservation questions](http://qanda.digipres.org)
    - We tried to run a Digital Presevation Stack Exchange, but it didn't work out. The [content is available here](http://anjackson.github.io/zombse/)
 - Forums
-    - Discussion [forums](https://groups.google.com/forum/#!forum/digital-curation) and active [blogs](http://dpconline.org/blog) provide the opportunity to share informal advice and war stories, get recommendations and discuss the finer points of digital preservation. By sharing both your intentions for digital preservation work and your results, you can [ensure your work benefits from a wealth of community experience](http://openpreservation.org/blogs/2012-05-17-do-others-share-your-digital-preservation-challenges-and-know-about-best-solutions).
+    - Discussion [forums](https://groups.google.com/g/digital-curation) and active [blogs](http://dpconline.org/blog) provide the opportunity to share informal advice and war stories, get recommendations and discuss the finer points of digital preservation. By sharing both your intentions for digital preservation work and your results, you can [ensure your work benefits from a wealth of community experience](http://openpreservation.org/blogs/2012-05-17-do-others-share-your-digital-preservation-challenges-and-know-about-best-solutions).
     - Discuss preservation issues on the [Digital Curation](https://groups.google.com/forum/forum/digital-curation) forum
     - Share war stories on [OPF](http://openpreservation.org/knowledge/blogs/) blogs
     - Mastodon - Join these federations with a digital preservation or general GLAM focus:
@@ -86,7 +86,7 @@ Advance digital preservation by pooling our experience, sharing our war stories 
     - [r/Archiveteam](https://www.reddit.com/r/Archiveteam/) - "Archive Team is a loose collective of rogue archivists, programmers, writers and loudmouths dedicated to saving our digital heritage."
     - Join the [Digital POWRR Slack](http://digitalpowrr.niu.edu/slack-off-with-digital-powrr/)
 - Face-to-Face communities/support groups:
-    - [Digital Cultural Heritage DC](https://www.meetup.com/Digital-Cultural-Heritage-DC/)
+    - [Digital Cultural Heritage DC](https://www.meetup.com/digital-cultural-heritage-dc/)
     - [Mid Michigan Digital Practitioners](https://midmichdp.wordpress.com/)
     - [XFR Collective: NYC-based media preservation membership organization preserving at-risk and obsolete audiovisual artwork by providing low-cost migration services](https://twitter.com/XFR_collective)
 - Collaborations (inc. groups that build things together):
@@ -99,7 +99,7 @@ Advance digital preservation by pooling our experience, sharing our war stories 
     - [OPF](http://openpreservation.org/) (International)
     - [NCDD](http://www.ncdd.nl/) (Netherlands)
     - [NDSA](http://ndsa.org/) (USA)
-    - [NESTOR](http://www.langzeitarchivierung.de/Subsites/nestor/EN/Home/home_node.html) (Germany)
+    - [NESTOR](https://www.langzeitarchivierung.de/) (Germany)
 
 ## Real Data and Requirements
 
@@ -134,7 +134,7 @@ Note that OPF also has it's own [corpora page](http://openpreservation.org/techn
 - [JHOVE's test files](http://jhove.cvs.sourceforge.net/viewvc/jhove/jhove/examples/)
 - [JHOVE2's test files](https://bitbucket.org/jhove2/main/src/14e8a6102f63/src/test/resources/examples/)
 - The [disktype test files](http://disktype.cvs.sourceforge.net/viewvc/disktype/file-system-sampler/)
-- The [Metadata Working Group specifications](http://www.metadataworkinggroup.org/specs/) and [embedded image metadata test corpus](http://www.metadataworkinggroup.org/specs/test_files.html)
+- The [Metadata Working Group specifications](https://web.archive.org/web/20180402195758/http://www.metadataworkinggroup.org/specs/) and [embedded image metadata test corpus](https://web.archive.org/web/20180402200035/http://www.metadataworkinggroup.org/specs/test_files.html)
 - [Apache Tika issue about setting up a nightly test corpus](https://issues.apache.org/jira/browse/TIKA-1302) - See also [tika-parsers/src/test/resources/test-documents](http://svn.apache.org/repos/asf/tika/trunk/tika-parsers/src/test/resources/test-documents/)
 - [The Chemical MIME Home Page](http://www.ch.ic.ac.uk/chemime/)
 - [Online-convert.com example files](http://www.online-convert.com/file-type) (use [this link to browse the folder structure](https://example-files.online-convert.com/))
@@ -149,7 +149,7 @@ Note that OPF also has it's own [corpora page](http://openpreservation.org/techn
 ### Format-specific Corpora
 
 - PDF:
-    - [Adobe Acrobat Engineering](http://acroeng.adobe.com/wp/) - Site has lots of useful [test documents](http://acroeng.adobe.com/wp/?page_id=10).
+    - [Adobe Acrobat Engineering](https://web.archive.org/web/20141019002403/http://acroeng.adobe.com/wp) - Site has lots of useful [test documents](https://web.archive.org/web/20130717012227/http://acroeng.adobe.com/wp/?page_id=10).
     - [Isartor PDF/A Test Suite](http://www.pdfa.org/2011/08/isartor-test-suite/)
     - [veraPDF Corpus](https://github.com/veraPDF/veraPDF-corpus) - For PDF/A.
     - [Synthetic PDF Testset for File Format Validation](http://doi.org/10.22000/53) - Test set for well formedness validation in JHOVE - see associated [paper](https://ipres2017.jp/wp-content/uploads/35Michelle-Lindlar.pdf).
@@ -157,10 +157,10 @@ Note that OPF also has it's own [corpora page](http://openpreservation.org/techn
     - [The IDPF ePub test suite](https://github.com/IDPF/epub-testsuite)
     - [KBNLresearch/epubPolicyTests](https://github.com/KBNLresearch/epubPolicyTests) - Some #epub samples with encryption, DTBook content and foreign resources, with corresponding #epubcheck output.
 - TIFF:
-    - The libtiff [TIFF Test Images](http://www.remotesensing.org/libtiff/images.html)
+    - The libtiff [TIFF Test Images](http://www.libtiff.org/images.html)
 - JP2:
     - [OPF JP2k test corpus](https://github.com/openpreserve/format-corpus/tree/master/jp2k-test)
-    - [NITF version 2.1 JPEG 2000 Sample Imagery](http://www.gwg.nga.mil/ntb/baseline/software/testfile/Jpeg2000/index.htm)
+    - [NITF version 2.1 JPEG 2000 Sample Imagery](https://web.archive.org/web/20180413152928/http://www.gwg.nga.mil/ntb/baseline/software/testfile/Jpeg2000/index.htm)
     - [JPEG 2000 Part 4 Conformance Test Files](http://web.archive.org/web/20080510121012/http://www.crc.ricoh.com/~gormish/jpeg2000conformance/) (v.1.5 with earlier versions also available in the archive history)
 - WARC/ARC:
     - [Internet Archive's Example ARC and WARC files](https://archive.org/details/ExampleArcAndWarcFiles)
