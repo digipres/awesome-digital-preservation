@@ -20,9 +20,10 @@ The text of an annual reminder email about these resources is also held here, in
   - [Learn About Digital Preservation](#learn-about-digital-preservation)
   - [Find Formats](#find-formats)
   - [Experiment with Tools](#experiment-with-tools)
-  - [Understand Digital Storage](#understand-digital-storage)
   - [Engage Stakeholders](#engage-stakeholders)
   - [Become Part Of The Digital Preservation Community](#become-part-of-the-digital-preservation-community)
+- [Store Digital Content](#store-digital-content)
+- [Create Preservation Metadata](#create-preservation-metadata)
 - [Find Test Files](#find-test-files)
   - [Multi-format Corpora](#multi-format-corpora)
   - [Format-specific Corpora](#format-specific-corpora)
@@ -51,6 +52,7 @@ Spotted digital data at risk, but don't know who can save it?
 ### Learn About Digital Preservation
 
 - The [Getting Started chapter of the Digital Preservation Handbook](https://www.dpconline.org/handbook/getting-started) is a great place to start.
+- [The Digital Preservation Handbook Glossary](https://www.dpconline.org/handbook/glossary) - Introduces a lot of the core terminology.
 - For material that describes the broader issues, you can refer to [Digital Preservation on Wikipedia](https://en.wikipedia.org/wiki/Digital_preservation), and consider contributing to the [Digital Preservation Wikipedia Project](http://en.wikipedia.org/wiki/Wikipedia:WikiProject_Digital_Preservation).
 - Build your roadmap, guided by [the NDSA Levels of Digital Preservation](http://ndsa.org/activities/levels-of-digital-preservation/)
 - Use the [Digital Preservation Business Case Toolkit](http://wiki.dpconline.org/index.php?title=Digital_Preservation_Business_Case_Toolkit) to help get funding.
@@ -58,6 +60,7 @@ Spotted digital data at risk, but don't know who can save it?
 - Learn about [Preserving digital Objects with Restricted Resources](http://digitalpowrr.niu.edu/)
 - Learn how to [Authenticate, Manage, and Preserve Video](https://archiving.witness.org/) -- WITNESS trains activists to archive and preserve their video so that human rights abuses cannot be denied or forgotten over time.
 - Explore and contribute to the [DP Requirements and Solutions wiki](http://wiki.opf-labs.org/display/REQ/Digital+Preservation+and+Data+Curation+Requirements+and+Solutions)
+- [Brainscape Digital Preservation Flash Cards](https://www.brainscape.com/p/1FA8-LH-5DKH7) - See <https://github.com/ross-spencer/brainscape-digital-preservation#readme> for more information.
 
 ### Find Formats
 
@@ -89,10 +92,6 @@ These tools run entirely in your web browser, so no data is sent anywhere.
 - [Siegfried JS](https://siegfried-js.glitch.me/) - This runs the Siegfried format identification tool on your files in your browser.
 - [CyberChef](https://gchq.github.io/CyberChef/) - The Cyber Swiss Army Knife. Capable of running lots of basic data operations on text or files, including computing things like MD5 or SHA hashes.
 - [warc-analyser](https://edsu.github.io/warc-analyzer/) - Proof-of-concept that analyses WARC files in your browser. See <https://github.com/edsu/warc-analyzer> for more information.
-
-### Understand Digital Storage
-
-- [A history of storage media](https://codewords.recurse.com/issues/seven/a-history-of-storage-media)
 
 ### Engage Stakeholders
 
@@ -136,7 +135,9 @@ Advance digital preservation by pooling our experience, sharing our stories and 
 - Collaborations (inc. groups that build things together):
     - [Association of Moving Image Archivists (AMIA) Open Source Committee on GitHub](https://github.com/amiaopensource)
     - [Zenodo Digital Preservation Community](https://zenodo.org/communities/digital-preservation/) - Building a comprehensive bibliography of publications, presentations, instructions and data sets related to digital preservation.
-
+- Models, Standards & Certification:
+    - [The Reference Model for an Open Archival Information System (OAIS)](http://www.oais.info/)
+    - [CoreTrustSeal](https://www.coretrustseal.org/) - CoreTrustSeal offers to any interested data repository a core level certification based on the Core Trustworthy Data Repositories Requirements. 
 - Conferences:
     - [PASIG](http://www.preservationandarchivingsig.org/)
     - [iPres](https://ipres-conference.org/)
@@ -146,6 +147,21 @@ Advance digital preservation by pooling our experience, sharing our stories and 
     - [NCDD](http://www.ncdd.nl/) (Netherlands)
     - [NDSA](http://ndsa.org/) (USA)
     - [NESTOR](https://www.langzeitarchivierung.de/) (Germany)
+
+
+## Store Digital Content
+
+- [A history of storage media](https://codewords.recurse.com/issues/seven/a-history-of-storage-media)
+- File system conventions:
+  - [BagIt](https://en.wikipedia.org/wiki/BagIt)
+  - [Oxford Common File Layout (OCFL)](https://ocfl.io/)
+
+
+## Create Preservation Metadata
+
+- [The PREMIS Data Dictionary for Preservation Metadata](https://www.loc.gov/standards/premis/)
+- [Metadata Encoding & Transmission Standard (METS)](http://www.loc.gov/standards/mets/)
+- [Portland Common Data Model (PCDM)](https://pcdm.org/)
 
 
 ## Find Test Files
