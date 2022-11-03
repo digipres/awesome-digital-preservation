@@ -245,7 +245,7 @@ Web archives can provide a useful source of files of particular formats. For exa
 
 Software tools give us the means the interrogate, manipulate, understand and ultimately preserve our digital data. The Community Owned digital Preservation Tool Registry, <a href="http://coptr.digipres.org/">COPTR</a> has unified five isolated tool registries. It provides an easy-to-edit wiki interface where we can share our knowledge about, and experiences with, tools used for digital preservation purposes.
 
-- Find tools to solve your challenges with the [POWRR Tools Grid](http://www.digipres.org/tools/), generated from the COPTR wiki.
+- Find tools to solve your challenges with the [POWRR Tools Grid](https://coptr.digipres.org/index.php/Tools_Grid), generated from the COPTR wiki.
 - Find tools [by function](http://coptr.digipres.org/Category:Function).
 - Contribute your experiences of using tools to the [COPTR wiki](http://coptr.digipres.org/).
 - If you find or create new tools, please [add them to COPTR](http://coptr.digipres.org/Guidelines_for_contributing_to_COPTR).
