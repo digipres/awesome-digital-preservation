@@ -1,6 +1,11 @@
 # Contribution Guidelines
 
-Ensure your pull request adheres to the following guidelines:
+This Awesome List is not intended to be wholly comprehensive, but to link out to other more comprehensive resources.  The goal is to get people started, and to emphasis community-owned resources.
+
+The scope is also limited to digital preservation. Digitization is not in scope, and in general for web archiving we defer to the [Awesome Web Archiving List](https://github.com/iipc/awesome-web-archiving).
+
+Please ensure your pull request adheres to the following guidelines:
+
 - Search previous suggestions before making a new one, as yours may be a duplicate.
 - The pull request should have a meaningful title and include a link to the package / resource and why it's awesome.
 - Make an individual pull request for each suggestion.
