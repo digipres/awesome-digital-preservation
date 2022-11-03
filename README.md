@@ -90,6 +90,8 @@ These tools are accessed using your browser, and work by sending a copy of your 
 These tools run entirely in your web browser, so no data is sent anywhere.
 
 - [Siegfried JS](https://siegfried-js.glitch.me/) - This runs the Siegfried format identification tool on your files in your browser.
+- [](https://gchq.github.io/CyberChef/) - The Cyber Swiss Army Knife. Capable of running lots of basic data operations on text or files, including computing things like MD5 or SHA hashes.
+- [warc-analyser](https://edsu.github.io/warc-analyzer/) - Proof-of-concept that analyses WARC files in your browser. See <https://github.com/edsu/warc-analyzer> for more information.
 
 
 ### Engage Stakeholders
@@ -133,6 +135,8 @@ Advance digital preservation by pooling our experience, sharing our stories and 
     - [XFR Collective: NYC-based media preservation membership organization preserving at-risk and obsolete audiovisual artwork by providing low-cost migration services](https://twitter.com/XFR_collective)
 - Collaborations (inc. groups that build things together):
     - [Association of Moving Image Archivists (AMIA) Open Source Committee on GitHub](https://github.com/amiaopensource)
+    - [Zenodo Digital Preservation Community](https://zenodo.org/communities/digital-preservation/) - Building a comprehensive bibliography of publications, presentations, instructions and data sets related to digital preservation.
+
 - Conferences:
     - [PASIG](http://www.preservationandarchivingsig.org/)
     - [iPres](https://ipres-conference.org/)
