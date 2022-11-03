@@ -13,24 +13,19 @@ The text of an annual reminder email about these resources is also held here, in
 <!-- omit in toc -->
 ## Contents 
 
+<!--lint ignore double-link-->
+
 - [Get Started](#get-started)
   - [Save Digital Stuff Right Now](#save-digital-stuff-right-now)
   - [Learn About Digital Preservation](#learn-about-digital-preservation)
   - [Find Formats](#find-formats)
   - [Experiment with Tools](#experiment-with-tools)
-    - [Remote Services](#remote-services)
-    - [In-Browser Tools](#in-browser-tools)
+  - [Understand Digital Storage](#understand-digital-storage)
   - [Engage Stakeholders](#engage-stakeholders)
   - [Become Part Of The Digital Preservation Community](#become-part-of-the-digital-preservation-community)
 - [Find Test Files](#find-test-files)
   - [Multi-format Corpora](#multi-format-corpora)
   - [Format-specific Corpora](#format-specific-corpora)
-    - [PDF](#pdf)
-    - [ePub](#epub)
-    - [TIFF](#tiff)
-    - [JPEG2000](#jpeg2000)
-    - [Web Archives](#web-archives)
-    - [Databases](#databases)
   - [Building Corpora](#building-corpora)
   - [Sourcing test files from web archives](#sourcing-test-files-from-web-archives)
 - [Find More Tools](#find-more-tools)
@@ -77,22 +72,27 @@ If you have good examples of digital resources and their risks, please consider 
 
 ### Experiment with Tools
 
+<!--lint ignore double-link-->
+
 There are a lot of tools out there (see [the tools section below](#find-more-tools)), but some tools are particularly great for early experimentation. These tools can be used right in your web browser, so you can get started without installing software locally.
 
-#### Remote Services
+#### Remote Services <!-- omit in toc -->
 
 These tools are accessed using your browser, and work by sending a copy of your files to a remote server.
 
 - [Siegfried](http://www.itforarchivists.com/siegfried) - You can use Siegfried to identify the format of your files. This service sends your file to a web server for analysis.
 
-#### In-Browser Tools
+#### In-Browser Tools <!-- omit in toc -->
 
 These tools run entirely in your web browser, so no data is sent anywhere.
 
 - [Siegfried JS](https://siegfried-js.glitch.me/) - This runs the Siegfried format identification tool on your files in your browser.
-- [](https://gchq.github.io/CyberChef/) - The Cyber Swiss Army Knife. Capable of running lots of basic data operations on text or files, including computing things like MD5 or SHA hashes.
+- [CyberChef](https://gchq.github.io/CyberChef/) - The Cyber Swiss Army Knife. Capable of running lots of basic data operations on text or files, including computing things like MD5 or SHA hashes.
 - [warc-analyser](https://edsu.github.io/warc-analyzer/) - Proof-of-concept that analyses WARC files in your browser. See <https://github.com/edsu/warc-analyzer> for more information.
 
+### Understand Digital Storage
+
+- [A history of storage media](https://codewords.recurse.com/issues/seven/a-history-of-storage-media)
 
 ### Engage Stakeholders
 
@@ -186,34 +186,34 @@ To improve our digital preservation tools, we need to be able to test them and e
 
 ### Format-specific Corpora
 
-#### PDF
+#### PDF <!-- omit in toc -->
 
 - [Adobe Acrobat Engineering](https://web.archive.org/web/20141019002403/http://acroeng.adobe.com/wp) - Site has lots of useful [test documents](https://web.archive.org/web/20130717012227/http://acroeng.adobe.com/wp/?page_id=10).
 - [Isartor PDF/A Test Suite](http://www.pdfa.org/2011/08/isartor-test-suite/)
 - [veraPDF Corpus](https://github.com/veraPDF/veraPDF-corpus) - For PDF/A.
 - [Synthetic PDF Testset for File Format Validation](http://doi.org/10.22000/53) - Test set for well formedness validation in JHOVE - see associated [paper](https://ipres2017.jp/wp-content/uploads/35Michelle-Lindlar.pdf).
 
-#### ePub
+#### ePub <!-- omit in toc -->
 
 - [The IDPF ePub test suite](https://github.com/IDPF/epub-testsuite)
 - [KBNLresearch/epubPolicyTests](https://github.com/KBNLresearch/epubPolicyTests) - Some #epub samples with encryption, DTBook content and foreign resources, with corresponding #epubcheck output.
 
 
-#### TIFF
+#### TIFF <!-- omit in toc -->
 
 - The libtiff [TIFF Test Images](http://www.libtiff.org/images.html)
 
-#### JPEG2000
+#### JPEG2000 <!-- omit in toc -->
 
 - [OPF JP2k test corpus](https://github.com/openpreserve/format-corpus/tree/master/jp2k-test)
 - [NITF version 2.1 JPEG 2000 Sample Imagery](https://web.archive.org/web/20180413152928/http://www.gwg.nga.mil/ntb/baseline/software/testfile/Jpeg2000/index.htm)
 - [JPEG 2000 Part 4 Conformance Test Files](http://web.archive.org/web/20080510121012/http://www.crc.ricoh.com/~gormish/jpeg2000conformance/) (v.1.5 with earlier versions also available in the archive history)
 
-#### Web Archives
+#### Web Archives <!-- omit in toc -->
 
 - [Internet Archive's Example ARC and WARC files](https://archive.org/details/ExampleArcAndWarcFiles)
  
-#### Databases
+#### Databases <!-- omit in toc -->
 
 - [SIARD test files](https://github.com/sfa-siard/SiardCmd/tree/master/testfiles)
 
@@ -230,9 +230,9 @@ Web archives can provide a useful source of files of particular formats. For exa
 Software tools give us the means the interrogate, manipulate, understand and ultimately preserve our digital data. The Community Owned digital Preservation Tool Registry, <a href="http://coptr.digipres.org/">COPTR</a> has unified five isolated tool registries. It provides an easy-to-edit wiki interface where we can share our knowledge about, and experiences with, tools used for digital preservation purposes.
 
 - Find tools to solve your challenges with the [POWRR Tools Grid](http://www.digipres.org/tools/), generated from the COPTR wiki.
--  Find tools [by function](http://coptr.digipres.org/Category:Function).
-- Contribute your experiences of using tools to the [COPTR wiki](http://coptr.digipres.org/)
--  If you find or create new tools, please [add them to COPTR](http://coptr.digipres.org/Guidelines_for_contributing_to_COPTR).
+- Find tools [by function](http://coptr.digipres.org/Category:Function).
+- Contribute your experiences of using tools to the [COPTR wiki](http://coptr.digipres.org/).
+- If you find or create new tools, please [add them to COPTR](http://coptr.digipres.org/Guidelines_for_contributing_to_COPTR).
 
 
 ## Build Workflows
