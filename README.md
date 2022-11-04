@@ -13,19 +13,25 @@ The text of an annual reminder email about these resources is also held here, in
 <!-- omit in toc -->
 ## Contents 
 
+<!--lint ignore double-link-->
+
 - [Get Started](#get-started)
   - [Save Digital Stuff Right Now](#save-digital-stuff-right-now)
-- [Preserve Your Own Stuff](#preserve-your-own-stuff)
-- [Become Part Of The Digital Preservation Community](#become-part-of-the-digital-preservation-community)
-- [Real Data and Requirements](#real-data-and-requirements)
-- [Test Corpora](#test-corpora)
+  - [Learn About Digital Preservation](#learn-about-digital-preservation)
+  - [Find Formats](#find-formats)
+  - [Experiment with Tools](#experiment-with-tools)
+  - [Engage Stakeholders](#engage-stakeholders)
+  - [Become Part Of The Digital Preservation Community](#become-part-of-the-digital-preservation-community)
+- [Store Digital Content](#store-digital-content)
+- [Create Preservation Metadata](#create-preservation-metadata)
+- [Find Test Files](#find-test-files)
   - [Multi-format Corpora](#multi-format-corpora)
   - [Format-specific Corpora](#format-specific-corpora)
   - [Building Corpora](#building-corpora)
   - [Sourcing test files from web archives](#sourcing-test-files-from-web-archives)
-- [Tools](#tools)
-- [Building Workflows](#building-workflows)
-- [Understanding Formats](#understanding-formats)
+- [Find More Tools](#find-more-tools)
+- [Build Workflows](#build-workflows)
+- [Improve The Tools](#improve-the-tools)
   - [Improving Identification](#improving-identification)
   - [Improving Characterisation/Metadata Extraction](#improving-characterisationmetadata-extraction)
 
@@ -43,29 +49,64 @@ Spotted digital data at risk, but don't know who can save it?
     - [UK Web Archive Site Nomination](https://www.webarchive.org.uk/ukwa/info/nominate)
 - Alert the [Archive Team](http://archiveteam.org/), and [help them save digital stuff](http://archiveteam.org/index.php?title=Who_We_Are)
 
-
-## Preserve Your Own Stuff
+### Learn About Digital Preservation
 
 - The [Getting Started chapter of the Digital Preservation Handbook](https://www.dpconline.org/handbook/getting-started) is a great place to start.
+- [The Digital Preservation Handbook Glossary](https://www.dpconline.org/handbook/glossary) - Introduces a lot of the core terminology.
 - For material that describes the broader issues, you can refer to [Digital Preservation on Wikipedia](https://en.wikipedia.org/wiki/Digital_preservation), and consider contributing to the [Digital Preservation Wikipedia Project](http://en.wikipedia.org/wiki/Wikipedia:WikiProject_Digital_Preservation).
 - Build your roadmap, guided by [the NDSA Levels of Digital Preservation](http://ndsa.org/activities/levels-of-digital-preservation/)
 - Use the [Digital Preservation Business Case Toolkit](http://wiki.dpconline.org/index.php?title=Digital_Preservation_Business_Case_Toolkit) to help get funding.
 - Understanding your costs can help to plan your preservation work more effectively. The [Curation Costs Exchange](http://www.curationexchange.org/) allows you to compare your costing data with that of many other organisations.
 - Learn about [Preserving digital Objects with Restricted Resources](http://digitalpowrr.niu.edu/)
 - Learn how to [Authenticate, Manage, and Preserve Video](https://archiving.witness.org/) -- WITNESS trains activists to archive and preserve their video so that human rights abuses cannot be denied or forgotten over time.
-- Engage Stakeholders:
-    - Visual examples of digital preservation challenges, such as graphic corruption, can be incredibly useful in communicating the digital preservation message. That's why we built the Atlas of Digital Damages [Gallery](http://www.flickr.com/groups/2121762@N23/) and [website](http://www.atlasofdigitaldamages.info). Please add your own images of a digital preservation challenge, failed rendering, encoding damage, corrupt data, or visual evidence documenting to the Atlas of Digital Damages.
-    - Use the [POWRR One Pagers](http://powrr-wiki.lib.niu.edu/index.php/One_Pagers_tailored_to_educate_different_professionals) to educate stakeholders about the issues.
-    - Working with your IT department (some responses arising from [this question on twitter](https://twitter.com/anjacks0n/status/809343452995522560):
-      - Backup versus preservation: ["I had useful discussions about 'for the long-term' and what issues that might throw up as a starting point."](https://twitter.com/CriticalSteph/status/809365764549595136)
-      - ["often it comes down to language - avoid the word archiving. means 1 thing to IT & another DP professionals"](https://twitter.com/pnwagner/status/809356219471302656)
-      - [Ten IT skills you need to have to work with digital preservation](https://www.dpconline.org/blog/ten-it-skills-you-need) - written by [Dave Thompson](https://twitter.com/d_n_t)
-      - ["Am going to go all Bruce Lee 'adjust to the object'. What drives IT? Delivery, efficiency, user needs etc."](https://twitter.com/C_Fryer/status/809547404366192642)
+- Explore and contribute to the [DP Requirements and Solutions wiki](http://wiki.opf-labs.org/display/REQ/Digital+Preservation+and+Data+Curation+Requirements+and+Solutions)
+- [Brainscape Digital Preservation Flash Cards](https://www.brainscape.com/p/1FA8-LH-5DKH7) - See <https://github.com/ross-spencer/brainscape-digital-preservation#readme> for more information.
+
+### Find Formats
+
+We need to understand the file formats of the resources we care for, and the software they depend on.
+
+- [Search across format registries](https://digipres.org/formats/)
+- Find or add formats to the [File Formats Wiki](http://justsolve.archiveteam.org)
+- Understand [file format risks](http://wiki.opf-labs.org/display/TR/OPF+File+Format+Risk+Registry) ([e.g. JP2](http://wiki.opf-labs.org/display/TR/JP2))
+
+If you have good examples of digital resources and their risks, please consider adding them to a test corpus.
 
 
-## Become Part Of The Digital Preservation Community
+### Experiment with Tools
 
-Advance digital preservation by pooling our experience, sharing our war stories and finding the answers to the big questions.
+<!--lint ignore double-link-->
+
+There are a lot of tools out there (see [the tools section below](#find-more-tools)), but some tools are particularly great for early experimentation. These tools can be used right in your web browser, so you can get started without installing software locally.
+
+#### Remote Services <!-- omit in toc -->
+
+These tools are accessed using your browser, and work by sending a copy of your files to a remote server.
+
+- [Siegfried](http://www.itforarchivists.com/siegfried) - You can use Siegfried to identify the format of your files. This service sends your file to a web server for analysis.
+
+#### In-Browser Tools <!-- omit in toc -->
+
+These tools run entirely in your web browser, so no data is sent anywhere.
+
+- [Siegfried JS](https://siegfried-js.glitch.me/) - This runs the Siegfried format identification tool on your files in your browser.
+- [CyberChef](https://gchq.github.io/CyberChef/) - The Cyber Swiss Army Knife. Capable of running lots of basic data operations on text or files, including computing things like MD5 or SHA hashes.
+- [warc-analyser](https://edsu.github.io/warc-analyzer/) - Proof-of-concept that analyses WARC files in your browser. See <https://github.com/edsu/warc-analyzer> for more information.
+
+### Engage Stakeholders
+
+- Visual examples of digital preservation challenges, such as graphic corruption, can be incredibly useful in communicating the digital preservation message. That's why we built the Atlas of Digital Damages [Gallery](http://www.flickr.com/groups/2121762@N23/) and [website](http://www.atlasofdigitaldamages.info). Please add your own images of a digital preservation challenge, failed rendering, encoding damage, corrupt data, or visual evidence documenting to the Atlas of Digital Damages.
+- Use the [POWRR One Pagers](http://powrr-wiki.lib.niu.edu/index.php/One_Pagers_tailored_to_educate_different_professionals) to educate stakeholders about the issues.
+- Working with your IT department (some responses arising from [this question on twitter](https://twitter.com/anjacks0n/status/809343452995522560):
+  - Backup versus preservation: ["I had useful discussions about 'for the long-term' and what issues that might throw up as a starting point."](https://twitter.com/CriticalSteph/status/809365764549595136)
+  - ["often it comes down to language - avoid the word archiving. means 1 thing to IT & another DP professionals"](https://twitter.com/pnwagner/status/809356219471302656)
+  - [Ten IT skills you need to have to work with digital preservation](https://www.dpconline.org/blog/ten-it-skills-you-need) - written by [Dave Thompson](https://twitter.com/d_n_t)
+  - ["Am going to go all Bruce Lee 'adjust to the object'. What drives IT? Delivery, efficiency, user needs etc."](https://twitter.com/C_Fryer/status/809547404366192642)
+
+
+### Become Part Of The Digital Preservation Community
+
+Advance digital preservation by pooling our experience, sharing our stories and finding the answers to the big questions.
 
 - Q&A:
    - [Ask and answer digital preservation questions](http://qanda.digipres.org)
@@ -93,6 +134,10 @@ Advance digital preservation by pooling our experience, sharing our war stories 
     - [XFR Collective: NYC-based media preservation membership organization preserving at-risk and obsolete audiovisual artwork by providing low-cost migration services](https://twitter.com/XFR_collective)
 - Collaborations (inc. groups that build things together):
     - [Association of Moving Image Archivists (AMIA) Open Source Committee on GitHub](https://github.com/amiaopensource)
+    - [Zenodo Digital Preservation Community](https://zenodo.org/communities/digital-preservation/) - Building a comprehensive bibliography of publications, presentations, instructions and data sets related to digital preservation.
+- Models, Standards & Certification:
+    - [The Reference Model for an Open Archival Information System (OAIS)](http://www.oais.info/)
+    - [CoreTrustSeal](https://www.coretrustseal.org/) - CoreTrustSeal offers to any interested data repository a core level certification based on the Core Trustworthy Data Repositories Requirements. 
 - Conferences:
     - [PASIG](http://www.preservationandarchivingsig.org/)
     - [iPres](https://ipres-conference.org/)
@@ -103,20 +148,27 @@ Advance digital preservation by pooling our experience, sharing our war stories 
     - [NDSA](http://ndsa.org/) (USA)
     - [NESTOR](https://www.langzeitarchivierung.de/) (Germany)
 
-## Real Data and Requirements
 
-Real data, real challenges and real requirements make your and others digital preservation developments far more useful and effective.
+## Store Digital Content
 
-- Test tools using publicly-available test corpora, and consider adding  or creating your own files to improve the corpora.
-- Contribute to the [DP Requirements and Solutions wiki](http://wiki.opf-labs.org/display/REQ/Digital+Preservation+and+Data+Curation+Requirements+and+Solutions)
-- In order to improve our digital preservation capability, we need to be able to analyse and evaluate our work in an effective manner. For example, we need to be able to compare and contrast tools and approaches, and we need to see how changes over time affect performance. Practising what we preach in this field means sharing our data about digital preservation. [Share your digital preservation data using the Linked Data Simple Storage Specification](https://web-archive.southampton.ac.uk/lds3.org/). [Dave Tarrant explains why this is a good idea](https://openpreservation.org/blogs/years-registry-why-has-preservation-community-not-solved-problem-well-managed-and/).
-- See also [Where are the Born-Digital Archives Test Data Sets?](https://blogs.loc.gov/thesignal/2014/03/where-are-the-born-digital-archives-test-data-sets/)
+- [A history of storage media](https://codewords.recurse.com/issues/seven/a-history-of-storage-media)
+- File system conventions:
+  - [BagIt](https://en.wikipedia.org/wiki/BagIt)
+  - [Oxford Common File Layout (OCFL)](https://ocfl.io/)
 
 
-## Test Corpora
+## Create Preservation Metadata
+
+- [The PREMIS Data Dictionary for Preservation Metadata](https://www.loc.gov/standards/premis/)
+- [Metadata Encoding & Transmission Standard (METS)](http://www.loc.gov/standards/mets/)
+- [Portland Common Data Model (PCDM)](https://pcdm.org/)
+
+
+## Find Test Files
 
 To improve our digital preservation tools, we need to be able to test them and evaluate of their performance. Publicly available sample files make this much easier. Tool developers can use them to test their work, discover bugs, and hone their tools ready for others to use. A test corpus can contain real digital objects from a collection, or be created specifically for exhibiting certain characteristics for testing purposes. Real data, particularly with examples of broken, badly formed or corrupted files can be particularly useful.
 
+- See also [Where are the Born-Digital Archives Test Data Sets?](https://blogs.loc.gov/thesignal/2014/03/where-are-the-born-digital-archives-test-data-sets/)
 
 ### Multi-format Corpora
 
@@ -130,7 +182,6 @@ To improve our digital preservation tools, we need to be able to test them and e
 - Open Preservation Foundation had a corpora page [(archived version)](https://web.archive.org/web/20191231165648/https://openpreservation.org/technology/corpora/).
     - OPF govdocs [here](https://web.archive.org/web/20191231165744/https://openpreservation.org/technology/corpora/govdocs/)
     - OPF also created a [by-format subset of govdocs1](https://web.archive.org/web/20191231202941/https://openpreservation.org/technology/corpora/govdocs-selected/).
-
 - [digicam corpus](https://github.com/thorsted/digicam_corpus) - Contains a corpus of Digital Camera files collected by Tyler Thorsted.
 - [The Skeleton Test Suite](https://github.com/exponential-decay/skeleton-test-suite) - Builds test files from PRONOM binary and container signatures. These can be used to test DROID and other (compatible) identification tools.
 - [Fine Free File Test Suite](https://fedorahosted.org/file-tests/) - Set up for Fedora testing.
@@ -151,24 +202,36 @@ To improve our digital preservation tools, we need to be able to test them and e
 
 ### Format-specific Corpora
 
-- PDF:
-    - [Adobe Acrobat Engineering](https://web.archive.org/web/20141019002403/http://acroeng.adobe.com/wp) - Site has lots of useful [test documents](https://web.archive.org/web/20130717012227/http://acroeng.adobe.com/wp/?page_id=10).
-    - [Isartor PDF/A Test Suite](http://www.pdfa.org/2011/08/isartor-test-suite/)
-    - [veraPDF Corpus](https://github.com/veraPDF/veraPDF-corpus) - For PDF/A.
-    - [Synthetic PDF Testset for File Format Validation](http://doi.org/10.22000/53) - Test set for well formedness validation in JHOVE - see associated [paper](https://ipres2017.jp/wp-content/uploads/35Michelle-Lindlar.pdf).
-- ePub:
-    - [The IDPF ePub test suite](https://github.com/IDPF/epub-testsuite)
-    - [KBNLresearch/epubPolicyTests](https://github.com/KBNLresearch/epubPolicyTests) - Some #epub samples with encryption, DTBook content and foreign resources, with corresponding #epubcheck output.
-- TIFF:
-    - The libtiff [TIFF Test Images](http://www.libtiff.org/images.html)
-- JP2:
-    - [OPF JP2k test corpus](https://github.com/openpreserve/format-corpus/tree/master/jp2k-test)
-    - [NITF version 2.1 JPEG 2000 Sample Imagery](https://web.archive.org/web/20180413152928/http://www.gwg.nga.mil/ntb/baseline/software/testfile/Jpeg2000/index.htm)
-    - [JPEG 2000 Part 4 Conformance Test Files](http://web.archive.org/web/20080510121012/http://www.crc.ricoh.com/~gormish/jpeg2000conformance/) (v.1.5 with earlier versions also available in the archive history)
-- WARC/ARC:
-    - [Internet Archive's Example ARC and WARC files](https://archive.org/details/ExampleArcAndWarcFiles)
-- SIARD:
-    - [SIARD test files](https://github.com/sfa-siard/SiardCmd/tree/master/testfiles)
+#### PDF <!-- omit in toc -->
+
+- [Adobe Acrobat Engineering](https://web.archive.org/web/20141019002403/http://acroeng.adobe.com/wp) - Site has lots of useful [test documents](https://web.archive.org/web/20130717012227/http://acroeng.adobe.com/wp/?page_id=10).
+- [Isartor PDF/A Test Suite](http://www.pdfa.org/2011/08/isartor-test-suite/)
+- [veraPDF Corpus](https://github.com/veraPDF/veraPDF-corpus) - For PDF/A.
+- [Synthetic PDF Testset for File Format Validation](http://doi.org/10.22000/53) - Test set for well formedness validation in JHOVE - see associated [paper](https://ipres2017.jp/wp-content/uploads/35Michelle-Lindlar.pdf).
+
+#### ePub <!-- omit in toc -->
+
+- [The IDPF ePub test suite](https://github.com/IDPF/epub-testsuite)
+- [KBNLresearch/epubPolicyTests](https://github.com/KBNLresearch/epubPolicyTests) - Some #epub samples with encryption, DTBook content and foreign resources, with corresponding #epubcheck output.
+
+
+#### TIFF <!-- omit in toc -->
+
+- The libtiff [TIFF Test Images](http://www.libtiff.org/images.html)
+
+#### JPEG2000 <!-- omit in toc -->
+
+- [OPF JP2k test corpus](https://github.com/openpreserve/format-corpus/tree/master/jp2k-test)
+- [NITF version 2.1 JPEG 2000 Sample Imagery](https://web.archive.org/web/20180413152928/http://www.gwg.nga.mil/ntb/baseline/software/testfile/Jpeg2000/index.htm)
+- [JPEG 2000 Part 4 Conformance Test Files](http://web.archive.org/web/20080510121012/http://www.crc.ricoh.com/~gormish/jpeg2000conformance/) (v.1.5 with earlier versions also available in the archive history)
+
+#### Web Archives <!-- omit in toc -->
+
+- [Internet Archive's Example ARC and WARC files](https://archive.org/details/ExampleArcAndWarcFiles)
+ 
+#### Databases <!-- omit in toc -->
+
+- [SIARD test files](https://github.com/sfa-siard/SiardCmd/tree/master/testfiles)
 
 ### Building Corpora
 
@@ -178,33 +241,26 @@ If the existing corpora aren't cutting it, perhaps you can contribute to the OPF
 
 Web archives can provide a useful source of files of particular formats. For example, [search via the UKWA interface](https://www.webarchive.org.uk/shine/search?page=1&invert=&facet.fields=crawl_year&invert=&invert=&facet.fields=public_suffix&invert=&invert=&invert=&invert=&invert=&query=content_type%3A%22application%2Fmbox%22&totalCount=totalCount&order=asc).
 
-## Tools
+## Find More Tools
 
-Software tools give us the means the interrogate, manipulate, understand and ultimately preserve our digital data.
+Software tools give us the means the interrogate, manipulate, understand and ultimately preserve our digital data. The Community Owned digital Preservation Tool Registry, <a href="http://coptr.digipres.org/">COPTR</a> has unified five isolated tool registries. It provides an easy-to-edit wiki interface where we can share our knowledge about, and experiences with, tools used for digital preservation purposes.
 
-- Find tools to solve your challenges with the [POWRR Tools Grid](http://www.digipres.org/tools/)
-- Contribute your experiences of using tools to the [COPTR wiki](http://coptr.digipres.org/)
-    - The Community Owned digital Preservation Tool Registry, <a href="http://coptr.digipres.org/">COPTR</a> has unified five isolated tool registries. It provides an easy-to-edit wiki interface where we can share our knowledge about, and experiences with, tools used for digital preservation purposes. If you create a new digipres tool, please [add it to COPTR](http://coptr.digipres.org/Guidelines_for_contributing_to_COPTR), but before you create a new tool, please use COPTR to find [similar ones](http://coptr.digipres.org/Category:Function) and see if you might be able to extend or improve some of the existing tools.
-- Contributing to the development and improvement of tools is easy, even if you're not technical. Check out [this guide to making small documentation edits, or raising issues on GitHub](http://ablwr.github.io/blog/2014/11/04/non-technical-persons-guide-to-becoming-an-open-source-software-contributor-via-github/).
-- Digital preservation needs high-quality tools, but to get high-quality tools, we need test-corpora rich and varied test corpora to stretch those tools to their limits.
+- Find tools to solve your challenges with the [POWRR Tools Grid](https://coptr.digipres.org/index.php/Tools_Grid), generated from the COPTR wiki.
+- Find tools [by function](http://coptr.digipres.org/Category:Function).
+- Contribute your experiences of using tools to the [COPTR wiki](http://coptr.digipres.org/).
+- If you find or create new tools, please [add them to COPTR](http://coptr.digipres.org/Guidelines_for_contributing_to_COPTR).
 
 
-## Building Workflows
+## Build Workflows
 
 Resources to help build up preservation workflows, e.g. templates for how to use command-line tools, and how to chain things together.
 
 - [ffmprovisr 'Making FFmpeg Easier'](http://amiaopensource.github.io/ffmprovisr/) (example of how to use `ffmpeg` to perform specific tasks)
 - [AMIA Open Source: List of open workflows for A/V resources](https://github.com/amiaopensource/open-workflows)
 
-## Understanding Formats
+## Improve The Tools
 
-We need to understand the file formats of the resources we care for, and the software they depend on.
-
-- [Search for formats](https://digipres.org/formats/)
-- Add formats to the [File Formats Wiki](http://justsolve.archiveteam.org)
-- Understand [file format risks](http://wiki.opf-labs.org/display/TR/OPF+File+Format+Risk+Registry) ([e.g. JP2](http://wiki.opf-labs.org/display/TR/JP2))
-    - If you have good examples of digital resources and their risks, please consider adding them to a test corpus.
-   [Siegfried](http://www.itforarchivists.com/siegfried) 
+Contributing to the development and improvement of tools is easy, even if you're not technical. Check out [this guide to making small documentation edits, or raising issues on GitHub](http://ablwr.github.io/blog/2014/11/04/non-technical-persons-guide-to-becoming-an-open-source-software-contributor-via-github/)
 
 ### Improving Identification
 
@@ -213,9 +269,6 @@ Identifying file formats is the bread and butter of digital preservation charact
 - [A basic guide for writing format signatures](http://openpreservation.org/blogs/2012-02-09-basic-guide-writing-new-format-signatures) - Covers [Apache Tika](https://issues.apache.org/jira/browse/TIKA) and [DROID](http://www.nationalarchives.gov.uk/PRONOM/submitinfo.htm).
 - [DROID/PRONOM also has this official guide](http://www.nationalarchives.gov.uk/documents/information-management/pronom-file-signature-research.pdf)
 - [Contribute a file format signature to FILE](https://github.com/glensc/file) - See [this guide](http://www.openpreservation.org/blogs/2012-08-09-magic-editing-and-creation-primer).
-
-If you want to start to put this into practice you can identify file formats right now (with no installation or setup) using [Siegfried JS](https://siegfried-js.glitch.me/) or alternatively check out stand alone [file format identification tools](http://www.digipres.org/tools/by-function/#ingest:fileformatidentification).
-
 
 ### Improving Characterisation/Metadata Extraction
 
