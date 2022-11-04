@@ -10,10 +10,9 @@ Contributions are welcome. Please add links through pull requests, or create an 
 
 The text of an annual reminder email about these resources is also held here, in [reminder.md](reminder.md). This will be sent around various mailings list once per year, ahead of [World Digital Preservation Day](https://www.dpconline.org/events/world-digital-preservation-day).
 
-<!-- omit in toc -->
-## Contents 
+## Contents <!-- omit in toc -->
 
-<!--lint ignore double-link-->
+<!-- markdown-link-check-disable -->
 
 - [Get Started](#get-started)
   - [Save Digital Stuff Right Now](#save-digital-stuff-right-now)
@@ -34,6 +33,8 @@ The text of an annual reminder email about these resources is also held here, in
 - [Improve The Tools](#improve-the-tools)
   - [Improving Identification](#improving-identification)
   - [Improving Characterisation/Metadata Extraction](#improving-characterisationmetadata-extraction)
+
+<!-- markdown-link-check-enable -->
 
 ## Get Started
 
@@ -74,8 +75,6 @@ If you have good examples of digital resources and their risks, please consider 
 
 
 ### Experiment with Tools
-
-<!--lint ignore double-link-->
 
 There are a lot of tools out there (see [the tools section below](#find-more-tools)), but some tools are particularly great for early experimentation. These tools can be used right in your web browser, so you can get started without installing software locally.
 
