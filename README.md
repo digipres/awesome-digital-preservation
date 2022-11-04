@@ -10,9 +10,10 @@ Contributions are welcome. Please add links through pull requests, or create an 
 
 The text of an annual reminder email about these resources is also held here, in [reminder.md](reminder.md). This will be sent around various mailings list once per year, ahead of [World Digital Preservation Day](https://www.dpconline.org/events/world-digital-preservation-day).
 
-## Contents <!-- omit in toc -->
+<!-- omit in toc -->
+## Contents
 
-<!-- markdown-link-check-disable -->
+<!--lint disable double-link-->
 
 - [Get Started](#get-started)
   - [Save Digital Stuff Right Now](#save-digital-stuff-right-now)
@@ -34,7 +35,8 @@ The text of an annual reminder email about these resources is also held here, in
   - [Improving Identification](#improving-identification)
   - [Improving Characterisation/Metadata Extraction](#improving-characterisationmetadata-extraction)
 
-<!-- markdown-link-check-enable -->
+<!--lint enable double-link-->
+
 
 ## Get Started
 
@@ -76,6 +78,8 @@ If you have good examples of digital resources and their risks, please consider 
 
 ### Experiment with Tools
 
+<!--lint ignore double-link -->
+
 There are a lot of tools out there (see [the tools section below](#find-more-tools)), but some tools are particularly great for early experimentation. These tools can be used right in your web browser, so you can get started without installing software locally.
 
 #### Remote Services <!-- omit in toc -->
@@ -109,7 +113,7 @@ Advance digital preservation by pooling our experience, sharing our stories and 
 
 - Q&A:
    - [Ask and answer digital preservation questions](http://qanda.digipres.org)
-   - We tried to run a Digital Presevation Stack Exchange, but it didn't work out. The [content is available here](http://anjackson.github.io/zombse/)
+   - We tried to run a Digital Preservation Stack Exchange, but it didn't work out. The [content is available here](http://anjackson.github.io/zombse/)
 - Forums
     - Discussion forums and active [blogs](http://dpconline.org/blog) provide the opportunity to share informal advice and war stories, get recommendations and discuss the finer points of digital preservation. By sharing both your intentions for digital preservation work and your results, you can [ensure your work benefits from a wealth of community experience](http://openpreservation.org/blogs/2012-05-17-do-others-share-your-digital-preservation-challenges-and-know-about-best-solutions).
     - Discuss preservation issues on the [Digital Curation](https://groups.google.com/g/digital-curation) forum
@@ -140,7 +144,7 @@ Advance digital preservation by pooling our experience, sharing our stories and 
 - Conferences:
     - [PASIG](http://www.preservationandarchivingsig.org/)
     - [iPres](https://ipres-conference.org/)
-- Membership organisations:
+- Membership organizations:
     - [DPC](http://dpconline.org/) (International)
     - [OPF](http://openpreservation.org/) (International)
     - [NCDD](http://www.ncdd.nl/) (Netherlands)
