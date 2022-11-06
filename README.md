@@ -4,8 +4,6 @@
 
 This [Awesome List](https://github.com/sindresorhus/awesome/blob/main/awesome.md) is one a suite of community-owned resources for digital preservation. See [digipres.org](https://www.digipres.org) or [the digipres.org discussion forum](https://github.com/orgs/digipres/discussions) for more information.
 
-> :warning: **Status**: This page is being reviewed and the structure is likely to change (see [#2](https://github.com/digipres/awesome-digital-preservation/issues/2)). If you have any feedback on the structure of the page please comment on that issue.
-
 Contributions are welcome. Please add links through pull requests, or create an issue to start a discussion. Please refer to [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidance.  And if obsolescence claims something awesome, there's always the [Archive](ARCHIVED.md).
 
 The text of an annual reminder email about these resources is also held here, in [reminder.md](reminder.md). This will be sent around various mailings list once per year, ahead of [World Digital Preservation Day](https://www.dpconline.org/events/world-digital-preservation-day).
