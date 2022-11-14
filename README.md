@@ -71,6 +71,7 @@ We need to understand the file formats of the resources we care for, and the sof
 - Find or add formats to the [File Formats Wiki](http://justsolve.archiveteam.org)
 - Understand [file format risks](http://wiki.opf-labs.org/display/TR/OPF+File+Format+Risk+Registry) ([e.g. JP2](http://wiki.opf-labs.org/display/TR/JP2))
 - [Game File Format Central](http://wiki.xentax.com/index.php/Game_File_Format_Central) - Community project documenting over 1300 game related file-formats.
+- [Just Solve It - File Formats Wiki](http://fileformats.archiveteam.org/wiki/Main_Page) - Community project documenting a wide-variety of file formats.
 
 If you have good examples of digital resources and their risks, please consider adding them to a test corpus.
 
