@@ -201,7 +201,7 @@ To improve our digital preservation tools, we need to be able to test them and e
 - [PREFORMA Ground Truth Classes](https://github.com/preforma/groundtruth) - Instructions how to reproduce validation-failing files for Matroska, FFV1, LPCM, TIFF, and PDF formats.
 - ["Small"](https://github.com/mathiasbynens/small) - Collection of "the smallest possible syntactically valid files in different programming/scripting/markup languages."
 - [MediaArea-RegressionTestingFiles](https://github.com/MediaArea/MediaArea-RegressionTestingFiles) - Public regression testing files for MediaArea. Contains AVI, FLV, MPEG Audio, MOV, MPEG-4, MPEG-PS, and Matroska files.
-- [TechSlides sample files for web development](http://techslides.com/sample-files-for-development) - Sample files for various image formats, video files, data structures, fonts, and web development files.
+- [TechSlides sample files for web development](http://web.archive.org/web/20220124205507/http://techslides.com/sample-files-for-development) - Sample files for various image formats, video files, data structures, fonts, and web development files.
 
 ### Format-specific Corpora
 
