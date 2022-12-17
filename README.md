@@ -86,7 +86,8 @@ There are a lot of tools out there (see [the tools section below](#find-more-too
 
 These tools are accessed using your browser, and work by sending a copy of your files to a remote server.
 
-- [Siegfried](http://www.itforarchivists.com/siegfried) - You can use Siegfried to identify the format of your files. This service sends your file to a web server for analysis.
+- [Siegfried](http://www.itforarchivists.com/siegfried) - You can use the side bar to upload a file for Siegfried to identify the format.
+- [Online TrID File Identifier](https://mark0.net/onlinetrid.html) - A web service that identifies files using [TrID](https://mark0.net/soft-trid-e.html).
 
 #### In-Browser Tools <!-- omit in toc -->
 
