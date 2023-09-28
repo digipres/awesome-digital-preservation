@@ -203,6 +203,9 @@ To improve our digital preservation tools, we need to be able to test them and e
 - ["Small"](https://github.com/mathiasbynens/small) - Collection of "the smallest possible syntactically valid files in different programming/scripting/markup languages."
 - [MediaArea-RegressionTestingFiles](https://github.com/MediaArea/MediaArea-RegressionTestingFiles) - Public regression testing files for MediaArea. Contains AVI, FLV, MPEG Audio, MOV, MPEG-4, MPEG-PS, and Matroska files.
 - [TechSlides sample files for web development](http://web.archive.org/web/20220124205507/http://techslides.com/sample-files-for-development) - Sample files for various image formats, video files, data structures, fonts, and web development files.
+- [Internet File Formats](https://archive.org/details/internet-file-formats-cd) - Companion CD-ROM to [Internet File Formats](https://archive.org/details/mac_Internet_File_Formats_1995), contains Sample Files and some File Format Specifications for a variety of common file formats circa 1995.
+- [Apache Tika's regression corpus](https://corpora.tika.apache.org/base/docs/) - Millions of files collected largely from govdocs1 and Common Crawl with oversampling on binary formats.
+- [Apache Tika's Bugtracker corpora](https://corpora.tika.apache.org/base/docs/bug_trackers/) - Dense set of problematic files -- attachments from bug trackers for open source parsers.
 
 ### Format-specific Corpora
 
@@ -213,6 +216,9 @@ To improve our digital preservation tools, we need to be able to test them and e
 - [veraPDF Corpus](https://github.com/veraPDF/veraPDF-corpus) - For PDF/A.
 - [Synthetic PDF Testset for File Format Validation](http://doi.org/10.22000/53) - Test set for well formedness validation in JHOVE - see associated [paper](https://ipres2017.jp/wp-content/uploads/35Michelle-Lindlar.pdf).
 - [PDF Differences](https://github.com/pdf-association/pdf-differences) - Targeted test files that highlight specific portability and interoperability issues by the [PDF Association](https://pdfa.org/).
+- [PDF Cabinet of Horrors](http://opf-labs.org/format-corpus/pdfCabinetOfHorrors/)
+- [DARPA SafeDocs - 8 million non-truncated PDFs from a month of Common Crawl](https://digitalcorpora.org/corpora/file-corpora/cc-main-2021-31-pdf-untruncated/)
+- See also: [The PDF Association's list of PDF-focused corpora](https://github.com/pdf-association/pdf-corpora)
 
 #### ePub <!-- omit in toc -->
 
