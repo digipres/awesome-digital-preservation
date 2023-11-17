@@ -28,10 +28,10 @@ jobs:
       - name: Run Awesome Lint
         run: awesome-lint
 
-#      - name: Check for broken links
-#        uses: gaurav-nelson/github-action-markdown-link-check@v1
-#        with:
-#          use-quiet-mode: 'yes'
-#          use-verbose-mode: 'yes'
-#          config-file: 'mlc_config.json'
+      - name: Check for broken links
+        uses: gaurav-nelson/github-action-markdown-link-check@v1
+        with:
+          use-quiet-mode: 'yes'
+          use-verbose-mode: 'yes'
+          config-file: 'mlc_config.json'
 
