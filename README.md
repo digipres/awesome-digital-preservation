@@ -44,10 +44,10 @@ Spotted digital data at risk, but don't know who can save it?
 
 - Save web pages via:
     - [Internet Archive Nominations](http://blog.archive.org/2013/10/25/fixing-broken-links/#save_page)
-    - [archive.is](http://archive.is/)
+    - [archive.is](http://archive.is/) - Also known as _archive.today_. <!-- markdown-link-check-disable-line --><!-- arhive.is seems to block link checks -->
     - [perma.cc](https://perma.cc/)
     - [webcitation.org](http://webcitation.org/)
-    - [UK Web Archive Site Nomination](https://www.webarchive.org.uk/ukwa/info/nominate)
+    - [UK Web Archive Site Nomination](https://www.webarchive.org.uk/ukwa/info/nominate) - Suggest URLs for the UK Web Archive. _Note that UKWA is offline at present._ <!-- markdown-link-check-disable-line -->
 - Alert the [Archive Team](http://archiveteam.org/), and [help them save digital stuff](http://archiveteam.org/index.php?title=Who_We_Are)
 
 ### Learn About Digital Preservation
@@ -70,7 +70,7 @@ We need to understand the file formats of the resources we care for, and the sof
 - [Search across format registries](https://digipres.org/formats/)
 - Find or add formats to the [File Formats Wiki](http://justsolve.archiveteam.org)
 - Understand [file format risks](http://wiki.opf-labs.org/display/TR/OPF+File+Format+Risk+Registry) ([e.g. JP2](http://wiki.opf-labs.org/display/TR/JP2))
-- [Game File Format Central](http://wiki.xentax.com/index.php/Game_File_Format_Central) - Community project documenting over 1300 game related file-formats.
+- [Game File Format Central (_archived version_)](https://web.archive.org/web/20230314075220/http://wiki.xentax.com/index.php/Game_File_Format_Central) - Community project documenting over 1300 game related file-formats.
 - [Just Solve It - File Formats Wiki](http://fileformats.archiveteam.org/wiki/Main_Page) - Community project documenting a wide-variety of file formats.
 
 If you have good examples of digital resources and their risks, please consider adding them to a test corpus.
@@ -177,13 +177,13 @@ To improve our digital preservation tools, we need to be able to test them and e
 ### Multi-format Corpora
 
 - The [OPF Format Corpus](https://github.com/openpreserve/format-corpus)
-- The [iPres System Showcase Test Suite](http://www.webarchive.org.uk/datasets/ipres.ds.1/)
+- The [iPres System Showcase Test Suite](http://www.webarchive.org.uk/datasets/ipres.ds.1/) - Hosted by the UK Web Archive. _Note that UKWA is offline at present._ <!-- markdown-link-check-disable-line -->
 - The [Encyclopedia of Graphics File Formats Companion CD-ROM](https://archive.org/details/EncyclopediaOfGraphicsFileFormatsCompanionCd-rom) contains lots of test files for image formats:
     - [EGFF ISO Image](https://archive.org/download/EncyclopediaOfGraphicsFileFormatsCompanionCd-rom/GFF_CD.ISO)
-- [EDRM Data Set Files](https://web.archive.org/web/20150414060529/http://www.edrm.net/projects/dataset/data-set-files)
-    - [EDRM File Formats Data Set 1.0.1](https://web.archive.org/web/20150414060529/http://www.edrm.net/download/all_projects/data_set/EDRM_Data-Set_File-Formats_1-0.zip)
+- [EDRM Data Set Files (_archived version_)](https://web.archive.org/web/20150414060529/http://www.edrm.net/projects/dataset/data-set-files)
+    - [EDRM File Formats Data Set 1.0.1 (_archived version_)](https://web.archive.org/web/20150414060529/http://www.edrm.net/download/all_projects/data_set/EDRM_Data-Set_File-Formats_1-0.zip)
 - [digitalcorpora.org's corpora](http://digitalcorpora.org/corpora/) - including [govdocs1](http://digitalcorpora.org/corpora/govdocs).
-- Open Preservation Foundation had a corpora page [(archived version)](https://web.archive.org/web/20191231165648/https://openpreservation.org/technology/corpora/).
+- Open Preservation Foundation had a corpora page [(_archived version_)](https://web.archive.org/web/20191231165648/https://openpreservation.org/technology/corpora/).
     - OPF govdocs [here](https://web.archive.org/web/20191231165744/https://openpreservation.org/technology/corpora/govdocs/)
     - OPF also created a [by-format subset of govdocs1](https://web.archive.org/web/20191231202941/https://openpreservation.org/technology/corpora/govdocs-selected/).
 - [digicam corpus](https://github.com/thorsted/digicam_corpus) - Contains a corpus of Digital Camera files collected by Tyler Thorsted.
@@ -192,7 +192,7 @@ To improve our digital preservation tools, we need to be able to test them and e
 - [JHOVE's test files](http://jhove.cvs.sourceforge.net/viewvc/jhove/jhove/examples/)
 - [JHOVE2's test files](https://github.com/opf-labs/jhove2/tree/master/src/test/resources/examples/)
 - The [disktype test files](http://disktype.cvs.sourceforge.net/viewvc/disktype/file-system-sampler/)
-- The [Metadata Working Group specifications](https://web.archive.org/web/20180402195758/http://www.metadataworkinggroup.org/specs/) and [embedded image metadata test corpus](https://web.archive.org/web/20180402200035/http://www.metadataworkinggroup.org/specs/test_files.html)
+- The [Metadata Working Group specifications (_archived version_)](https://web.archive.org/web/20180402195758/http://www.metadataworkinggroup.org/specs/) and [embedded image metadata test corpus (_archived version_)](https://web.archive.org/web/20180402200035/http://www.metadataworkinggroup.org/specs/test_files.html)
 - [Apache Tika issue about setting up a nightly test corpus](https://issues.apache.org/jira/browse/TIKA-1302) - See also [tika-parsers/src/test/resources/test-documents](http://svn.apache.org/repos/asf/tika/trunk/tika-parsers/src/test/resources/test-documents/)
 - [The Chemical MIME Home Page](http://www.ch.ic.ac.uk/chemime/)
 - [Online-convert.com example files](http://www.online-convert.com/file-type) (use [this link to browse the folder structure](https://example-files.online-convert.com/))
@@ -202,7 +202,7 @@ To improve our digital preservation tools, we need to be able to test them and e
 - [PREFORMA Ground Truth Classes](https://github.com/preforma/groundtruth) - Instructions how to reproduce validation-failing files for Matroska, FFV1, LPCM, TIFF, and PDF formats.
 - ["Small"](https://github.com/mathiasbynens/small) - Collection of "the smallest possible syntactically valid files in different programming/scripting/markup languages."
 - [MediaArea-RegressionTestingFiles](https://github.com/MediaArea/MediaArea-RegressionTestingFiles) - Public regression testing files for MediaArea. Contains AVI, FLV, MPEG Audio, MOV, MPEG-4, MPEG-PS, and Matroska files.
-- [TechSlides sample files for web development](http://web.archive.org/web/20220124205507/http://techslides.com/sample-files-for-development) - Sample files for various image formats, video files, data structures, fonts, and web development files.
+- [TechSlides sample files for web development (_archived version_)](http://web.archive.org/web/20220124205507/http://techslides.com/sample-files-for-development) - Sample files for various image formats, video files, data structures, fonts, and web development files.
 - [Internet File Formats](https://archive.org/details/internet-file-formats-cd) - Companion CD-ROM to [Internet File Formats](https://archive.org/details/mac_Internet_File_Formats_1995), contains Sample Files and some File Format Specifications for a variety of common file formats circa 1995.
 - [Apache Tika's regression corpus](https://corpora.tika.apache.org/base/docs/) - Millions of files collected largely from govdocs1 and Common Crawl with oversampling on binary formats.
 - [Apache Tika's Bugtracker corpora](https://corpora.tika.apache.org/base/docs/bug_trackers/) - Dense set of problematic files -- attachments from bug trackers for open source parsers.
@@ -211,10 +211,10 @@ To improve our digital preservation tools, we need to be able to test them and e
 
 #### PDF <!-- omit in toc -->
 
-- [Adobe Acrobat Engineering](https://web.archive.org/web/20141019002403/http://acroeng.adobe.com/wp) - Site has lots of useful [test documents](https://web.archive.org/web/20130717012227/http://acroeng.adobe.com/wp/?page_id=10).
+- [Adobe Acrobat Engineering (_archived version_)](https://web.archive.org/web/20141019002403/http://acroeng.adobe.com/wp) - Site has lots of useful [test documents (_archived version_)](https://web.archive.org/web/20130717012227/http://acroeng.adobe.com/wp/?page_id=10).
 - [Isartor PDF/A Test Suite](http://www.pdfa.org/2011/08/isartor-test-suite/)
 - [veraPDF Corpus](https://github.com/veraPDF/veraPDF-corpus) - For PDF/A.
-- [Synthetic PDF Testset for File Format Validation](http://doi.org/10.22000/53) - Test set for well formedness validation in JHOVE - see associated [paper](https://ipres2017.jp/wp-content/uploads/35Michelle-Lindlar.pdf).
+- [Synthetic PDF Testset for File Format Validation](http://doi.org/10.22000/53) - Test set for well formedness validation in JHOVE - see associated [paper](https://ipres-conference.org/ipres17/ipres2017.jp/wp-content/uploads/35Michelle-Lindlar.pdf).
 - [PDF Differences](https://github.com/pdf-association/pdf-differences) - Targeted test files that highlight specific portability and interoperability issues by the [PDF Association](https://pdfa.org/).
 - [PDF Cabinet of Horrors](http://opf-labs.org/format-corpus/pdfCabinetOfHorrors/)
 - [DARPA SafeDocs - 8 million non-truncated PDFs from a month of Common Crawl](https://digitalcorpora.org/corpora/file-corpora/cc-main-2021-31-pdf-untruncated/)
@@ -233,8 +233,8 @@ To improve our digital preservation tools, we need to be able to test them and e
 #### JPEG2000 <!-- omit in toc -->
 
 - [OPF JP2k test corpus](https://github.com/openpreserve/format-corpus/tree/master/jp2k-test)
-- [NITF version 2.1 JPEG 2000 Sample Imagery](https://web.archive.org/web/20180413152928/http://www.gwg.nga.mil/ntb/baseline/software/testfile/Jpeg2000/index.htm)
-- [JPEG 2000 Part 4 Conformance Test Files](http://web.archive.org/web/20080510121012/http://www.crc.ricoh.com/~gormish/jpeg2000conformance/) (v.1.5 with earlier versions also available in the archive history)
+- [NITF version 2.1 JPEG 2000 Sample Imagery (_archived version_)](https://web.archive.org/web/20180413152928/http://www.gwg.nga.mil/ntb/baseline/software/testfile/Jpeg2000/index.htm)
+- [JPEG 2000 Part 4 Conformance Test Files (_archived version_)](http://web.archive.org/web/20080510121012/http://www.crc.ricoh.com/~gormish/jpeg2000conformance/) (v.1.5 with earlier versions also available in the archive history)
 - [openjpeg-data](https://github.com/uclouvain/openjpeg-data) - Test files for OpenJPEG.
 - [jpylyzer-test-files](https://github.com/openpreserve/jpylyzer-test-files) - Test files for Jpylyzer.
 
@@ -248,11 +248,11 @@ To improve our digital preservation tools, we need to be able to test them and e
 
 ### Building Corpora
 
-If the existing corpora aren't cutting it, perhaps you can contribute to the OPF Format Corpus hosted on GitHub. There's a [guide here on how to contribute](http://wiki.curatecamp.org/index.php/Collecting_format_ID_test_files) or you can [contact OPF](http://openpreservation.org/about/contact/) for help on how to get involved.
+If the existing corpora aren't cutting it, perhaps you can contribute to the OPF Format Corpus hosted on GitHub. There's a [guide here on how to contribute (_archived version_)](https://web.archive.org/web/20221206180940/https://wiki.curatecamp.org/index.php/Collecting_format_ID_test_files) or you can [contact OPF](http://openpreservation.org/about/contact/) for help on how to get involved.
 
 ### Sourcing test files from web archives
 
-Web archives can provide a useful source of files of particular formats. For example, [search via the UKWA interface](https://www.webarchive.org.uk/shine/search?page=1&invert=&facet.fields=crawl_year&invert=&invert=&facet.fields=public_suffix&invert=&invert=&invert=&invert=&invert=&query=content_type%3A%22application%2Fmbox%22&totalCount=totalCount&order=asc).
+Web archives can provide a useful source of files of particular formats. For example, [search via the UKWA interface](https://www.webarchive.org.uk/shine/search?page=1&invert=&facet.fields=crawl_year&invert=&invert=&facet.fields=public_suffix&invert=&invert=&invert=&invert=&invert=&query=content_type%3A%22application%2Fmbox%22&totalCount=totalCount&order=asc). _Note that UKWA is offline at present._ <!-- markdown-link-check-disable-line -->
 
 ## Find More Tools
 
