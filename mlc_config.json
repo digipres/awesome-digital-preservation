@@ -1,6 +1,6 @@
 {
   "aliveStatusCodes": [429, 200],
   "timeout": "30s",
-  "retryCount": 5,
+  "retryCount": 3,
   "fallbackRetryDelay": "30s"
 }
