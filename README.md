@@ -47,7 +47,7 @@ Spotted digital data at risk, but don't know who can save it?
     - [archive.is](http://archive.is/)
     - [perma.cc](https://perma.cc/)
     - [webcitation.org](http://webcitation.org/)
-    - [UK Web Archive Site Nomination](https://www.webarchive.org.uk/ukwa/info/nominate)
+    - [UK Web Archive Site Nomination](https://www.webarchive.org.uk/ukwa/info/nominate) <!-- markdown-link-check-disable-line --><!-- While UKWA is offline -->
 - Alert the [Archive Team](http://archiveteam.org/), and [help them save digital stuff](http://archiveteam.org/index.php?title=Who_We_Are)
 
 ### Learn About Digital Preservation
@@ -70,7 +70,7 @@ We need to understand the file formats of the resources we care for, and the sof
 - [Search across format registries](https://digipres.org/formats/)
 - Find or add formats to the [File Formats Wiki](http://justsolve.archiveteam.org)
 - Understand [file format risks](http://wiki.opf-labs.org/display/TR/OPF+File+Format+Risk+Registry) ([e.g. JP2](http://wiki.opf-labs.org/display/TR/JP2))
-- [Game File Format Central](http://wiki.xentax.com/index.php/Game_File_Format_Central) - Community project documenting over 1300 game related file-formats.
+- [Game File Format Central](https://web.archive.org/web/20230314075220/http://wiki.xentax.com/index.php/Game_File_Format_Central) - Community project documenting over 1300 game related file-formats.
 - [Just Solve It - File Formats Wiki](http://fileformats.archiveteam.org/wiki/Main_Page) - Community project documenting a wide-variety of file formats.
 
 If you have good examples of digital resources and their risks, please consider adding them to a test corpus.
@@ -214,7 +214,7 @@ To improve our digital preservation tools, we need to be able to test them and e
 - [Adobe Acrobat Engineering](https://web.archive.org/web/20141019002403/http://acroeng.adobe.com/wp) - Site has lots of useful [test documents](https://web.archive.org/web/20130717012227/http://acroeng.adobe.com/wp/?page_id=10).
 - [Isartor PDF/A Test Suite](http://www.pdfa.org/2011/08/isartor-test-suite/)
 - [veraPDF Corpus](https://github.com/veraPDF/veraPDF-corpus) - For PDF/A.
-- [Synthetic PDF Testset for File Format Validation](http://doi.org/10.22000/53) - Test set for well formedness validation in JHOVE - see associated [paper](https://ipres2017.jp/wp-content/uploads/35Michelle-Lindlar.pdf).
+- [Synthetic PDF Testset for File Format Validation](http://doi.org/10.22000/53) - Test set for well formedness validation in JHOVE - see associated [paper](https://ipres-conference.org/ipres17/ipres2017.jp/wp-content/uploads/35Michelle-Lindlar.pdf).
 - [PDF Differences](https://github.com/pdf-association/pdf-differences) - Targeted test files that highlight specific portability and interoperability issues by the [PDF Association](https://pdfa.org/).
 - [PDF Cabinet of Horrors](http://opf-labs.org/format-corpus/pdfCabinetOfHorrors/)
 - [DARPA SafeDocs - 8 million non-truncated PDFs from a month of Common Crawl](https://digitalcorpora.org/corpora/file-corpora/cc-main-2021-31-pdf-untruncated/)
@@ -248,11 +248,11 @@ To improve our digital preservation tools, we need to be able to test them and e
 
 ### Building Corpora
 
-If the existing corpora aren't cutting it, perhaps you can contribute to the OPF Format Corpus hosted on GitHub. There's a [guide here on how to contribute](http://wiki.curatecamp.org/index.php/Collecting_format_ID_test_files) or you can [contact OPF](http://openpreservation.org/about/contact/) for help on how to get involved.
+If the existing corpora aren't cutting it, perhaps you can contribute to the OPF Format Corpus hosted on GitHub. There's a [guide here on how to contribute](https://web.archive.org/web/20221206180940/https://wiki.curatecamp.org/index.php/Collecting_format_ID_test_files) or you can [contact OPF](http://openpreservation.org/about/contact/) for help on how to get involved.
 
 ### Sourcing test files from web archives
 
-Web archives can provide a useful source of files of particular formats. For example, [search via the UKWA interface](https://www.webarchive.org.uk/shine/search?page=1&invert=&facet.fields=crawl_year&invert=&invert=&facet.fields=public_suffix&invert=&invert=&invert=&invert=&invert=&query=content_type%3A%22application%2Fmbox%22&totalCount=totalCount&order=asc).
+Web archives can provide a useful source of files of particular formats. For example, [search via the UKWA interface](https://www.webarchive.org.uk/shine/search?page=1&invert=&facet.fields=crawl_year&invert=&invert=&facet.fields=public_suffix&invert=&invert=&invert=&invert=&invert=&query=content_type%3A%22application%2Fmbox%22&totalCount=totalCount&order=asc). <!-- markdown-link-check-disable-line --><!-- While UKWA is offline -->
 
 ## Find More Tools
 
