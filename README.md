@@ -44,7 +44,7 @@ Spotted digital data at risk, but don't know who can save it?
 
 - Save web pages via:
     - [Internet Archive Nominations](http://blog.archive.org/2013/10/25/fixing-broken-links/#save_page)
-    - [archive.is](http://archive.is/)<!-- markdown-link-check-disable-line --><!-- seems to block link checks -->
+    - [archive.is](http://archive.is/) - Also known as _archive.today_. <!-- markdown-link-check-disable-line --><!-- arhive.is seems to block link checks -->
     - [perma.cc](https://perma.cc/)
     - [webcitation.org](http://webcitation.org/)
     - [UK Web Archive Site Nomination](https://www.webarchive.org.uk/ukwa/info/nominate) - Suggest URLs for the UK Web Archive. _Note that UKWA is offline at present._ <!-- markdown-link-check-disable-line -->
