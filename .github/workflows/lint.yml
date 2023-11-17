@@ -20,7 +20,7 @@ jobs:
 
       - uses: actions/setup-node@master
         with:
-          node-version: 12.x
+          node-version: 18.x
 
       - name: Install awesome-lint CLI
         run: npm install -g awesome-lint
