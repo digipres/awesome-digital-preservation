@@ -129,8 +129,8 @@ Advance digital preservation by pooling our experience, sharing our stories and 
         - <https://twitter.com/An_Old_Hand/lists/digi-pres-rdm>
         - <https://twitter.com/digipresnews/followers>
         - <https://twitter.com/NKrabben/lists>
-    - [r/DataHoarder](https://www.reddit.com/r/DataHoarder/) - "We are digital librarians."
-    - [r/Archiveteam](https://www.reddit.com/r/Archiveteam/) - "Archive Team is a loose collective of rogue archivists, programmers, writers and loudmouths dedicated to saving our digital heritage."
+    - [r/DataHoarder](https://www.reddit.com/r/DataHoarder/) - "We are digital librarians." <!-- markdown-link-check-disable-line -->
+    - [r/Archiveteam](https://www.reddit.com/r/Archiveteam/) - "Archive Team is a loose collective of rogue archivists, programmers, writers and loudmouths dedicated to saving our digital heritage." <!-- markdown-link-check-disable-line -->
     - Join the [Digital POWRR Slack](http://digitalpowrr.niu.edu/slack-off-with-digital-powrr/)
 - Face-to-Face communities/support groups:
     - [Digital Cultural Heritage DC](https://www.meetup.com/digital-cultural-heritage-dc/)
