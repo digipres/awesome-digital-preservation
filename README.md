@@ -96,6 +96,7 @@ These tools run entirely in your web browser, so no data is sent anywhere.
 - [Siegfried JS](https://siegfried-js.glitch.me/) - This runs the Siegfried format identification tool on your files in your browser.
 - [CyberChef](https://gchq.github.io/CyberChef/) - The Cyber Swiss Army Knife. Capable of running lots of basic data operations on text or files, including computing things like MD5 or SHA hashes.
 - [warc-analyser](https://edsu.github.io/warc-analyzer/) - Proof-of-concept that analyses WARC files in your browser. See <https://github.com/edsu/warc-analyzer> for more information.
+- [Demystify Lite](https://ross-spencer.github.io/demystify-lite/) - This runs [Siegfried WASM](https://github.com/richardlehane/siegfried/tree/5e86c0355bcf30bc74e75bc3c4d3ee8a3be35ab8/wasm) on your files in your browser and outputs a [Demystify](https://github.com/exponential-decay/demystify) formatted report profiling your collection and highlighting files that might require specific attention during appraisal, such as duplicates; and through various preservation activities, such as caring for file names encoded using specific character-encodings.
 
 ### Engage Stakeholders
 
