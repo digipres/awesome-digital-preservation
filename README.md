@@ -167,7 +167,7 @@ Advance digital preservation by pooling our experience, sharing our stories and 
 - [The PREMIS Data Dictionary for Preservation Metadata](https://www.loc.gov/standards/premis/)
 - [Metadata Encoding & Transmission Standard (METS)](http://www.loc.gov/standards/mets/)
 - [Portland Common Data Model (PCDM)](https://pcdm.org/)
-- [Coalition for Content Provenance and Authenticity (C2PA)](https://c2pa.org/) - an emerging industry standard.
+- [Coalition for Content Provenance and Authenticity (C2PA)](https://c2pa.org/) - A related, emerging industry standard.
     - [WITNESS and the C2PA Harms and Misuse Assessment Process](https://blog.witness.org/2021/12/witness-and-the-c2pa-harms-and-misuse-assessment-process/)
     - [First Camera With CAI Content Credentials Introduced](https://www.carlseibert.com/first-camera-with-cai-content-credentials-introduced/)
     - [Mark the good stuff: Content provenance and the fight against disinformation (BBC)](https://www.bbc.co.uk/rd/blog/2024-03-c2pa-verification-news-journalism-credentials)
