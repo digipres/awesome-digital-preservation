@@ -27,6 +27,7 @@ The text of an annual reminder email about these resources is also held here, in
   - [Format-specific Corpora](#format-specific-corpora)
   - [Building Corpora](#building-corpora)
   - [Sourcing test files from web archives](#sourcing-test-files-from-web-archives)
+  - [Sourcing test files](#sourcing-test-files)
 - [Find More Tools](#find-more-tools)
 - [Build Workflows](#build-workflows)
 - [Improve The Tools](#improve-the-tools)
@@ -256,7 +257,7 @@ If the existing corpora aren't cutting it, perhaps you can contribute to the OPF
 
 Web archives can provide a useful source of files of particular formats. For example, [search via the UKWA interface](https://www.webarchive.org.uk/shine/search?page=1&invert=&facet.fields=crawl_year&invert=&invert=&facet.fields=public_suffix&invert=&invert=&invert=&invert=&invert=&query=content_type%3A%22application%2Fmbox%22&totalCount=totalCount&order=asc). _Note that UKWA is offline at present._ <!-- markdown-link-check-disable-line -->
 
-### Sourcing test files (general)
+### Sourcing test files
 
 Tyler Thorsted's [File Formats - Finding Samples repository](https://github.com/thorsted/fileformat) lists various resources that can be used to find file format samples.
 
