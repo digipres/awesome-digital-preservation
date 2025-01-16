@@ -255,6 +255,10 @@ If the existing corpora aren't cutting it, perhaps you can contribute to the OPF
 
 Web archives can provide a useful source of files of particular formats. For example, [search via the UKWA interface](https://www.webarchive.org.uk/shine/search?page=1&invert=&facet.fields=crawl_year&invert=&invert=&facet.fields=public_suffix&invert=&invert=&invert=&invert=&invert=&query=content_type%3A%22application%2Fmbox%22&totalCount=totalCount&order=asc). _Note that UKWA is offline at present._ <!-- markdown-link-check-disable-line -->
 
+### Sourcing test files (general)
+
+Tyler Thorsted's [File Formats - Finding Samples repository](https://github.com/thorsted/fileformat) lists various resources that can be used to find file format samples.
+
 ## Find More Tools
 
 Software tools give us the means the interrogate, manipulate, understand and ultimately preserve our digital data. The Community Owned digital Preservation Tool Registry, <a href="http://coptr.digipres.org/">COPTR</a> has unified five isolated tool registries. It provides an easy-to-edit wiki interface where we can share our knowledge about, and experiences with, tools used for digital preservation purposes.
