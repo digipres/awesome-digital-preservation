@@ -213,7 +213,7 @@ To improve our digital preservation tools, we need to be able to test them and e
 #### PDF <!-- omit in toc -->
 
 - [Adobe Acrobat Engineering (_archived version_)](https://web.archive.org/web/20141019002403/http://acroeng.adobe.com/wp) - Site has lots of useful [test documents (_archived version_)](https://web.archive.org/web/20130717012227/http://acroeng.adobe.com/wp/?page_id=10).
-- [Isartor PDF/A Test Suite](http://www.pdfa.org/2011/08/isartor-test-suite/)
+- [Isartor PDF/A Test Suite](https://pdfa.org/resource/isartor-test-suite/)
 - [veraPDF Corpus](https://github.com/veraPDF/veraPDF-corpus) - For PDF/A.
 - [Synthetic PDF Testset for File Format Validation](http://doi.org/10.22000/53) - Test set for well formedness validation in JHOVE - see associated [paper](https://ipres-conference.org/ipres17/ipres2017.jp/wp-content/uploads/35Michelle-Lindlar.pdf).
 - [PDF Differences](https://github.com/pdf-association/pdf-differences) - Targeted test files that highlight specific portability and interoperability issues by the [PDF Association](https://pdfa.org/).
