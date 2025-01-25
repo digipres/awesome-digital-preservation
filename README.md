@@ -211,8 +211,6 @@ To improve our digital preservation tools, we need to be able to test them and e
 - [MediaArea-RegressionTestingFiles](https://github.com/MediaArea/MediaArea-RegressionTestingFiles) - Public regression testing files for MediaArea. Contains AVI, FLV, MPEG Audio, MOV, MPEG-4, MPEG-PS, and Matroska files.
 - [TechSlides sample files for web development (_archived version_)](http://web.archive.org/web/20220124205507/http://techslides.com/sample-files-for-development) - Sample files for various image formats, video files, data structures, fonts, and web development files.
 - [Internet File Formats](https://archive.org/details/internet-file-formats-cd) - Companion CD-ROM to [Internet File Formats](https://archive.org/details/mac_Internet_File_Formats_1995), contains Sample Files and some File Format Specifications for a variety of common file formats circa 1995.
-- [Apache Tika's regression corpus](https://corpora.tika.apache.org/base/docs/) - Millions of files collected largely from govdocs1 and Common Crawl with oversampling on binary formats.
-- [Apache Tika's Bugtracker corpora](https://corpora.tika.apache.org/base/docs/bug_trackers/) - Dense set of problematic files -- attachments from bug trackers for open source parsers.
 
 ### Format-specific Corpora
 
