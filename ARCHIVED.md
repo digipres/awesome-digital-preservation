@@ -9,6 +9,8 @@ A home for awesome digital preservation resources that are now obsolete.
 ### Multi-format Corpora
 
 - [EDRM Internationalization Data Set](http://www.edrm.net/download/all_projects/data_set/EDRM_Data-Set_I18N_1-0.zip) - _Did not get archived by IA AFAICT._
+- [Apache Tika's regression corpus](https://corpora.tika.apache.org/base/docs/) - Millions of files collected largely from govdocs1 and Common Crawl with oversampling on binary formats. - _[Tika Corpora no longer openly accessible](https://lists.apache.org/thread/l53lct6hjojwlhsfwcnzgtj5b1kpyo0h)_
+- [Apache Tika's Bugtracker corpora](https://corpora.tika.apache.org/base/docs/bug_trackers/) - Dense set of problematic files -- attachments from bug trackers for open source parsers. - As above.
 
 
 ### Format Identification Tools

@@ -168,7 +168,13 @@ Advance digital preservation by pooling our experience, sharing our stories and 
 - [The PREMIS Data Dictionary for Preservation Metadata](https://www.loc.gov/standards/premis/)
 - [Metadata Encoding & Transmission Standard (METS)](http://www.loc.gov/standards/mets/)
 - [Portland Common Data Model (PCDM)](https://pcdm.org/)
-
+- [Coalition for Content Provenance and Authenticity (C2PA)](https://c2pa.org/) - A related, emerging industry standard.
+    - [WITNESS and the C2PA Harms and Misuse Assessment Process](https://blog.witness.org/2021/12/witness-and-the-c2pa-harms-and-misuse-assessment-process/)
+    - [First Camera With CAI Content Credentials Introduced](https://www.carlseibert.com/first-camera-with-cai-content-credentials-introduced/)
+    - [Mark the good stuff: Content provenance and the fight against disinformation (BBC)](https://www.bbc.co.uk/rd/blog/2024-03-c2pa-verification-news-journalism-credentials)
+    - Some criticism and exploration of the the limitations of the C2PA approach:
+        - [C2PA's Butterfly Effect](https://www.hackerfactor.com/blog/index.php?/archives/1010-C2PAs-Butterfly-Effect.html) - Broad context as well as limitations.<!-- markdown-link-check-disable-line --><!-- seems to block link checks -->
+        - [IEEE, BBC, and C2PA](https://www.hackerfactor.com/blog/index.php?/archives/1024-IEEE,-BBC,-and-C2PA.html) - Includes detailed analysis of a specific case.<!-- markdown-link-check-disable-line --><!-- seems to block link checks -->
 
 ## Find Test Files
 
@@ -200,14 +206,12 @@ To improve our digital preservation tools, we need to be able to test them and e
 - [Online-convert.com example files](https://www.online-convert.com/file-type) (use [this link to browse the folder structure](https://example-files.online-convert.com/))
 - [RDSS Archivematica Test Data Corpus](https://github.com/artefactual-labs/rdss-archivematica-test-data-corpus) - A collection of research dataset files used for testing Archivematica integration and functionality in the JISC Research Data Shared Service (RDSS).
 - [Archivematica Sample Data](https://github.com/artefactual/archivematica-sampledata) - Includes OPF format corpus, as well as other test material.
-- [ExifTool test files](https://sourceforge.net/p/exiftool/code/ci/master/tree/t/images/)
+- [ExifTool test files](https://sourceforge.net/p/exiftool/code/ci/master/tree/t/images/) - Test file folder in the source code directory tree.<!-- markdown-link-check-disable-line --><!-- seems to block link checks -->
 - [PREFORMA Ground Truth Classes](https://github.com/preforma/groundtruth) - Instructions how to reproduce validation-failing files for Matroska, FFV1, LPCM, TIFF, and PDF formats.
 - ["Small"](https://github.com/mathiasbynens/small) - Collection of "the smallest possible syntactically valid files in different programming/scripting/markup languages."
 - [MediaArea-RegressionTestingFiles](https://github.com/MediaArea/MediaArea-RegressionTestingFiles) - Public regression testing files for MediaArea. Contains AVI, FLV, MPEG Audio, MOV, MPEG-4, MPEG-PS, and Matroska files.
 - [TechSlides sample files for web development (_archived version_)](http://web.archive.org/web/20220124205507/http://techslides.com/sample-files-for-development) - Sample files for various image formats, video files, data structures, fonts, and web development files.
 - [Internet File Formats](https://archive.org/details/internet-file-formats-cd) - Companion CD-ROM to [Internet File Formats](https://archive.org/details/mac_Internet_File_Formats_1995), contains Sample Files and some File Format Specifications for a variety of common file formats circa 1995.
-- [Apache Tika's regression corpus](https://corpora.tika.apache.org/base/docs/) - Millions of files collected largely from govdocs1 and Common Crawl with oversampling on binary formats.
-- [Apache Tika's Bugtracker corpora](https://corpora.tika.apache.org/base/docs/bug_trackers/) - Dense set of problematic files -- attachments from bug trackers for open source parsers.
 - [Sembiance file format samples](https://sembiance.com/fileFormatSamples/)
 
 ### Format-specific Corpora
