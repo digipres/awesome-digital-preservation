@@ -27,6 +27,7 @@ The text of an annual reminder email about these resources is also held here, in
   - [Format-specific Corpora](#format-specific-corpora)
   - [Building Corpora](#building-corpora)
   - [Sourcing test files from web archives](#sourcing-test-files-from-web-archives)
+  - [Sourcing test files](#sourcing-test-files)
 - [Find More Tools](#find-more-tools)
 - [Build Workflows](#build-workflows)
 - [Improve The Tools](#improve-the-tools)
@@ -202,7 +203,7 @@ To improve our digital preservation tools, we need to be able to test them and e
 - The [Metadata Working Group specifications (_archived version_)](https://web.archive.org/web/20180402195758/http://www.metadataworkinggroup.org/specs/) and [embedded image metadata test corpus (_archived version_)](https://web.archive.org/web/20180402200035/http://www.metadataworkinggroup.org/specs/test_files.html)
 - [Apache Tika issue about setting up a nightly test corpus](https://issues.apache.org/jira/browse/TIKA-1302) - See also [tika-parsers/src/test/resources/test-documents](http://svn.apache.org/repos/asf/tika/trunk/tika-parsers/src/test/resources/test-documents/)
 - [The Chemical MIME Home Page](https://web.archive.org/web/20220321053449/https://www.ch.ic.ac.uk/chemime/)
-- [Online-convert.com example files](http://www.online-convert.com/file-type) (use [this link to browse the folder structure](https://example-files.online-convert.com/))
+- [Online-convert.com example files](https://www.online-convert.com/file-type) (use [this link to browse the folder structure](https://example-files.online-convert.com/))
 - [RDSS Archivematica Test Data Corpus](https://github.com/artefactual-labs/rdss-archivematica-test-data-corpus) - A collection of research dataset files used for testing Archivematica integration and functionality in the JISC Research Data Shared Service (RDSS).
 - [Archivematica Sample Data](https://github.com/artefactual/archivematica-sampledata) - Includes OPF format corpus, as well as other test material.
 - [ExifTool test files](https://sourceforge.net/p/exiftool/code/ci/master/tree/t/images/) - Test file folder in the source code directory tree.<!-- markdown-link-check-disable-line --><!-- seems to block link checks -->
@@ -211,13 +212,14 @@ To improve our digital preservation tools, we need to be able to test them and e
 - [MediaArea-RegressionTestingFiles](https://github.com/MediaArea/MediaArea-RegressionTestingFiles) - Public regression testing files for MediaArea. Contains AVI, FLV, MPEG Audio, MOV, MPEG-4, MPEG-PS, and Matroska files.
 - [TechSlides sample files for web development (_archived version_)](http://web.archive.org/web/20220124205507/http://techslides.com/sample-files-for-development) - Sample files for various image formats, video files, data structures, fonts, and web development files.
 - [Internet File Formats](https://archive.org/details/internet-file-formats-cd) - Companion CD-ROM to [Internet File Formats](https://archive.org/details/mac_Internet_File_Formats_1995), contains Sample Files and some File Format Specifications for a variety of common file formats circa 1995.
+- [Sembiance file format samples](https://sembiance.com/fileFormatSamples/)
 
 ### Format-specific Corpora
 
 #### PDF <!-- omit in toc -->
 
 - [Adobe Acrobat Engineering (_archived version_)](https://web.archive.org/web/20141019002403/http://acroeng.adobe.com/wp) - Site has lots of useful [test documents (_archived version_)](https://web.archive.org/web/20130717012227/http://acroeng.adobe.com/wp/?page_id=10).
-- [Isartor PDF/A Test Suite](http://www.pdfa.org/2011/08/isartor-test-suite/)
+- [Isartor PDF/A Test Suite](https://pdfa.org/resource/isartor-test-suite/)
 - [veraPDF Corpus](https://github.com/veraPDF/veraPDF-corpus) - For PDF/A.
 - [Synthetic PDF Testset for File Format Validation](http://doi.org/10.22000/53) - Test set for well formedness validation in JHOVE - see associated [paper](https://ipres-conference.org/ipres17/ipres2017.jp/wp-content/uploads/35Michelle-Lindlar.pdf).
 - [PDF Differences](https://github.com/pdf-association/pdf-differences) - Targeted test files that highlight specific portability and interoperability issues by the [PDF Association](https://pdfa.org/).
@@ -258,6 +260,10 @@ If the existing corpora aren't cutting it, perhaps you can contribute to the OPF
 ### Sourcing test files from web archives
 
 Web archives can provide a useful source of files of particular formats. For example, [search via the UKWA interface](https://www.webarchive.org.uk/shine/search?page=1&invert=&facet.fields=crawl_year&invert=&invert=&facet.fields=public_suffix&invert=&invert=&invert=&invert=&invert=&query=content_type%3A%22application%2Fmbox%22&totalCount=totalCount&order=asc). _Note that UKWA is offline at present._ <!-- markdown-link-check-disable-line -->
+
+### Sourcing test files
+
+Tyler Thorsted's [File Formats - Finding Samples repository](https://github.com/thorsted/fileformat) lists various resources that can be used to find file format samples.
 
 ## Find More Tools
 
