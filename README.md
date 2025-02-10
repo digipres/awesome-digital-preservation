@@ -160,6 +160,7 @@ Advance digital preservation by pooling our experience, sharing our stories and 
 - [A history of storage media](https://codewords.recurse.com/issues/seven/a-history-of-storage-media)
 - File system conventions:
   - [BagIt](https://en.wikipedia.org/wiki/BagIt)
+      - [Unexpected errors in the BagIt area](https://alexwlchan.net/2025/bagit-errors/) - Detailed advice on how to approach testing your Bags.
   - [Oxford Common File Layout (OCFL)](https://ocfl.io/)
 
 
