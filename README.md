@@ -255,7 +255,7 @@ To improve our digital preservation tools, we need to be able to test them and e
 
 #### WordPerfect <!-- omit in toc -->
 
-- [wpdfuzzer_seed_corpus](https://sourceforge.net/projects/libwpd/files/corpus/)
+- [wpdfuzzer_seed_corpus](https://sourceforge.net/projects/libwpd/files/corpus/) - covers various WordPerfect format versions.
 
 ### Building Corpora
 
