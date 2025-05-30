@@ -255,7 +255,7 @@ To improve our digital preservation tools, we need to be able to test them and e
 
 #### WordPerfect <!-- omit in toc -->
 
-- [Corpora of seed files for oss-fuzz testing of libwpd](https://sourceforge.net/projects/libwpd/files/corpus/) - covers various WordPerfect format versions.
+- [Corpora of seed files for oss-fuzz testing of libwpd](https://sourceforge.net/projects/libwpd/files/corpus/) - Covers various WordPerfect format versions.
 
 ### Building Corpora
 
