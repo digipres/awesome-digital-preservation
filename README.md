@@ -253,6 +253,10 @@ To improve our digital preservation tools, we need to be able to test them and e
 
 - [SIARD test files](https://github.com/sfa-siard/SiardCmd/tree/master/testfiles)
 
+#### WordPerfect <!-- omit in toc -->
+
+- [wpdfuzzer_seed_corpus.](https://sourceforge.net/projects/libwpd/files/corpus/)
+
 ### Building Corpora
 
 If the existing corpora aren't cutting it, perhaps you can contribute to the OPF Format Corpus hosted on GitHub. There's a [guide here on how to contribute (_archived version_)](https://web.archive.org/web/20221206180940/https://wiki.curatecamp.org/index.php/Collecting_format_ID_test_files) or you can [contact OPF](http://openpreservation.org/about/contact/) for help on how to get involved.
