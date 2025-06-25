@@ -4,10 +4,9 @@ on:
   push:
     branches:
     - main
-  pull_request:
   schedule:
-  # Run everyday at 5:00AM:
-  - cron: "0 5 * * *"
+  # Run once a week, Sunday at 5:00AM:
+  - cron: "0 5 * * 0"
 
 jobs:
   run-lint:
