@@ -50,6 +50,7 @@ Spotted digital data at risk, but don't know who can save it?
     - [webcitation.org](http://webcitation.org/)
     - [UK Web Archive Site Nomination](https://www.webarchive.org.uk/ukwa/info/nominate) - Suggest URLs for the UK Web Archive. _Note that UKWA is offline at present._ <!-- markdown-link-check-disable-line -->
 - Alert the [Archive Team](http://archiveteam.org/), and [help them save digital stuff](http://archiveteam.org/index.php?title=Who_We_Are)
+- [Wayback-Archive](https://github.com/GeiserX/Wayback-Archive) - Download complete websites from the Wayback Machine with full asset preservation for offline viewing. _(Python, GPL-3.0)_
 
 ### Learn About Digital Preservation
 
