@@ -49,6 +49,7 @@ Spotted digital data at risk, but don't know who can save it?
     - [perma.cc](https://perma.cc/)
     - [webcitation.org](http://webcitation.org/)
     - [UK Web Archive Site Nomination](https://www.webarchive.org.uk/ukwa/info/nominate) - Suggest URLs for the UK Web Archive. _Note that UKWA is offline at present._ <!-- markdown-link-check-disable-line -->
+    - [PastPage](https://github.com/nabertronic/pastpage) - Browser extension for recovering broken or changed pages from the Wayback Machine and other web archives by [nabertronic](https://github.com/nabertronic).
 - Alert the [Archive Team](http://archiveteam.org/), and [help them save digital stuff](http://archiveteam.org/index.php?title=Who_We_Are)
 
 ### Learn About Digital Preservation
