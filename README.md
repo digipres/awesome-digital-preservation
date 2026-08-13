@@ -213,7 +213,7 @@ To improve our digital preservation tools, we need to be able to test them and e
 - [TechSlides sample files for web development (_archived version_)](http://web.archive.org/web/20220124205507/http://techslides.com/sample-files-for-development) - Sample files for various image formats, video files, data structures, fonts, and web development files.
 - [Internet File Formats](https://archive.org/details/internet-file-formats-cd) - Companion CD-ROM to [Internet File Formats](https://archive.org/details/mac_Internet_File_Formats_1995), contains Sample Files and some File Format Specifications for a variety of common file formats circa 1995.
 - [Sembiance file format samples](https://sembiance.com/fileFormatSamples/)
-- [File Samples](https://filesamples.com/)
+- [File Samples](https://filesamples.com/) - 814 sample files in various qualities in 180 different formats.
 
 ### Format-specific Corpora
 
