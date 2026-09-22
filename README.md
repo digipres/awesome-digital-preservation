@@ -260,6 +260,10 @@ To improve our digital preservation tools, we need to be able to test them and e
 
 - [Corpora of seed files for oss-fuzz testing of libwpd](https://sourceforge.net/projects/libwpd/files/corpus/) - Covers various WordPerfect format versions.
 
+#### Email <!-- omit in toc -->
+
+- [Mailward Email Test Samples](https://pst.aivismonitor.com/sample-mbox-eml-files) - Synthetic MBOX and EML fixtures with expected messages, labels, attachment hashes, and malformed-input cases by [Lei Wang](https://pst.aivismonitor.com/about).
+
 ### Building Corpora
 
 If the existing corpora aren't cutting it, perhaps you can contribute to the OPF Format Corpus hosted on GitHub. There's a [guide here on how to contribute (_archived version_)](https://web.archive.org/web/20221206180940/https://wiki.curatecamp.org/index.php/Collecting_format_ID_test_files) or you can [contact OPF](http://openpreservation.org/about/contact/) for help on how to get involved.
