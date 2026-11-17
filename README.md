@@ -260,6 +260,10 @@ To improve our digital preservation tools, we need to be able to test them and e
 
 - [Corpora of seed files for oss-fuzz testing of libwpd](https://sourceforge.net/projects/libwpd/files/corpus/) - Covers various WordPerfect format versions.
 
+#### GEDCOM <!-- omit in toc -->
+
+- [GEDCOM Test Files](https://github.com/thememorypalace/gedcom-test-files) - Synthetic GEDCOM 5.5.1 and 7.0 genealogy files with documented faults, including broken links, impossible dates, ANSEL, UTF-16 and garbled UTF-8, by [The Memory Palace](https://www.thememorypalace.ai).
+
 ### Building Corpora
 
 If the existing corpora aren't cutting it, perhaps you can contribute to the OPF Format Corpus hosted on GitHub. There's a [guide here on how to contribute (_archived version_)](https://web.archive.org/web/20221206180940/https://wiki.curatecamp.org/index.php/Collecting_format_ID_test_files) or you can [contact OPF](http://openpreservation.org/about/contact/) for help on how to get involved.
