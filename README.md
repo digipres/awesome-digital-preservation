@@ -288,6 +288,7 @@ Resources to help build up preservation workflows, e.g. templates for how to use
 
 - [ffmprovisr 'Making FFmpeg Easier'](http://amiaopensource.github.io/ffmprovisr/) (example of how to use `ffmpeg` to perform specific tasks)
 - [AMIA Open Source: List of open workflows for A/V resources](https://github.com/amiaopensource/open-workflows)
+- [Sovereign Archive Kit](https://github.com/habilozdemir/sovereign-archive-kit) - Zero-dependency Python CLI and 4-layer preservation protocol to convert Medium, Mastodon, and Nostr exports into SHA-256 verified permanent archives.
 
 ## Improve The Tools
 
